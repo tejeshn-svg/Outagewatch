@@ -1,5 +1,10 @@
 # Putting OutageWatch online, for free, forever
 
+> **Status: done.** This is live at
+> **https://tejeshn-svg.github.io/Outagewatch/** and refreshes itself every
+> 10 minutes. The steps below are the record of how, and what to redo if the
+> repository is ever rebuilt from scratch.
+
 When this is done, OutageWatch runs on GitHub's computers every 10 minutes.
 Your PC can be off, asleep, or in a drawer. You get a public web address and
 Telegram alerts either way.
