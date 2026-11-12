@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>OutageWatch &middot; 10 issues</title>
+  <title>OutageWatch &middot; 11 issues</title>
   <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
@@ -50,19 +50,19 @@
 <!-- ===== Summary bar: the single most important element on the page ===== -->
 <section class="summary alarm">
   <div class="summary-count">
-    <strong>10</strong>
+    <strong>11</strong>
     <span>issues</span>
   </div>
   <div class="summary-body">
     
       
-      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Anthropic, Cloudflare, HubSpot, Amazon Web Services, Microsoft 365, Notion, OpenAI, SendGrid, Twilio, Zoom</p>
+      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Anthropic, Cloudflare, HubSpot, Amazon Web Services, Dropbox, Microsoft 365, Notion, OpenAI, SendGrid, Twilio, Zoom</p>
       <p><span class="dot" style="background:#6b7280"></span><b>Maintenance:</b> Fastly</p>
       
     
   </div>
   <div class="summary-meta">
-    <span id="checked" data-ts="2026-11-12T22:09:35+00:00">last checked 2026-11-12T22:09:35+00:00</span>
+    <span id="checked" data-ts="2026-11-12T22:22:27+00:00">last checked 2026-11-12T22:22:27+00:00</span>
     <span>33 monitored</span>
   </div>
 </section>
@@ -246,6 +246,39 @@
     <div class="tags">
       <span class="tag">Cloud</span><span class="tag">AMZN</span>
       <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="degraded"
+           data-tags="Storage"
+           data-issue="1">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">D</span>
+      <div class="service-id">
+        <h2>Dropbox</h2>
+        <a class="service-url" href="https://status.dropbox.com" target="_blank" rel="noopener">status.dropbox.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #fab219">
+        <span class="badge-icon" aria-hidden="true">▲</span>Degraded Performance
+      </span>
+    </div>
+
+    <p class="headline">Elevated Latency on help.dropbox.com</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://stspg.io/hghgm9x3735x" target="_blank" rel="noopener">Elevated Latency on help.dropbox.com</a> <em>minor</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">Storage</span>
+      <span class="tag since">since 22:22Z</span>
     </div>
   </article>
   
@@ -723,34 +756,6 @@
 
     <div class="tags">
       <span class="tag">Comms</span>
-      <span class="tag since">since 21:43Z</span>
-    </div>
-  </article>
-  
-  <article class="card service"
-           data-level="operational"
-           data-tags="Storage"
-           data-issue="0">
-    <div class="service-head">
-      <span class="avatar" aria-hidden="true">D</span>
-      <div class="service-id">
-        <h2>Dropbox</h2>
-        <a class="service-url" href="https://status.dropbox.com" target="_blank" rel="noopener">status.dropbox.com</a>
-      </div>
-      <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #0ca30c">
-        <span class="badge-icon" aria-hidden="true">●</span>Operational
-      </span>
-    </div>
-
-    <p class="headline">All Systems Operational</p>
-
-    
-      <p class="noissues">No recent issues</p>
-    
-
-    <div class="tags">
-      <span class="tag">Storage</span>
       <span class="tag since">since 21:43Z</span>
     </div>
   </article>
