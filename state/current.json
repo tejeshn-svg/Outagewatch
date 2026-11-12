@@ -1,7 +1,7 @@
 [
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:03+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -13,7 +13,7 @@
  },
  {
   "changed_at": "2026-11-12T22:28:03+00:00",
-  "checked_at": "2026-11-12T22:28:03+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "Elevated errors affecting the Microsoft 365 connector",
   "incidents": "[{\"title\": \"Elevated errors affecting the Microsoft 365 connector\", \"impact\": \"major\", \"started\": \"2026-11-12T17:52:44.934Z\", \"url\": \"https://stspg.io/m0rbx38nmy1c\"}]",
   "kind": "statuspage",
@@ -25,7 +25,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:03+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -37,7 +37,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:03+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -49,7 +49,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:02+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "Multiple services: Region Availability (+1 more)",
   "incidents": "[{\"title\": \"Multiple services: Region Availability\", \"impact\": \"\", \"started\": \"\", \"url\": \"https://health.aws.amazon.com/public/currentevents\"}, {\"title\": \"Multiple services: Region Availability\", \"impact\": \"\", \"started\": \"\", \"url\": \"https://health.aws.amazon.com/public/currentevents\"}]",
   "kind": "aws",
@@ -61,7 +61,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:02+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "No active events",
   "incidents": "[]",
   "kind": "azure_rss",
@@ -73,7 +73,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:03+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -85,9 +85,9 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:02+00:00",
-  "headline": "Replicate Model Registry Unavailable (+1 more)",
-  "incidents": "[{\"title\": \"Replicate Model Registry Unavailable\", \"impact\": \"minor\", \"started\": \"2026-11-11T04:33:19.016Z\", \"url\": \"https://www.cloudflarestatus.com/incidents/yu63fhh2peb7\"}, {\"title\": \"Changes to Cloudflare Workers are not producing Event Subscription events\", \"impact\": \"minor\", \"started\": \"2026-11-10T01:53:58.905Z\", \"url\": \"https://www.cloudflarestatus.com/incidents/0ocqieaifg7h\"}]",
+  "checked_at": "2026-11-12T23:13:58+00:00",
+  "headline": "Durable Objects increased error rates in North America (+2 more)",
+  "incidents": "[{\"title\": \"Durable Objects increased error rates in North America\", \"impact\": \"minor\", \"started\": \"2026-11-12T22:39:40.553Z\", \"url\": \"https://www.cloudflarestatus.com/incidents/9zxr2bkqoct7\"}, {\"title\": \"Replicate Model Registry Unavailable\", \"impact\": \"minor\", \"started\": \"2026-11-11T04:33:19.016Z\", \"url\": \"https://www.cloudflarestatus.com/incidents/yu63fhh2peb7\"}, {\"title\": \"Changes to Cloudflare Workers are not producing Event Subscription events\", \"impact\": \"minor\", \"started\": \"2026-11-10T01:53:58.905Z\", \"url\": \"https://www.cloudflarestatus.com/incidents/0ocqieaifg7h\"}]",
   "kind": "statuspage",
   "level": "partial_outage",
   "name": "Cloudflare",
@@ -97,7 +97,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:03+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -109,7 +109,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:02+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -121,7 +121,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:03+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -132,12 +132,12 @@
   "url": "https://discordstatus.com"
  },
  {
-  "changed_at": "2026-11-12T22:22:27+00:00",
-  "checked_at": "2026-11-12T22:28:03+00:00",
-  "headline": "Elevated Latency on help.dropbox.com",
-  "incidents": "[{\"title\": \"Elevated Latency on help.dropbox.com\", \"impact\": \"minor\", \"started\": \"2026-11-12T22:20:40.476Z\", \"url\": \"https://stspg.io/hghgm9x3735x\"}]",
+  "changed_at": "2026-11-12T23:13:58+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
+  "headline": "All Systems Operational",
+  "incidents": "[]",
   "kind": "statuspage",
-  "level": "degraded",
+  "level": "operational",
   "name": "Dropbox",
   "slug": "dropbox",
   "tags": "Storage",
@@ -145,7 +145,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:02+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "Nairobi (NBO) New Data Center (+3 more)",
   "incidents": "[{\"title\": \"Nairobi (NBO) New Data Center\", \"impact\": \"ScheduledMaintenance\", \"started\": \"2026-11-12T21:00:00\", \"url\": \"https://sta.ac/u/tgHf2oFX\"}, {\"title\": \"Third-Party Vulnerability Disclosure \\u2013 php2shell (CVE-2026-109618 & CVE-2026-109619)\", \"impact\": \"Informational\", \"started\": \"2026-10-21T19:26:00\", \"url\": \"https://sta.ac/u/7mfOmz7D\"}, {\"title\": \"[Action Required] Compute services: Shielding migration from Milan (MXP) to Milan (BGY)\", \"impact\": \"Informational\", \"started\": \"2026-10-20T01:18:00\", \"url\": \"https://sta.ac/u/cdSFIDlB\"}, {\"title\": \"Changes to Fastly IP Address Space\", \"impact\": \"ScheduledMaintenance\", \"started\": \"2026-09-14T17:56:00\", \"url\": \"https://sta.ac/u/d45H5J0G\"}]",
   "kind": "fastly",
@@ -157,7 +157,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:03+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -169,7 +169,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:02+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "gcp",
@@ -181,7 +181,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:02+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -193,7 +193,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:02+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "Operational",
   "incidents": "[]",
   "kind": "status_io",
@@ -205,7 +205,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:02+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "Responding normally",
   "incidents": "[]",
   "kind": "probe",
@@ -217,7 +217,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:03+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "HubSpot is experiencing issues",
   "incidents": "[{\"title\": \"HubSpot is experiencing issues\", \"impact\": \"none\", \"started\": \"2026-11-12T14:05:21.813-05:00\", \"url\": \"https://stspg.io/lswp5p2mdmh0\"}]",
   "kind": "statuspage",
@@ -229,7 +229,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:02+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "Connectivity Issue between ID-CGK (Jakarta) and SG-SIN-2 (Singapore 2) (+1 more)",
   "incidents": "[{\"title\": \"Connectivity Issue between ID-CGK (Jakarta) and SG-SIN-2 (Singapore 2)\", \"impact\": \"minor\", \"started\": \"2026-10-25T13:54:31.881Z\", \"url\": \"https://stspg.io/d4fdnv39hb27\"}, {\"title\": \"Service Issue - Block Storage (BR-GRU)\", \"impact\": \"none\", \"started\": \"2026-10-28T20:17:01.527Z\", \"url\": \"https://stspg.io/kwfn0ylk0rpt\"}]",
   "kind": "statuspage",
@@ -241,9 +241,9 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:02+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "Users may be unable to connect to multiple Microsoft 365 services",
-  "incidents": "[{\"title\": \"Users may be unable to connect to multiple Microsoft 365 services\", \"impact\": \"ServiceDegradation\", \"started\": \"Thu, 12 Nov 2026 22:11:39 Z\", \"url\": \"https://status.cloud.microsoft/\"}]",
+  "incidents": "[{\"title\": \"Users may be unable to connect to multiple Microsoft 365 services\", \"impact\": \"ServiceDegradation\", \"started\": \"Thu, 12 Nov 2026 23:06:31 Z\", \"url\": \"https://status.cloud.microsoft/\"}]",
   "kind": "ms_rss",
   "level": "degraded",
   "name": "Microsoft 365",
@@ -253,7 +253,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:03+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "Impaired Cluster operations in AWS me-central-1 and AWS me-south-1",
   "incidents": "[{\"title\": \"Impaired Cluster operations in AWS me-central-1 and AWS me-south-1\", \"impact\": \"major\", \"started\": \"2026-09-03T16:44:43.835Z\", \"url\": \"https://stspg.io/jwd31x8yx3q5\"}]",
   "kind": "statuspage",
@@ -265,7 +265,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:03+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -277,7 +277,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:03+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "Issues with outlook connections",
   "incidents": "[{\"title\": \"Issues with outlook connections\", \"impact\": \"minor\", \"started\": \"2026-11-12T20:06:39Z\", \"url\": \"https://www.notion-status.com\"}]",
   "kind": "statuspage",
@@ -289,7 +289,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:03+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -301,7 +301,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:03+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "Elevated errors affecting the Microsoft 365 connector",
   "incidents": "[{\"title\": \"Elevated errors affecting the Microsoft 365 connector\", \"impact\": \"minor\", \"started\": \"2026-11-12T18:29:14Z\", \"url\": \"https://status.openai.com\"}]",
   "kind": "statuspage",
@@ -313,7 +313,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:02+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "No active events",
   "incidents": "[]",
   "kind": "ms_rss",
@@ -325,7 +325,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:03+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -337,9 +337,9 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:03+00:00",
-  "headline": "SMS Delivery Receipt Delays from Twilio to Claro Colombia (+10 more)",
-  "incidents": "[{\"title\": \"SMS Delivery Receipt Delays from Twilio to Claro Colombia\", \"impact\": \"minor\", \"started\": \"2026-11-12T09:46:37.422-08:00\", \"url\": \"https://stspg.io/ff9c1m6r28ch\"}, {\"title\": \"SMS Delivery Delays and Failures from Twilio to Brisanet Servicos De Telecomunicacoes SA Brazil\", \"impact\": \"minor\", \"started\": \"2026-11-12T12:32:19.597-08:00\", \"url\": \"https://stspg.io/s6tml3f62c0r\"}, {\"title\": \"Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers\", \"impact\": \"minor\", \"started\": \"2026-11-12T08:53:51.392-08:00\", \"url\": \"https://stspg.io/ppx46z753zjr\"}, {\"title\": \"Email Delivery Delays to Microsoft Inbox Providers\", \"impact\": \"minor\", \"started\": \"2026-11-12T11:42:49.067-08:00\", \"url\": \"https://stspg.io/6f5v3h5q1mkr\"}, {\"title\": \"SMS Delivery Failures from Twilio to Orange Sierra Leone\", \"impact\": \"minor\", \"started\": \"2026-11-11T17:43:20.245-08:00\", \"url\": \"https://stspg.io/654hjkk8cm1r\"}, {\"title\": \"SMS Delivery Delays from a Subset of Twilio Long Codes to Multiple Networks in France\", \"impact\": \"minor\", \"started\": \"2026-11-12T06:01:25.249-08:00\", \"url\": \"https://stspg.io/6pwmttw94z1c\"}, {\"title\": \"Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines\", \"impact\": \"minor\", \"started\": \"2026-11-01T21:41:31.845-08:00\", \"url\": \"https://stspg.io/tbsjgc4grpsw\"}, {\"title\": \"SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to Multiple Networks in Chile\", \"impact\": \"minor\", \"started\": \"2026-11-06T13:21:41.235-08:00\", \"url\": \"https://stspg.io/92y684hgthhn\"}, {\"title\": \"United Arab Emirates SMS Carrier Maintenance - Etisalat and du\", \"impact\": \"maintenance\", \"started\": \"2026-11-12T12:00:00.000-08:00\", \"url\": \"https://status.sendgrid.com\"}, {\"title\": \"Russia SMS Carrier Maintenance - Sotovaja Svjaz MOTIV\", \"impact\": \"maintenance\", \"started\": \"2026-11-12T10:00:00.000-08:00\", \"url\": \"https://status.sendgrid.com\"}, {\"title\": \"Russia SMS Carrier Maintenance - Tele2\", \"impact\": \"maintenance\", \"started\": \"2026-11-02T12:00:00.000-08:00\", \"url\": \"https://status.sendgrid.com\"}]",
+  "checked_at": "2026-11-12T23:13:58+00:00",
+  "headline": "Email Delivery Delays to Microsoft-Hosted Inboxes (+12 more)",
+  "incidents": "[{\"title\": \"Email Delivery Delays to Microsoft-Hosted Inboxes\", \"impact\": \"minor\", \"started\": \"2026-11-12T11:42:49.067-08:00\", \"url\": \"https://stspg.io/6f5v3h5q1mkr\"}, {\"title\": \"Voice Call Post Dial Delay from a Subset of Twilio Phone Numbers to United States\", \"impact\": \"minor\", \"started\": \"2026-11-12T14:58:51.103-08:00\", \"url\": \"https://stspg.io/l0xttljt4n7s\"}, {\"title\": \"SMS Delivery Receipt Failures from Twilio to Claro Costa Rica\", \"impact\": \"minor\", \"started\": \"2026-11-12T14:31:16.001-08:00\", \"url\": \"https://stspg.io/kwdmd91r9qjd\"}, {\"title\": \"SMS Delivery Receipt Delays from Twilio to Claro Colombia\", \"impact\": \"minor\", \"started\": \"2026-11-12T09:46:37.422-08:00\", \"url\": \"https://stspg.io/ff9c1m6r28ch\"}, {\"title\": \"SMS Delivery Delays and Failures from Twilio to Brisanet Servicos De Telecomunicacoes SA Brazil\", \"impact\": \"minor\", \"started\": \"2026-11-12T12:32:19.597-08:00\", \"url\": \"https://stspg.io/s6tml3f62c0r\"}, {\"title\": \"Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers\", \"impact\": \"minor\", \"started\": \"2026-11-12T08:53:51.392-08:00\", \"url\": \"https://stspg.io/ppx46z753zjr\"}, {\"title\": \"SMS Delivery Failures from Twilio to Orange Sierra Leone\", \"impact\": \"minor\", \"started\": \"2026-11-11T17:43:20.245-08:00\", \"url\": \"https://stspg.io/654hjkk8cm1r\"}, {\"title\": \"Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines\", \"impact\": \"minor\", \"started\": \"2026-11-01T21:41:31.845-08:00\", \"url\": \"https://stspg.io/tbsjgc4grpsw\"}, {\"title\": \"SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to Multiple Networks in Chile\", \"impact\": \"minor\", \"started\": \"2026-11-06T13:21:41.235-08:00\", \"url\": \"https://stspg.io/92y684hgthhn\"}, {\"title\": \"United Kingdom Account Security Carrier Partner Maintenance - Vodafone\", \"impact\": \"maintenance\", \"started\": \"2026-11-12T14:30:00.000-08:00\", \"url\": \"https://status.sendgrid.com\"}, {\"title\": \"United Arab Emirates SMS Carrier Maintenance - Etisalat and du\", \"impact\": \"maintenance\", \"started\": \"2026-11-12T12:00:00.000-08:00\", \"url\": \"https://status.sendgrid.com\"}, {\"title\": \"Russia SMS Carrier Maintenance - Sotovaja Svjaz MOTIV\", \"impact\": \"maintenance\", \"started\": \"2026-11-12T10:00:00.000-08:00\", \"url\": \"https://status.sendgrid.com\"}, {\"title\": \"Russia SMS Carrier Maintenance - Tele2\", \"impact\": \"maintenance\", \"started\": \"2026-11-02T12:00:00.000-08:00\", \"url\": \"https://status.sendgrid.com\"}]",
   "kind": "statuspage",
   "level": "degraded",
   "name": "SendGrid",
@@ -348,12 +348,12 @@
   "url": "https://status.sendgrid.com"
  },
  {
-  "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:03+00:00",
-  "headline": "All Systems Operational",
-  "incidents": "[]",
+  "changed_at": "2026-11-12T23:13:58+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
+  "headline": "Shopify Sidekick is unavailable",
+  "incidents": "[{\"title\": \"Shopify Sidekick is unavailable\", \"impact\": \"minor\", \"started\": \"2026-11-12T18:01:34.060-05:00\", \"url\": \"https://stspg.io/qyvgqgjj0zpd\"}]",
   "kind": "statuspage",
-  "level": "operational",
+  "level": "degraded",
   "name": "Shopify",
   "slug": "shopify",
   "tags": "Commerce",
@@ -361,7 +361,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:03+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -373,9 +373,9 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:03+00:00",
-  "headline": "SMS Delivery Receipt Delays from Twilio to Claro Colombia (+10 more)",
-  "incidents": "[{\"title\": \"SMS Delivery Receipt Delays from Twilio to Claro Colombia\", \"impact\": \"minor\", \"started\": \"2026-11-12T09:46:37.422-08:00\", \"url\": \"https://stspg.io/ff9c1m6r28ch\"}, {\"title\": \"SMS Delivery Delays and Failures from Twilio to Brisanet Servicos De Telecomunicacoes SA Brazil\", \"impact\": \"minor\", \"started\": \"2026-11-12T12:32:19.597-08:00\", \"url\": \"https://stspg.io/s6tml3f62c0r\"}, {\"title\": \"Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers\", \"impact\": \"minor\", \"started\": \"2026-11-12T08:53:51.392-08:00\", \"url\": \"https://stspg.io/ppx46z753zjr\"}, {\"title\": \"Email Delivery Delays to Microsoft Inbox Providers\", \"impact\": \"minor\", \"started\": \"2026-11-12T11:42:49.067-08:00\", \"url\": \"https://stspg.io/6f5v3h5q1mkr\"}, {\"title\": \"SMS Delivery Failures from Twilio to Orange Sierra Leone\", \"impact\": \"minor\", \"started\": \"2026-11-11T17:43:20.245-08:00\", \"url\": \"https://stspg.io/654hjkk8cm1r\"}, {\"title\": \"SMS Delivery Delays from a Subset of Twilio Long Codes to Multiple Networks in France\", \"impact\": \"minor\", \"started\": \"2026-11-12T06:01:25.249-08:00\", \"url\": \"https://stspg.io/6pwmttw94z1c\"}, {\"title\": \"Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines\", \"impact\": \"minor\", \"started\": \"2026-11-01T21:41:31.845-08:00\", \"url\": \"https://stspg.io/tbsjgc4grpsw\"}, {\"title\": \"SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to Multiple Networks in Chile\", \"impact\": \"minor\", \"started\": \"2026-11-06T13:21:41.235-08:00\", \"url\": \"https://stspg.io/92y684hgthhn\"}, {\"title\": \"United Arab Emirates SMS Carrier Maintenance - Etisalat and du\", \"impact\": \"maintenance\", \"started\": \"2026-11-12T12:00:00.000-08:00\", \"url\": \"https://status.twilio.com\"}, {\"title\": \"Russia SMS Carrier Maintenance - Sotovaja Svjaz MOTIV\", \"impact\": \"maintenance\", \"started\": \"2026-11-12T10:00:00.000-08:00\", \"url\": \"https://status.twilio.com\"}, {\"title\": \"Russia SMS Carrier Maintenance - Tele2\", \"impact\": \"maintenance\", \"started\": \"2026-11-02T12:00:00.000-08:00\", \"url\": \"https://status.twilio.com\"}]",
+  "checked_at": "2026-11-12T23:13:58+00:00",
+  "headline": "Email Delivery Delays to Microsoft-Hosted Inboxes (+12 more)",
+  "incidents": "[{\"title\": \"Email Delivery Delays to Microsoft-Hosted Inboxes\", \"impact\": \"minor\", \"started\": \"2026-11-12T11:42:49.067-08:00\", \"url\": \"https://stspg.io/6f5v3h5q1mkr\"}, {\"title\": \"Voice Call Post Dial Delay from a Subset of Twilio Phone Numbers to United States\", \"impact\": \"minor\", \"started\": \"2026-11-12T14:58:51.103-08:00\", \"url\": \"https://stspg.io/l0xttljt4n7s\"}, {\"title\": \"SMS Delivery Receipt Failures from Twilio to Claro Costa Rica\", \"impact\": \"minor\", \"started\": \"2026-11-12T14:31:16.001-08:00\", \"url\": \"https://stspg.io/kwdmd91r9qjd\"}, {\"title\": \"SMS Delivery Receipt Delays from Twilio to Claro Colombia\", \"impact\": \"minor\", \"started\": \"2026-11-12T09:46:37.422-08:00\", \"url\": \"https://stspg.io/ff9c1m6r28ch\"}, {\"title\": \"SMS Delivery Delays and Failures from Twilio to Brisanet Servicos De Telecomunicacoes SA Brazil\", \"impact\": \"minor\", \"started\": \"2026-11-12T12:32:19.597-08:00\", \"url\": \"https://stspg.io/s6tml3f62c0r\"}, {\"title\": \"Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers\", \"impact\": \"minor\", \"started\": \"2026-11-12T08:53:51.392-08:00\", \"url\": \"https://stspg.io/ppx46z753zjr\"}, {\"title\": \"SMS Delivery Failures from Twilio to Orange Sierra Leone\", \"impact\": \"minor\", \"started\": \"2026-11-11T17:43:20.245-08:00\", \"url\": \"https://stspg.io/654hjkk8cm1r\"}, {\"title\": \"Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines\", \"impact\": \"minor\", \"started\": \"2026-11-01T21:41:31.845-08:00\", \"url\": \"https://stspg.io/tbsjgc4grpsw\"}, {\"title\": \"SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to Multiple Networks in Chile\", \"impact\": \"minor\", \"started\": \"2026-11-06T13:21:41.235-08:00\", \"url\": \"https://stspg.io/92y684hgthhn\"}, {\"title\": \"United Kingdom Account Security Carrier Partner Maintenance - Vodafone\", \"impact\": \"maintenance\", \"started\": \"2026-11-12T14:30:00.000-08:00\", \"url\": \"https://status.twilio.com\"}, {\"title\": \"United Arab Emirates SMS Carrier Maintenance - Etisalat and du\", \"impact\": \"maintenance\", \"started\": \"2026-11-12T12:00:00.000-08:00\", \"url\": \"https://status.twilio.com\"}, {\"title\": \"Russia SMS Carrier Maintenance - Sotovaja Svjaz MOTIV\", \"impact\": \"maintenance\", \"started\": \"2026-11-12T10:00:00.000-08:00\", \"url\": \"https://status.twilio.com\"}, {\"title\": \"Russia SMS Carrier Maintenance - Tele2\", \"impact\": \"maintenance\", \"started\": \"2026-11-02T12:00:00.000-08:00\", \"url\": \"https://status.twilio.com\"}]",
   "kind": "statuspage",
   "level": "degraded",
   "name": "Twilio",
@@ -385,7 +385,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-12T22:28:03+00:00",
+  "checked_at": "2026-11-12T23:13:58+00:00",
   "headline": "Service Degradation Affecting Microsoft Integrations due to an underlying vendor issue. (+3 more)",
   "incidents": "[{\"title\": \"Service Degradation Affecting Microsoft Integrations due to an underlying vendor issue.\", \"impact\": \"minor\", \"started\": \"2026-11-12T11:24:50.506-08:00\", \"url\": \"https://stspg.io/jth16cll1kcf\"}, {\"title\": \"Zoom Team Chat Update\", \"impact\": \"maintenance\", \"started\": \"2026-11-05T08:00:00.000-08:00\", \"url\": \"https://status.zoom.us\"}, {\"title\": \"Zoom FileServer Release: November 03, 2026 (No Operational Impact)\", \"impact\": \"maintenance\", \"started\": \"2026-11-03T21:00:00.000-08:00\", \"url\": \"https://status.zoom.us\"}, {\"title\": \"Zoom Chat Backend Update: October, 2026 (No Operational Impact)\", \"impact\": \"maintenance\", \"started\": \"2026-10-16T09:00:00.000-07:00\", \"url\": \"https://status.zoom.us\"}]",
   "kind": "statuspage",
