@@ -32,3 +32,4 @@
 {"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "All Systems Operational", "name": "Reddit", "slug": "reddit", "to_level": "operational"}
 {"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "All Systems Operational", "name": "Shopify", "slug": "shopify", "to_level": "operational"}
 {"at": "2026-11-12T22:22:27+00:00", "from_level": "operational", "headline": "Elevated Latency on help.dropbox.com", "name": "Dropbox", "slug": "dropbox", "to_level": "degraded"}
+{"at": "2026-11-12T22:28:03+00:00", "from_level": "partial_outage", "headline": "Elevated errors affecting the Microsoft 365 connector", "name": "Anthropic", "slug": "anthropic", "to_level": "degraded"}
