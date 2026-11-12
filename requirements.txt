@@ -1,2 +1,8 @@
-requests>=2.31
-Flask>=3.0
+# Pinned deliberately. Every scheduled run installs these exact versions, so
+# code that nobody has reviewed can never arrive on its own -- and the run has
+# the Telegram bot token in its environment.
+#
+# The trade-off: security patches no longer arrive automatically. Check for
+# updates occasionally (pip list --outdated) and bump these on purpose.
+requests==2.34.2
+Flask==3.1.3
