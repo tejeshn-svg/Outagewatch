@@ -852,17 +852,62 @@ def notify_correlations(new: list, config: dict) -> None:
         fh.write(f"{now_iso()}\n{message}\n\n")
     print(message, flush=True)
 
+    send_telegram(config, message)
+
+
+CHANNEL_PATH = os.path.join(HERE, "channel.json")
+
+
+def alert_targets(config: dict) -> list:
+    """Everywhere an alert should go.
+
+    Two kinds of destination, and they are not the same thing:
+
+      * a chat id  -- your own private conversation with the bot
+      * a channel  -- a public Telegram channel the bot posts to, which other
+                      people can join without you managing anything
+
+    The channel name lives in channel.json, in the repository, because a public
+    channel's @name is public by definition. The token stays a secret; it is
+    the thing that must never be shared.
+    """
+    targets = []
+    if config.get("telegram_chat_id"):
+        targets.append(str(config["telegram_chat_id"]))
+    channel = config.get("telegram_channel")
+    if channel:
+        channel = channel.strip()
+        if channel and not channel.startswith(("@", "-")):
+            channel = "@" + channel
+        targets.append(channel)
+    # Same place twice would mean the same message twice.
+    seen, unique = set(), []
+    for t in targets:
+        if t and t not in seen:
+            seen.add(t)
+            unique.append(t)
+    return unique
+
+
+def send_telegram(config: dict, message: str) -> None:
     token = config.get("telegram_bot_token")
-    chat_id = config.get("telegram_chat_id")
-    if token and chat_id:
+    targets = alert_targets(config)
+    if not token or not targets:
+        return
+    for target in targets:
         try:
-            requests.post(
+            resp = requests.post(
                 f"https://api.telegram.org/bot{token}/sendMessage",
-                json={"chat_id": chat_id, "text": "OutageWatch\n" + message},
+                json={"chat_id": target, "text": "OutageWatch\n" + message},
                 timeout=TIMEOUT,
             )
-        except requests.exceptions.RequestException as exc:
-            print(f"  (telegram send failed: {exc})", file=sys.stderr)
+            body = resp.json()
+            if not body.get("ok"):
+                print(f"  (telegram refused {target}: {body.get('description')})",
+                      file=sys.stderr, flush=True)
+        except (requests.exceptions.RequestException, ValueError) as exc:
+            print(f"  (telegram send to {target} failed: {exc})",
+                  file=sys.stderr, flush=True)
 
 
 def load_config() -> dict:
@@ -871,6 +916,14 @@ def load_config() -> dict:
     if os.path.exists(CONFIG_PATH):
         with open(CONFIG_PATH, "r", encoding="utf-8") as fh:
             config = json.load(fh)
+
+    # The public channel name is not a secret, so it is committed to the repo.
+    if os.path.exists(CHANNEL_PATH):
+        try:
+            with open(CHANNEL_PATH, "r", encoding="utf-8") as fh:
+                config.update(json.load(fh))
+        except ValueError:
+            pass
 
     # GitHub Actions has no config.json -- secrets arrive as env vars instead.
     for key, env in (("telegram_bot_token", "TELEGRAM_BOT_TOKEN"),
@@ -909,17 +962,7 @@ def notify(changes: list, config: dict) -> None:
         fh.write(f"{now_iso()}\n{message}\n\n")
     print(message, flush=True)
 
-    token = config.get("telegram_bot_token")
-    chat_id = config.get("telegram_chat_id")
-    if token and chat_id:
-        try:
-            requests.post(
-                f"https://api.telegram.org/bot{token}/sendMessage",
-                json={"chat_id": chat_id, "text": "OutageWatch\n" + message},
-                timeout=TIMEOUT,
-            )
-        except requests.exceptions.RequestException as exc:
-            print(f"  (telegram send failed: {exc})", file=sys.stderr)
+    send_telegram(config, message)
 
 
 # ===========================================================================

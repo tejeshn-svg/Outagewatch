@@ -1,0 +1,4 @@
+{
+  "_comment": "Public Telegram channel that alerts are posted to. Not a secret -- a public channel's @name is public by definition. The bot token stays in GitHub Secrets.",
+  "telegram_channel": "@outagewatch_alerts"
+}
