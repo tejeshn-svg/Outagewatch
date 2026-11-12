@@ -1,0 +1,33 @@
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "Multiple services: Region Availability (+1 more)", "name": "Amazon Web Services", "slug": "aws", "to_level": "degraded"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "Users may be unable to connect to multiple Microsoft 365 services", "name": "Microsoft 365", "slug": "microsoft-365", "to_level": "degraded"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "No active events", "name": "Microsoft Power Platform", "slug": "power-platform", "to_level": "operational"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "No active events", "name": "Microsoft Azure", "slug": "azure", "to_level": "operational"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "All Systems Operational", "name": "Google Cloud", "slug": "gcp", "to_level": "operational"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "Replicate Model Registry Unavailable (+1 more)", "name": "Cloudflare", "slug": "cloudflare", "to_level": "partial_outage"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "Nairobi (NBO) New Data Center (+3 more)", "name": "Fastly", "slug": "fastly", "to_level": "maintenance"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "All Systems Operational", "name": "DigitalOcean", "slug": "digitalocean", "to_level": "operational"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "Connectivity Issue between ID-CGK (Jakarta) and SG-SIN-2 (Singapore 2) (+1 more)", "name": "Akamai Linode", "slug": "linode", "to_level": "operational"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "Responding normally", "name": "Heroku", "slug": "heroku", "to_level": "operational"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "Disruption with Email Delivery", "name": "GitHub", "slug": "github", "to_level": "operational"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "Operational", "name": "GitLab", "slug": "gitlab", "to_level": "operational"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "All Systems Operational", "name": "npm", "slug": "npm", "to_level": "operational"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "All Systems Operational", "name": "Atlassian", "slug": "atlassian", "to_level": "operational"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "All Systems Operational", "name": "Bitbucket", "slug": "bitbucket", "to_level": "operational"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "All Systems Operational", "name": "Datadog", "slug": "datadog", "to_level": "operational"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "All Systems Operational", "name": "New Relic", "slug": "newrelic", "to_level": "operational"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "Elevated errors affecting the Microsoft 365 connector", "name": "OpenAI", "slug": "openai", "to_level": "degraded"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "Elevated errors affecting the Microsoft 365 connector", "name": "Anthropic", "slug": "anthropic", "to_level": "partial_outage"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "Service Degradation Affecting Microsoft Integrations due to an underlying vendor issue. (+3 more)", "name": "Zoom", "slug": "zoom", "to_level": "degraded"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "All Systems Operational", "name": "Discord", "slug": "discord", "to_level": "operational"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers (+10 more)", "name": "Twilio", "slug": "twilio", "to_level": "degraded"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers (+10 more)", "name": "SendGrid", "slug": "sendgrid", "to_level": "degraded"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "All Systems Operational", "name": "Dropbox", "slug": "dropbox", "to_level": "operational"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "Issues with outlook connections", "name": "Notion", "slug": "notion", "to_level": "degraded"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "All Systems Operational", "name": "Asana", "slug": "asana", "to_level": "operational"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "All Systems Operational", "name": "Figma", "slug": "figma", "to_level": "operational"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "HubSpot is experiencing issues", "name": "HubSpot", "slug": "hubspot", "to_level": "partial_outage"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "All Systems Operational", "name": "1Password", "slug": "1password", "to_level": "operational"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "Impaired Cluster operations in AWS me-central-1 and AWS me-south-1", "name": "MongoDB Atlas", "slug": "mongodb", "to_level": "operational"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "All Systems Operational", "name": "Squarespace", "slug": "squarespace", "to_level": "operational"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "All Systems Operational", "name": "Reddit", "slug": "reddit", "to_level": "operational"}
+{"at": "2026-11-12T21:43:43+00:00", "from_level": null, "headline": "All Systems Operational", "name": "Shopify", "slug": "shopify", "to_level": "operational"}

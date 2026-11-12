@@ -1,0 +1,185 @@
+{% extends "base.html" %}
+{% block title %}OutageWatch &middot; {{ summary.issues }} issues{% endblock %}
+
+{% block content %}
+
+{% if not vendors %}
+  <section class="card empty">
+    <h1>No data yet</h1>
+    <p>Run the collector once to populate the database:</p>
+    <pre>python collector.py --once</pre>
+    <p>Then refresh this page.</p>
+  </section>
+{% else %}
+
+<!-- ===== Correlated signal: several vendors blaming the same third party =====
+     This sits above everything because it often knows before the third
+     party's own status page does. -->
+{% if correlations %}
+<section class="correlated">
+  {% for c in correlations %}
+  <div class="corr-row">
+    <span class="corr-tag">Correlated</span>
+    <div class="corr-body">
+      <h2><strong>{{ c.entity }}</strong> may be having problems</h2>
+      <p>{{ c.groups }} independent services are reporting it:
+         <span class="corr-vendors">{{ c.vendors|join(', ') }}</span></p>
+      <p class="corr-note">Inferred from other vendors' incident reports &mdash;
+         {{ c.entity }}'s own status page may not say so yet.</p>
+    </div>
+    <span class="corr-since">since {{ c.since[11:16] }}Z</span>
+  </div>
+  {% endfor %}
+</section>
+{% endif %}
+
+<!-- ===== Summary bar: the single most important element on the page ===== -->
+<section class="summary {{ 'clear' if summary.all_clear else 'alarm' }}">
+  <div class="summary-count">
+    <strong>{{ summary.issues }}</strong>
+    <span>{{ 'issue' if summary.issues == 1 else 'issues' }}</span>
+  </div>
+  <div class="summary-body">
+    {% if summary.all_clear %}
+      <p>All monitored services are reporting normal operation.</p>
+    {% else %}
+      {% if summary.down %}<p><span class="dot" style="background:#d03b3b"></span><b>Outage:</b> {{ summary.down|join(', ') }}</p>{% endif %}
+      {% if summary.degraded %}<p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> {{ summary.degraded|join(', ') }}</p>{% endif %}
+      {% if summary.maintenance %}<p><span class="dot" style="background:#6b7280"></span><b>Maintenance:</b> {{ summary.maintenance|join(', ') }}</p>{% endif %}
+      {% if summary.unknown %}<p><span class="dot" style="background:#898781"></span><b>Unreachable feed:</b> {{ summary.unknown|join(', ') }}</p>{% endif %}
+    {% endif %}
+  </div>
+  <div class="summary-meta">
+    <span id="checked" data-ts="{{ summary.last_checked }}">last checked {{ summary.last_checked }}</span>
+    <span>{{ summary.monitored }} monitored</span>
+  </div>
+</section>
+
+<!-- ===== Filters ===== -->
+<div class="filters" role="group" aria-label="Filter services">
+  <button class="chip on" data-filter="all">All services</button>
+  <button class="chip" data-filter="issues">Status &amp; alerts</button>
+  {% for t in tags %}
+    <button class="chip" data-filter="tag:{{ t }}">{{ t }}</button>
+  {% endfor %}
+</div>
+
+<!-- ===== Service list ===== -->
+<section class="grid" id="grid">
+  {% for v in vendors %}
+  <article class="card service"
+           data-level="{{ v.level }}"
+           data-tags="{{ v.tags|join(',') }}"
+           data-issue="{{ '1' if v.level not in ('operational','maintenance') else '0' }}">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">{{ v.initial }}</span>
+      <div class="service-id">
+        <h2>{{ v.name }}</h2>
+        <a class="service-url" href="{{ v.url }}" target="_blank" rel="noopener">{{ v.url|replace('https://','') }}</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: {{ v.color }}">
+        <span class="badge-icon" aria-hidden="true">{{ v.icon }}</span>{{ v.label }}
+      </span>
+    </div>
+
+    <p class="headline">{{ v.headline }}</p>
+
+    {% if v.incidents %}
+    <ul class="incidents">
+      {% for i in v.incidents[:3] %}
+        <li><a href="{{ i.url }}" target="_blank" rel="noopener">{{ i.title }}</a>{% if i.impact %} <em>{{ i.impact }}</em>{% endif %}</li>
+      {% endfor %}
+      {% if v.incidents|length > 3 %}<li class="more">+{{ v.incidents|length - 3 }} more</li>{% endif %}
+    </ul>
+    {% else %}
+      <p class="noissues">No recent issues</p>
+    {% endif %}
+
+    <div class="tags">
+      {% for t in v.tags %}<span class="tag">{{ t }}</span>{% endfor %}
+      {% if v.changed_at %}<span class="tag since">since {{ v.changed_at[11:16] }}Z</span>{% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</section>
+
+<div class="loadmore-wrap">
+  <button id="loadmore" class="loadmore">Load more</button>
+</div>
+
+<script>
+// ---- Progressive disclosure: show 20 at a time, like the reference page ----
+const PAGE = 20;
+let shown = PAGE;
+let activeFilter = 'all';
+
+function visibleCards() {
+  return [...document.querySelectorAll('.service')].filter(card => {
+    if (activeFilter === 'all') return true;
+    if (activeFilter === 'issues') return card.dataset.issue === '1';
+    if (activeFilter.startsWith('tag:')) {
+      return card.dataset.tags.split(',').includes(activeFilter.slice(4));
+    }
+    return true;
+  });
+}
+
+function render() {
+  document.querySelectorAll('.service').forEach(c => c.style.display = 'none');
+  const vis = visibleCards();
+  vis.slice(0, shown).forEach(c => c.style.display = '');
+  const btn = document.getElementById('loadmore');
+  const remaining = vis.length - shown;
+  btn.style.display = remaining > 0 ? '' : 'none';
+  btn.textContent = `Load more (${remaining} of ${vis.length} hidden)`;
+}
+
+document.querySelectorAll('.chip').forEach(chip => {
+  chip.addEventListener('click', () => {
+    document.querySelectorAll('.chip').forEach(c => c.classList.remove('on'));
+    chip.classList.add('on');
+    activeFilter = chip.dataset.filter;
+    shown = PAGE;
+    render();
+  });
+});
+
+document.getElementById('loadmore').addEventListener('click', () => {
+  shown += PAGE;
+  render();
+});
+
+// ---- "last checked" as relative time, refreshed every 15s ----
+function ago() {
+  const el = document.getElementById('checked');
+  if (!el || !el.dataset.ts) return;
+  const secs = Math.max(0, (Date.now() - new Date(el.dataset.ts).getTime()) / 1000);
+  let text;
+  if (secs < 60) text = 'just now';
+  else if (secs < 3600) text = `${Math.floor(secs / 60)} min ago`;
+  else text = `${Math.floor(secs / 3600)} h ago`;
+  el.textContent = `last checked ${text}`;
+}
+
+// ---- Auto-refresh the page data without a full reload ----
+async function poll() {
+  try {
+    const r = await fetch('/api/status.json', { cache: 'no-store' });
+    const data = await r.json();
+    const el = document.getElementById('checked');
+    // If the collector has written a newer timestamp, reload to redraw.
+    if (el && data.summary.last_checked && data.summary.last_checked !== el.dataset.ts) {
+      location.reload();
+    }
+  } catch (e) { /* collector may be restarting; try again next tick */ }
+}
+
+render();
+ago();
+setInterval(ago, 15000);
+setInterval(poll, 30000);
+</script>
+
+{% endif %}
+{% endblock %}

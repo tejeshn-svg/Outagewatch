@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block title %}OutageWatch &middot; Incident history{% endblock %}
+
+{% block content %}
+
+<h1 class="page-title">Incident history</h1>
+<p class="lede">Every state change the collector has observed. One row per transition &mdash;
+nothing is written while a vendor stays in the same state.</p>
+
+<section class="card">
+  <h2 class="sec">Reliability, last 7 days</h2>
+  {% if reliability %}
+  <table class="table">
+    <thead><tr><th>Service</th><th class="num">Incidents</th><th class="num">Minutes impaired</th><th class="num">Uptime</th></tr></thead>
+    <tbody>
+      {% for r in reliability %}
+      <tr>
+        <td>{{ r.name }}</td>
+        <td class="num">{{ r.incidents }}</td>
+        <td class="num">{{ r.bad_minutes }}</td>
+        <td class="num">{{ '%.3f'|format(r.uptime_pct) }}%</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <p class="note">Figures only cover the period since you started collecting, so they
+  under-report until the collector has been running for a full seven days.</p>
+  {% else %}
+  <p class="note">No data yet.</p>
+  {% endif %}
+</section>
+
+<section class="card">
+  <h2 class="sec">Transition log</h2>
+  {% if events %}
+  <ul class="timeline">
+    {% for e in events %}
+    <li>
+      <span class="tl-time">{{ e.at[:16]|replace('T',' ') }}Z</span>
+      <span class="badge sm" style="--c: {{ e.color }}">
+        <span class="badge-icon" aria-hidden="true">{{ e.icon }}</span>{{ e.to }}
+      </span>
+      <span class="tl-body">
+        <b>{{ e.name }}</b>
+        <span class="tl-from">{{ e.from }} &rarr; {{ e.to }}</span>
+        {% if e.headline %}<span class="tl-note">{{ e.headline }}</span>{% endif %}
+      </span>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p class="note">No transitions recorded yet. Leave the collector running.</p>
+  {% endif %}
+</section>
+
+{% endblock %}

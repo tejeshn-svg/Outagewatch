@@ -1,0 +1,315 @@
+{
+  "_comment": [
+    "Add a vendor by adding a line here -- no Python changes needed.",
+    "kind: statuspage | gcp | azure_rss | aws | probe",
+    "For 'statuspage', url is the status page root; the collector appends",
+    "/api/v2/summary.json itself. Use discover.py to test a new domain first:",
+    "    python discover.py status.somevendor.com"
+  ],
+  "vendors": [
+    {
+      "slug": "aws",
+      "name": "Amazon Web Services",
+      "kind": "aws",
+      "url": "https://health.aws.amazon.com/public/currentevents",
+      "tags": [
+        "Cloud",
+        "AMZN"
+      ]
+    },
+    {
+      "slug": "microsoft-365",
+      "name": "Microsoft 365",
+      "kind": "ms_rss",
+      "url": "https://status.cloud.microsoft/api/feed/mac",
+      "tags": [
+        "MSFT",
+        "SaaS"
+      ]
+    },
+    {
+      "slug": "power-platform",
+      "name": "Microsoft Power Platform",
+      "kind": "ms_rss",
+      "url": "https://status.cloud.microsoft/api/feed/ppac",
+      "tags": [
+        "MSFT",
+        "SaaS"
+      ]
+    },
+    {
+      "slug": "azure",
+      "name": "Microsoft Azure",
+      "kind": "azure_rss",
+      "url": "https://azure.status.microsoft/en-us/status/feed/",
+      "tags": [
+        "Cloud",
+        "MSFT"
+      ]
+    },
+    {
+      "slug": "gcp",
+      "name": "Google Cloud",
+      "kind": "gcp",
+      "url": "https://status.cloud.google.com/incidents.json",
+      "tags": [
+        "Cloud",
+        "GOOG"
+      ]
+    },
+    {
+      "slug": "cloudflare",
+      "name": "Cloudflare",
+      "kind": "statuspage",
+      "url": "https://www.cloudflarestatus.com",
+      "tags": [
+        "Network",
+        "CDN"
+      ]
+    },
+    {
+      "slug": "fastly",
+      "name": "Fastly",
+      "kind": "fastly",
+      "url": "https://www.fastlystatus.com",
+      "tags": [
+        "Network",
+        "CDN"
+      ]
+    },
+    {
+      "slug": "digitalocean",
+      "name": "DigitalOcean",
+      "kind": "statuspage",
+      "url": "https://status.digitalocean.com",
+      "tags": [
+        "Cloud"
+      ]
+    },
+    {
+      "slug": "linode",
+      "name": "Akamai Linode",
+      "kind": "statuspage",
+      "url": "https://status.linode.com",
+      "tags": [
+        "Cloud"
+      ]
+    },
+    {
+      "slug": "heroku",
+      "name": "Heroku",
+      "kind": "probe",
+      "url": "https://status.heroku.com",
+      "tags": [
+        "Cloud"
+      ]
+    },
+    {
+      "slug": "github",
+      "name": "GitHub",
+      "kind": "statuspage",
+      "url": "https://www.githubstatus.com",
+      "tags": [
+        "DevTools"
+      ]
+    },
+    {
+      "slug": "gitlab",
+      "name": "GitLab",
+      "kind": "status_io",
+      "url": "https://api.status.io/1.0/status/5b36dc6502d06804c08349f7",
+      "tags": [
+        "DevTools"
+      ]
+    },
+    {
+      "slug": "npm",
+      "name": "npm",
+      "kind": "statuspage",
+      "url": "https://status.npmjs.org",
+      "tags": [
+        "DevTools"
+      ]
+    },
+    {
+      "slug": "atlassian",
+      "name": "Atlassian",
+      "kind": "statuspage",
+      "url": "https://status.atlassian.com",
+      "tags": [
+        "SaaS"
+      ]
+    },
+    {
+      "slug": "bitbucket",
+      "name": "Bitbucket",
+      "kind": "statuspage",
+      "url": "https://bitbucket.status.atlassian.com",
+      "tags": [
+        "DevTools"
+      ]
+    },
+    {
+      "slug": "datadog",
+      "name": "Datadog",
+      "kind": "statuspage",
+      "url": "https://datadog.statuspage.io",
+      "tags": [
+        "Monitoring"
+      ]
+    },
+    {
+      "slug": "newrelic",
+      "name": "New Relic",
+      "kind": "statuspage",
+      "url": "https://status.newrelic.com",
+      "tags": [
+        "Monitoring"
+      ]
+    },
+    {
+      "slug": "openai",
+      "name": "OpenAI",
+      "kind": "statuspage",
+      "url": "https://status.openai.com",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "slug": "anthropic",
+      "name": "Anthropic",
+      "kind": "statuspage",
+      "url": "https://status.anthropic.com",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "slug": "zoom",
+      "name": "Zoom",
+      "kind": "statuspage",
+      "url": "https://status.zoom.us",
+      "tags": [
+        "Comms"
+      ]
+    },
+    {
+      "slug": "discord",
+      "name": "Discord",
+      "kind": "statuspage",
+      "url": "https://discordstatus.com",
+      "tags": [
+        "Comms"
+      ]
+    },
+    {
+      "slug": "twilio",
+      "name": "Twilio",
+      "kind": "statuspage",
+      "url": "https://status.twilio.com",
+      "tags": [
+        "Comms"
+      ]
+    },
+    {
+      "slug": "sendgrid",
+      "name": "SendGrid",
+      "kind": "statuspage",
+      "url": "https://status.sendgrid.com",
+      "tags": [
+        "Email"
+      ]
+    },
+    {
+      "slug": "dropbox",
+      "name": "Dropbox",
+      "kind": "statuspage",
+      "url": "https://status.dropbox.com",
+      "tags": [
+        "Storage"
+      ]
+    },
+    {
+      "slug": "notion",
+      "name": "Notion",
+      "kind": "statuspage",
+      "url": "https://www.notion-status.com",
+      "tags": [
+        "SaaS"
+      ]
+    },
+    {
+      "slug": "asana",
+      "name": "Asana",
+      "kind": "statuspage",
+      "url": "https://status.asana.com",
+      "tags": [
+        "SaaS"
+      ]
+    },
+    {
+      "slug": "figma",
+      "name": "Figma",
+      "kind": "statuspage",
+      "url": "https://status.figma.com",
+      "tags": [
+        "SaaS"
+      ]
+    },
+    {
+      "slug": "hubspot",
+      "name": "HubSpot",
+      "kind": "statuspage",
+      "url": "https://status.hubspot.com",
+      "tags": [
+        "SaaS"
+      ]
+    },
+    {
+      "slug": "1password",
+      "name": "1Password",
+      "kind": "statuspage",
+      "url": "https://status.1password.com",
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "slug": "mongodb",
+      "name": "MongoDB Atlas",
+      "kind": "statuspage",
+      "url": "https://status.mongodb.com",
+      "tags": [
+        "Database"
+      ]
+    },
+    {
+      "slug": "squarespace",
+      "name": "Squarespace",
+      "kind": "statuspage",
+      "url": "https://status.squarespace.com",
+      "tags": [
+        "Hosting"
+      ]
+    },
+    {
+      "slug": "reddit",
+      "name": "Reddit",
+      "kind": "statuspage",
+      "url": "https://www.redditstatus.com",
+      "tags": [
+        "Consumer"
+      ]
+    },
+    {
+      "slug": "shopify",
+      "name": "Shopify",
+      "kind": "statuspage",
+      "url": "https://www.shopifystatus.com",
+      "tags": [
+        "Commerce"
+      ]
+    }
+  ]
+}

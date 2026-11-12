@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OutageWatch &middot; 10 issues</title>
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">OW</span>
+        <span class="brand-text">OutageWatch</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html" class="on">Dashboard</a>
+        <a href="history.html" class="">Incident history</a>
+        <a href="status.json">API</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    
+
+
+
+<!-- ===== Correlated signal: several vendors blaming the same third party =====
+     This sits above everything because it often knows before the third
+     party's own status page does. -->
+
+<section class="correlated">
+  
+  <div class="corr-row">
+    <span class="corr-tag">Correlated</span>
+    <div class="corr-body">
+      <h2><strong>Microsoft</strong> may be having problems</h2>
+      <p>5 independent services are reporting it:
+         <span class="corr-vendors">Anthropic, Notion, OpenAI, SendGrid/Twilio, Zoom</span></p>
+      <p class="corr-note">Inferred from other vendors' incident reports &mdash;
+         Microsoft's own status page may not say so yet.</p>
+    </div>
+    <span class="corr-since">since 21:43Z</span>
+  </div>
+  
+</section>
+
+
+<!-- ===== Summary bar: the single most important element on the page ===== -->
+<section class="summary alarm">
+  <div class="summary-count">
+    <strong>10</strong>
+    <span>issues</span>
+  </div>
+  <div class="summary-body">
+    
+      
+      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Anthropic, Cloudflare, HubSpot, Amazon Web Services, Microsoft 365, Notion, OpenAI, SendGrid, Twilio, Zoom</p>
+      <p><span class="dot" style="background:#6b7280"></span><b>Maintenance:</b> Fastly</p>
+      
+    
+  </div>
+  <div class="summary-meta">
+    <span id="checked" data-ts="2026-11-12T21:43:43+00:00">last checked 2026-11-12T21:43:43+00:00</span>
+    <span>33 monitored</span>
+  </div>
+</section>
+
+<!-- ===== Filters ===== -->
+<div class="filters" role="group" aria-label="Filter services">
+  <button class="chip on" data-filter="all">All services</button>
+  <button class="chip" data-filter="issues">Status &amp; alerts</button>
+  
+    <button class="chip" data-filter="tag:AI">AI</button>
+  
+    <button class="chip" data-filter="tag:AMZN">AMZN</button>
+  
+    <button class="chip" data-filter="tag:CDN">CDN</button>
+  
+    <button class="chip" data-filter="tag:Cloud">Cloud</button>
+  
+    <button class="chip" data-filter="tag:Commerce">Commerce</button>
+  
+    <button class="chip" data-filter="tag:Comms">Comms</button>
+  
+    <button class="chip" data-filter="tag:Consumer">Consumer</button>
+  
+    <button class="chip" data-filter="tag:Database">Database</button>
+  
+    <button class="chip" data-filter="tag:DevTools">DevTools</button>
+  
+    <button class="chip" data-filter="tag:Email">Email</button>
+  
+    <button class="chip" data-filter="tag:GOOG">GOOG</button>
+  
+    <button class="chip" data-filter="tag:Hosting">Hosting</button>
+  
+    <button class="chip" data-filter="tag:MSFT">MSFT</button>
+  
+    <button class="chip" data-filter="tag:Monitoring">Monitoring</button>
+  
+    <button class="chip" data-filter="tag:Network">Network</button>
+  
+    <button class="chip" data-filter="tag:SaaS">SaaS</button>
+  
+    <button class="chip" data-filter="tag:Security">Security</button>
+  
+    <button class="chip" data-filter="tag:Storage">Storage</button>
+  
+</div>
+
+<!-- ===== Service list ===== -->
+<section class="grid" id="grid">
+  
+  <article class="card service"
+           data-level="partial_outage"
+           data-tags="AI"
+           data-issue="1">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">A</span>
+      <div class="service-id">
+        <h2>Anthropic</h2>
+        <a class="service-url" href="https://status.anthropic.com" target="_blank" rel="noopener">status.anthropic.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #ec835a">
+        <span class="badge-icon" aria-hidden="true">◆</span>Partial Outage
+      </span>
+    </div>
+
+    <p class="headline">Elevated errors affecting the Microsoft 365 connector</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://stspg.io/m0rbx38nmy1c" target="_blank" rel="noopener">Elevated errors affecting the Microsoft 365 connector</a> <em>major</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">AI</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="partial_outage"
+           data-tags="Network,CDN"
+           data-issue="1">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">C</span>
+      <div class="service-id">
+        <h2>Cloudflare</h2>
+        <a class="service-url" href="https://www.cloudflarestatus.com" target="_blank" rel="noopener">www.cloudflarestatus.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #ec835a">
+        <span class="badge-icon" aria-hidden="true">◆</span>Partial Outage
+      </span>
+    </div>
+
+    <p class="headline">Replicate Model Registry Unavailable (+1 more)</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://www.cloudflarestatus.com/incidents/yu63fhh2peb7" target="_blank" rel="noopener">Replicate Model Registry Unavailable</a> <em>minor</em></li>
+      
+        <li><a href="https://www.cloudflarestatus.com/incidents/0ocqieaifg7h" target="_blank" rel="noopener">Changes to Cloudflare Workers are not producing Event Subscription events</a> <em>minor</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">Network</span><span class="tag">CDN</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="partial_outage"
+           data-tags="SaaS"
+           data-issue="1">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">H</span>
+      <div class="service-id">
+        <h2>HubSpot</h2>
+        <a class="service-url" href="https://status.hubspot.com" target="_blank" rel="noopener">status.hubspot.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #ec835a">
+        <span class="badge-icon" aria-hidden="true">◆</span>Partial Outage
+      </span>
+    </div>
+
+    <p class="headline">HubSpot is experiencing issues</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://stspg.io/lswp5p2mdmh0" target="_blank" rel="noopener">HubSpot is experiencing issues</a> <em>none</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">SaaS</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="degraded"
+           data-tags="Cloud,AMZN"
+           data-issue="1">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">A</span>
+      <div class="service-id">
+        <h2>Amazon Web Services</h2>
+        <a class="service-url" href="https://health.aws.amazon.com/public/currentevents" target="_blank" rel="noopener">health.aws.amazon.com/public/currentevents</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #fab219">
+        <span class="badge-icon" aria-hidden="true">▲</span>Degraded Performance
+      </span>
+    </div>
+
+    <p class="headline">Multiple services: Region Availability (+1 more)</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://health.aws.amazon.com/public/currentevents" target="_blank" rel="noopener">Multiple services: Region Availability</a></li>
+      
+        <li><a href="https://health.aws.amazon.com/public/currentevents" target="_blank" rel="noopener">Multiple services: Region Availability</a></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">Cloud</span><span class="tag">AMZN</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="degraded"
+           data-tags="MSFT,SaaS"
+           data-issue="1">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">M</span>
+      <div class="service-id">
+        <h2>Microsoft 365</h2>
+        <a class="service-url" href="https://status.cloud.microsoft/api/feed/mac" target="_blank" rel="noopener">status.cloud.microsoft/api/feed/mac</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #fab219">
+        <span class="badge-icon" aria-hidden="true">▲</span>Degraded Performance
+      </span>
+    </div>
+
+    <p class="headline">Users may be unable to connect to multiple Microsoft 365 services</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://status.cloud.microsoft/" target="_blank" rel="noopener">Users may be unable to connect to multiple Microsoft 365 services</a> <em>ServiceDegradation</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">MSFT</span><span class="tag">SaaS</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="degraded"
+           data-tags="SaaS"
+           data-issue="1">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">N</span>
+      <div class="service-id">
+        <h2>Notion</h2>
+        <a class="service-url" href="https://www.notion-status.com" target="_blank" rel="noopener">www.notion-status.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #fab219">
+        <span class="badge-icon" aria-hidden="true">▲</span>Degraded Performance
+      </span>
+    </div>
+
+    <p class="headline">Issues with outlook connections</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://www.notion-status.com" target="_blank" rel="noopener">Issues with outlook connections</a> <em>minor</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">SaaS</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="degraded"
+           data-tags="AI"
+           data-issue="1">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">O</span>
+      <div class="service-id">
+        <h2>OpenAI</h2>
+        <a class="service-url" href="https://status.openai.com" target="_blank" rel="noopener">status.openai.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #fab219">
+        <span class="badge-icon" aria-hidden="true">▲</span>Degraded Performance
+      </span>
+    </div>
+
+    <p class="headline">Elevated errors affecting the Microsoft 365 connector</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://status.openai.com" target="_blank" rel="noopener">Elevated errors affecting the Microsoft 365 connector</a> <em>minor</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">AI</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="degraded"
+           data-tags="Email"
+           data-issue="1">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">S</span>
+      <div class="service-id">
+        <h2>SendGrid</h2>
+        <a class="service-url" href="https://status.sendgrid.com" target="_blank" rel="noopener">status.sendgrid.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #fab219">
+        <span class="badge-icon" aria-hidden="true">▲</span>Degraded Performance
+      </span>
+    </div>
+
+    <p class="headline">Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers (+10 more)</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://stspg.io/ppx46z753zjr" target="_blank" rel="noopener">Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers</a> <em>minor</em></li>
+      
+        <li><a href="https://stspg.io/6f5v3h5q1mkr" target="_blank" rel="noopener">Email Delivery Delays to Microsoft Inbox Providers</a> <em>minor</em></li>
+      
+        <li><a href="https://stspg.io/ff9c1m6r28ch" target="_blank" rel="noopener">SMS Delivery Failures from Twilio to Claro Colombia</a> <em>minor</em></li>
+      
+      <li class="more">+8 more</li>
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">Email</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="degraded"
+           data-tags="Comms"
+           data-issue="1">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">T</span>
+      <div class="service-id">
+        <h2>Twilio</h2>
+        <a class="service-url" href="https://status.twilio.com" target="_blank" rel="noopener">status.twilio.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #fab219">
+        <span class="badge-icon" aria-hidden="true">▲</span>Degraded Performance
+      </span>
+    </div>
+
+    <p class="headline">Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers (+10 more)</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://stspg.io/ppx46z753zjr" target="_blank" rel="noopener">Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers</a> <em>minor</em></li>
+      
+        <li><a href="https://stspg.io/6f5v3h5q1mkr" target="_blank" rel="noopener">Email Delivery Delays to Microsoft Inbox Providers</a> <em>minor</em></li>
+      
+        <li><a href="https://stspg.io/ff9c1m6r28ch" target="_blank" rel="noopener">SMS Delivery Failures from Twilio to Claro Colombia</a> <em>minor</em></li>
+      
+      <li class="more">+8 more</li>
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">Comms</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="degraded"
+           data-tags="Comms"
+           data-issue="1">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">Z</span>
+      <div class="service-id">
+        <h2>Zoom</h2>
+        <a class="service-url" href="https://status.zoom.us" target="_blank" rel="noopener">status.zoom.us</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #fab219">
+        <span class="badge-icon" aria-hidden="true">▲</span>Degraded Performance
+      </span>
+    </div>
+
+    <p class="headline">Service Degradation Affecting Microsoft Integrations due to an underlying vendor issue. (+3 more)</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://stspg.io/jth16cll1kcf" target="_blank" rel="noopener">Service Degradation Affecting Microsoft Integrations due to an underlying vendor issue.</a> <em>minor</em></li>
+      
+        <li><a href="https://status.zoom.us" target="_blank" rel="noopener">Zoom Team Chat Update</a> <em>maintenance</em></li>
+      
+        <li><a href="https://status.zoom.us" target="_blank" rel="noopener">Zoom FileServer Release: November 03, 2026 (No Operational Impact)</a> <em>maintenance</em></li>
+      
+      <li class="more">+1 more</li>
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">Comms</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="maintenance"
+           data-tags="Network,CDN"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">F</span>
+      <div class="service-id">
+        <h2>Fastly</h2>
+        <a class="service-url" href="https://www.fastlystatus.com" target="_blank" rel="noopener">www.fastlystatus.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #6b7280">
+        <span class="badge-icon" aria-hidden="true">■</span>Maintenance
+      </span>
+    </div>
+
+    <p class="headline">Nairobi (NBO) New Data Center (+3 more)</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://sta.ac/u/tgHf2oFX" target="_blank" rel="noopener">Nairobi (NBO) New Data Center</a> <em>ScheduledMaintenance</em></li>
+      
+        <li><a href="https://sta.ac/u/7mfOmz7D" target="_blank" rel="noopener">Third-Party Vulnerability Disclosure – php2shell (CVE-2026-109618 &amp; CVE-2026-109619)</a> <em>Informational</em></li>
+      
+        <li><a href="https://sta.ac/u/cdSFIDlB" target="_blank" rel="noopener">[Action Required] Compute services: Shielding migration from Milan (MXP) to Milan (BGY)</a> <em>Informational</em></li>
+      
+      <li class="more">+1 more</li>
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">Network</span><span class="tag">CDN</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="Security"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">1</span>
+      <div class="service-id">
+        <h2>1Password</h2>
+        <a class="service-url" href="https://status.1password.com" target="_blank" rel="noopener">status.1password.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">All Systems Operational</p>
+
+    
+      <p class="noissues">No recent issues</p>
+    
+
+    <div class="tags">
+      <span class="tag">Security</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="Cloud"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">A</span>
+      <div class="service-id">
+        <h2>Akamai Linode</h2>
+        <a class="service-url" href="https://status.linode.com" target="_blank" rel="noopener">status.linode.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">Connectivity Issue between ID-CGK (Jakarta) and SG-SIN-2 (Singapore 2) (+1 more)</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://stspg.io/d4fdnv39hb27" target="_blank" rel="noopener">Connectivity Issue between ID-CGK (Jakarta) and SG-SIN-2 (Singapore 2)</a> <em>minor</em></li>
+      
+        <li><a href="https://stspg.io/kwfn0ylk0rpt" target="_blank" rel="noopener">Service Issue - Block Storage (BR-GRU)</a> <em>none</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">Cloud</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="SaaS"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">A</span>
+      <div class="service-id">
+        <h2>Asana</h2>
+        <a class="service-url" href="https://status.asana.com" target="_blank" rel="noopener">status.asana.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">All Systems Operational</p>
+
+    
+      <p class="noissues">No recent issues</p>
+    
+
+    <div class="tags">
+      <span class="tag">SaaS</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="SaaS"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">A</span>
+      <div class="service-id">
+        <h2>Atlassian</h2>
+        <a class="service-url" href="https://status.atlassian.com" target="_blank" rel="noopener">status.atlassian.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">All Systems Operational</p>
+
+    
+      <p class="noissues">No recent issues</p>
+    
+
+    <div class="tags">
+      <span class="tag">SaaS</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="DevTools"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">B</span>
+      <div class="service-id">
+        <h2>Bitbucket</h2>
+        <a class="service-url" href="https://bitbucket.status.atlassian.com" target="_blank" rel="noopener">bitbucket.status.atlassian.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">All Systems Operational</p>
+
+    
+      <p class="noissues">No recent issues</p>
+    
+
+    <div class="tags">
+      <span class="tag">DevTools</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="Monitoring"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">D</span>
+      <div class="service-id">
+        <h2>Datadog</h2>
+        <a class="service-url" href="https://datadog.statuspage.io" target="_blank" rel="noopener">datadog.statuspage.io</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">All Systems Operational</p>
+
+    
+      <p class="noissues">No recent issues</p>
+    
+
+    <div class="tags">
+      <span class="tag">Monitoring</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="Cloud"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">D</span>
+      <div class="service-id">
+        <h2>DigitalOcean</h2>
+        <a class="service-url" href="https://status.digitalocean.com" target="_blank" rel="noopener">status.digitalocean.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">All Systems Operational</p>
+
+    
+      <p class="noissues">No recent issues</p>
+    
+
+    <div class="tags">
+      <span class="tag">Cloud</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="Comms"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">D</span>
+      <div class="service-id">
+        <h2>Discord</h2>
+        <a class="service-url" href="https://discordstatus.com" target="_blank" rel="noopener">discordstatus.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">All Systems Operational</p>
+
+    
+      <p class="noissues">No recent issues</p>
+    
+
+    <div class="tags">
+      <span class="tag">Comms</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="Storage"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">D</span>
+      <div class="service-id">
+        <h2>Dropbox</h2>
+        <a class="service-url" href="https://status.dropbox.com" target="_blank" rel="noopener">status.dropbox.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">All Systems Operational</p>
+
+    
+      <p class="noissues">No recent issues</p>
+    
+
+    <div class="tags">
+      <span class="tag">Storage</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="SaaS"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">F</span>
+      <div class="service-id">
+        <h2>Figma</h2>
+        <a class="service-url" href="https://status.figma.com" target="_blank" rel="noopener">status.figma.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">All Systems Operational</p>
+
+    
+      <p class="noissues">No recent issues</p>
+    
+
+    <div class="tags">
+      <span class="tag">SaaS</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="DevTools"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">G</span>
+      <div class="service-id">
+        <h2>GitHub</h2>
+        <a class="service-url" href="https://www.githubstatus.com" target="_blank" rel="noopener">www.githubstatus.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">Disruption with Email Delivery</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://stspg.io/lr8v4v8t7gs2" target="_blank" rel="noopener">Disruption with Email Delivery</a> <em>minor</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">DevTools</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="DevTools"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">G</span>
+      <div class="service-id">
+        <h2>GitLab</h2>
+        <a class="service-url" href="https://api.status.io/1.0/status/5b36dc6502d06804c08349f7" target="_blank" rel="noopener">api.status.io/1.0/status/5b36dc6502d06804c08349f7</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">Operational</p>
+
+    
+      <p class="noissues">No recent issues</p>
+    
+
+    <div class="tags">
+      <span class="tag">DevTools</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="Cloud,GOOG"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">G</span>
+      <div class="service-id">
+        <h2>Google Cloud</h2>
+        <a class="service-url" href="https://status.cloud.google.com/incidents.json" target="_blank" rel="noopener">status.cloud.google.com/incidents.json</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">All Systems Operational</p>
+
+    
+      <p class="noissues">No recent issues</p>
+    
+
+    <div class="tags">
+      <span class="tag">Cloud</span><span class="tag">GOOG</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="Cloud"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">H</span>
+      <div class="service-id">
+        <h2>Heroku</h2>
+        <a class="service-url" href="https://status.heroku.com" target="_blank" rel="noopener">status.heroku.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">Responding normally</p>
+
+    
+      <p class="noissues">No recent issues</p>
+    
+
+    <div class="tags">
+      <span class="tag">Cloud</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="Cloud,MSFT"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">M</span>
+      <div class="service-id">
+        <h2>Microsoft Azure</h2>
+        <a class="service-url" href="https://azure.status.microsoft/en-us/status/feed/" target="_blank" rel="noopener">azure.status.microsoft/en-us/status/feed/</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">No active events</p>
+
+    
+      <p class="noissues">No recent issues</p>
+    
+
+    <div class="tags">
+      <span class="tag">Cloud</span><span class="tag">MSFT</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="MSFT,SaaS"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">M</span>
+      <div class="service-id">
+        <h2>Microsoft Power Platform</h2>
+        <a class="service-url" href="https://status.cloud.microsoft/api/feed/ppac" target="_blank" rel="noopener">status.cloud.microsoft/api/feed/ppac</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">No active events</p>
+
+    
+      <p class="noissues">No recent issues</p>
+    
+
+    <div class="tags">
+      <span class="tag">MSFT</span><span class="tag">SaaS</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="Database"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">M</span>
+      <div class="service-id">
+        <h2>MongoDB Atlas</h2>
+        <a class="service-url" href="https://status.mongodb.com" target="_blank" rel="noopener">status.mongodb.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">Impaired Cluster operations in AWS me-central-1 and AWS me-south-1</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://stspg.io/jwd31x8yx3q5" target="_blank" rel="noopener">Impaired Cluster operations in AWS me-central-1 and AWS me-south-1</a> <em>major</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">Database</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="Monitoring"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">N</span>
+      <div class="service-id">
+        <h2>New Relic</h2>
+        <a class="service-url" href="https://status.newrelic.com" target="_blank" rel="noopener">status.newrelic.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">All Systems Operational</p>
+
+    
+      <p class="noissues">No recent issues</p>
+    
+
+    <div class="tags">
+      <span class="tag">Monitoring</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="DevTools"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">N</span>
+      <div class="service-id">
+        <h2>npm</h2>
+        <a class="service-url" href="https://status.npmjs.org" target="_blank" rel="noopener">status.npmjs.org</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">All Systems Operational</p>
+
+    
+      <p class="noissues">No recent issues</p>
+    
+
+    <div class="tags">
+      <span class="tag">DevTools</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="Consumer"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">R</span>
+      <div class="service-id">
+        <h2>Reddit</h2>
+        <a class="service-url" href="https://www.redditstatus.com" target="_blank" rel="noopener">www.redditstatus.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">All Systems Operational</p>
+
+    
+      <p class="noissues">No recent issues</p>
+    
+
+    <div class="tags">
+      <span class="tag">Consumer</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="Commerce"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">S</span>
+      <div class="service-id">
+        <h2>Shopify</h2>
+        <a class="service-url" href="https://www.shopifystatus.com" target="_blank" rel="noopener">www.shopifystatus.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">All Systems Operational</p>
+
+    
+      <p class="noissues">No recent issues</p>
+    
+
+    <div class="tags">
+      <span class="tag">Commerce</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="Hosting"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">S</span>
+      <div class="service-id">
+        <h2>Squarespace</h2>
+        <a class="service-url" href="https://status.squarespace.com" target="_blank" rel="noopener">status.squarespace.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">All Systems Operational</p>
+
+    
+      <p class="noissues">No recent issues</p>
+    
+
+    <div class="tags">
+      <span class="tag">Hosting</span>
+      <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+</section>
+
+<div class="loadmore-wrap">
+  <button id="loadmore" class="loadmore">Load more</button>
+</div>
+
+<script>
+// ---- Progressive disclosure: show 20 at a time, like the reference page ----
+const PAGE = 20;
+let shown = PAGE;
+let activeFilter = 'all';
+
+function visibleCards() {
+  return [...document.querySelectorAll('.service')].filter(card => {
+    if (activeFilter === 'all') return true;
+    if (activeFilter === 'issues') return card.dataset.issue === '1';
+    if (activeFilter.startsWith('tag:')) {
+      return card.dataset.tags.split(',').includes(activeFilter.slice(4));
+    }
+    return true;
+  });
+}
+
+function render() {
+  document.querySelectorAll('.service').forEach(c => c.style.display = 'none');
+  const vis = visibleCards();
+  vis.slice(0, shown).forEach(c => c.style.display = '');
+  const btn = document.getElementById('loadmore');
+  const remaining = vis.length - shown;
+  btn.style.display = remaining > 0 ? '' : 'none';
+  btn.textContent = `Load more (${remaining} of ${vis.length} hidden)`;
+}
+
+document.querySelectorAll('.chip').forEach(chip => {
+  chip.addEventListener('click', () => {
+    document.querySelectorAll('.chip').forEach(c => c.classList.remove('on'));
+    chip.classList.add('on');
+    activeFilter = chip.dataset.filter;
+    shown = PAGE;
+    render();
+  });
+});
+
+document.getElementById('loadmore').addEventListener('click', () => {
+  shown += PAGE;
+  render();
+});
+
+// ---- "last checked" as relative time, refreshed every 15s ----
+function ago() {
+  const el = document.getElementById('checked');
+  if (!el || !el.dataset.ts) return;
+  const secs = Math.max(0, (Date.now() - new Date(el.dataset.ts).getTime()) / 1000);
+  let text;
+  if (secs < 60) text = 'just now';
+  else if (secs < 3600) text = `${Math.floor(secs / 60)} min ago`;
+  else text = `${Math.floor(secs / 3600)} h ago`;
+  el.textContent = `last checked ${text}`;
+}
+
+// ---- Auto-refresh the page data without a full reload ----
+async function poll() {
+  try {
+    const r = await fetch('status.json', { cache: 'no-store' });
+    const data = await r.json();
+    const el = document.getElementById('checked');
+    // If the collector has written a newer timestamp, reload to redraw.
+    if (el && data.summary.last_checked && data.summary.last_checked !== el.dataset.ts) {
+      location.reload();
+    }
+  } catch (e) { /* collector may be restarting; try again next tick */ }
+}
+
+render();
+ago();
+setInterval(ago, 15000);
+setInterval(poll, 30000);
+</script>
+
+
+
+  </main>
+
+  <footer class="wrap foot">
+    <span>OutageWatch &middot; data pulled from each vendor's own official status feed</span>
+  </footer>
+</body>
+</html>

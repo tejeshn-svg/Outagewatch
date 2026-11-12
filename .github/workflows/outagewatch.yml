@@ -1,0 +1,55 @@
+name: OutageWatch
+
+# Runs on GitHub's machines, not yours. Your PC can be off.
+on:
+  schedule:
+    # Every 10 minutes. GitHub's minimum is 5, and it often runs a few
+    # minutes late under load -- fine for a status page, worth knowing.
+    - cron: "*/10 * * * *"
+  workflow_dispatch:        # lets you run it by hand from the Actions tab
+  push:
+    branches: [main]
+
+# Needed so the workflow can commit the updated state and pages back.
+permissions:
+  contents: write
+
+# Never let two runs overlap -- they would both try to push.
+concurrency:
+  group: outagewatch
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Poll every vendor and rebuild the site
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python build_static.py
+
+      - name: Commit the new status
+        run: |
+          git config user.name  "OutageWatch"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs state
+          if git diff --quiet --cached; then
+            echo "Nothing changed this run."
+            exit 0
+          fi
+          git commit -m "status: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          # Another run may have pushed while this one was working.
+          git pull --rebase --autostash
+          git push

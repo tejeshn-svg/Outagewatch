@@ -1,0 +1,13 @@
+# Holds your Telegram bot token -- never commit this.
+config.json
+
+# Local data and scratch output
+outagewatch.db
+outagewatch.db-wal
+outagewatch.db-shm
+alerts.log
+diagnose.txt
+sample.txt
+vendors.json.backup
+__pycache__/
+*.pyc
