@@ -42,3 +42,4 @@
 {"at": "2026-11-13T16:26:58+00:00", "from_level": "operational", "headline": "Storage Network Maintenance in TOR1", "name": "DigitalOcean", "slug": "digitalocean", "to_level": "maintenance"}
 {"at": "2026-11-13T16:26:58+00:00", "from_level": "operational", "headline": "Incident with Pull Requests", "name": "GitHub", "slug": "github", "to_level": "degraded"}
 {"at": "2026-11-13T16:26:58+00:00", "from_level": "partial_outage", "headline": "Elevated errors affecting the Microsoft 365 connector", "name": "Anthropic", "slug": "anthropic", "to_level": "degraded"}
+{"at": "2026-11-13T18:14:09+00:00", "from_level": "degraded", "headline": "Incident with Pull Requests", "name": "GitHub", "slug": "github", "to_level": "operational"}
