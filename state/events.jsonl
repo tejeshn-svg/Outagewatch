@@ -43,3 +43,5 @@
 {"at": "2026-11-13T16:26:58+00:00", "from_level": "operational", "headline": "Incident with Pull Requests", "name": "GitHub", "slug": "github", "to_level": "degraded"}
 {"at": "2026-11-13T16:26:58+00:00", "from_level": "partial_outage", "headline": "Elevated errors affecting the Microsoft 365 connector", "name": "Anthropic", "slug": "anthropic", "to_level": "degraded"}
 {"at": "2026-11-13T18:14:09+00:00", "from_level": "degraded", "headline": "Incident with Pull Requests", "name": "GitHub", "slug": "github", "to_level": "operational"}
+{"at": "2026-11-13T19:14:15+00:00", "from_level": "maintenance", "headline": "All Systems Operational", "name": "DigitalOcean", "slug": "digitalocean", "to_level": "operational"}
+{"at": "2026-11-13T19:14:15+00:00", "from_level": "partial_outage", "headline": "All Systems Operational", "name": "HubSpot", "slug": "hubspot", "to_level": "operational"}
