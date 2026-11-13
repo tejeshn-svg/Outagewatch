@@ -38,3 +38,4 @@
 {"at": "2026-11-12T23:57:24+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "Shopify", "slug": "shopify", "to_level": "operational"}
 {"at": "2026-11-13T10:42:16+00:00", "from_level": "degraded", "headline": "Elevated errors on claude.ai, Claude Code, and platform.claude.com (+1 more)", "name": "Anthropic", "slug": "anthropic", "to_level": "major_outage"}
 {"at": "2026-11-13T10:42:16+00:00", "from_level": "operational", "headline": "Integrations with Outlook are unavailable or degraded", "name": "Asana", "slug": "asana", "to_level": "degraded"}
+{"at": "2026-11-13T14:44:27+00:00", "from_level": "major_outage", "headline": "Elevated errors on claude.ai, the Claude API, and Claude Code (+1 more)", "name": "Anthropic", "slug": "anthropic", "to_level": "partial_outage"}
