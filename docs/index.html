@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>OutageWatch &middot; 11 issues</title>
+  <title>OutageWatch &middot; 9 issues</title>
   <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
@@ -36,8 +36,8 @@
     <span class="corr-tag">Correlated</span>
     <div class="corr-body">
       <h2><strong>Microsoft</strong> may be having problems</h2>
-      <p>6 independent services are reporting it:
-         <span class="corr-vendors">Anthropic, Asana, Notion, OpenAI, SendGrid/Twilio, Zoom</span></p>
+      <p>5 independent services are reporting it:
+         <span class="corr-vendors">Anthropic, Asana, OpenAI, SendGrid/Twilio, Zoom</span></p>
       <p class="corr-note">Inferred from other vendors' incident reports &mdash;
          Microsoft's own status page may not say so yet.</p>
     </div>
@@ -50,19 +50,19 @@
 <!-- ===== Summary bar: the single most important element on the page ===== -->
 <section class="summary alarm">
   <div class="summary-count">
-    <strong>11</strong>
+    <strong>9</strong>
     <span>issues</span>
   </div>
   <div class="summary-body">
     
       
-      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, Amazon Web Services, Anthropic, Asana, GitHub, Microsoft 365, Notion, OpenAI, SendGrid, Twilio, Zoom</p>
+      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, Amazon Web Services, Anthropic, Asana, Microsoft 365, OpenAI, SendGrid, Twilio, Zoom</p>
       <p><span class="dot" style="background:#6b7280"></span><b>Maintenance:</b> DigitalOcean, Fastly</p>
       
     
   </div>
   <div class="summary-meta">
-    <span id="checked" data-ts="2026-11-13T20:56:26+00:00">last checked 2026-11-13T20:56:26+00:00</span>
+    <span id="checked" data-ts="2026-11-13T21:40:44+00:00">last checked 2026-11-13T21:40:44+00:00</span>
     <span>33 monitored</span>
   </div>
 </section>
@@ -253,39 +253,6 @@
   
   <article class="card service"
            data-level="degraded"
-           data-tags="DevTools"
-           data-issue="1">
-    <div class="service-head">
-      <span class="avatar" aria-hidden="true">G</span>
-      <div class="service-id">
-        <h2>GitHub</h2>
-        <a class="service-url" href="https://www.githubstatus.com" target="_blank" rel="noopener">www.githubstatus.com</a>
-      </div>
-      <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #fab219">
-        <span class="badge-icon" aria-hidden="true">▲</span>Degraded Performance
-      </span>
-    </div>
-
-    <p class="headline">Copilot experiencing degraded model availability for some GPT models</p>
-
-    
-    <ul class="incidents">
-      
-        <li><a href="https://stspg.io/cppzsh0j19vy" target="_blank" rel="noopener">Copilot experiencing degraded model availability for some GPT models</a> <em>minor</em></li>
-      
-      
-    </ul>
-    
-
-    <div class="tags">
-      <span class="tag">DevTools</span>
-      <span class="tag since">since 20:56Z</span>
-    </div>
-  </article>
-  
-  <article class="card service"
-           data-level="degraded"
            data-tags="MSFT,SaaS"
            data-issue="1">
     <div class="service-head">
@@ -313,39 +280,6 @@
 
     <div class="tags">
       <span class="tag">MSFT</span><span class="tag">SaaS</span>
-      <span class="tag since">since 21:43Z</span>
-    </div>
-  </article>
-  
-  <article class="card service"
-           data-level="degraded"
-           data-tags="SaaS"
-           data-issue="1">
-    <div class="service-head">
-      <span class="avatar" aria-hidden="true">N</span>
-      <div class="service-id">
-        <h2>Notion</h2>
-        <a class="service-url" href="https://www.notion-status.com" target="_blank" rel="noopener">www.notion-status.com</a>
-      </div>
-      <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #fab219">
-        <span class="badge-icon" aria-hidden="true">▲</span>Degraded Performance
-      </span>
-    </div>
-
-    <p class="headline">Issues with outlook connections</p>
-
-    
-    <ul class="incidents">
-      
-        <li><a href="https://www.notion-status.com" target="_blank" rel="noopener">Issues with outlook connections</a> <em>minor</em></li>
-      
-      
-    </ul>
-    
-
-    <div class="tags">
-      <span class="tag">SaaS</span>
       <span class="tag since">since 21:43Z</span>
     </div>
   </article>
@@ -804,6 +738,34 @@
     <div class="service-head">
       <span class="avatar" aria-hidden="true">G</span>
       <div class="service-id">
+        <h2>GitHub</h2>
+        <a class="service-url" href="https://www.githubstatus.com" target="_blank" rel="noopener">www.githubstatus.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">All Systems Operational</p>
+
+    
+      <p class="noissues">No recent issues</p>
+    
+
+    <div class="tags">
+      <span class="tag">DevTools</span>
+      <span class="tag since">since 21:40Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="DevTools"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">G</span>
+      <div class="service-id">
         <h2>GitLab</h2>
         <a class="service-url" href="https://api.status.io/1.0/status/5b36dc6502d06804c08349f7" target="_blank" rel="noopener">api.status.io/1.0/status/5b36dc6502d06804c08349f7</a>
       </div>
@@ -1023,6 +985,34 @@
     <div class="tags">
       <span class="tag">Monitoring</span>
       <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="SaaS"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">N</span>
+      <div class="service-id">
+        <h2>Notion</h2>
+        <a class="service-url" href="https://www.notion-status.com" target="_blank" rel="noopener">www.notion-status.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">All Systems Operational</p>
+
+    
+      <p class="noissues">No recent issues</p>
+    
+
+    <div class="tags">
+      <span class="tag">SaaS</span>
+      <span class="tag since">since 21:40Z</span>
     </div>
   </article>
   

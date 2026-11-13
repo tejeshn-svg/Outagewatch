@@ -47,3 +47,5 @@
 {"at": "2026-11-13T19:14:15+00:00", "from_level": "partial_outage", "headline": "All Systems Operational", "name": "HubSpot", "slug": "hubspot", "to_level": "operational"}
 {"at": "2026-11-13T20:56:27+00:00", "from_level": "operational", "headline": "Storage Network Maintenance Ongoing in TOR1", "name": "DigitalOcean", "slug": "digitalocean", "to_level": "maintenance"}
 {"at": "2026-11-13T20:56:27+00:00", "from_level": "operational", "headline": "Copilot experiencing degraded model availability for some GPT models", "name": "GitHub", "slug": "github", "to_level": "degraded"}
+{"at": "2026-11-13T21:40:44+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "GitHub", "slug": "github", "to_level": "operational"}
+{"at": "2026-11-13T21:40:44+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "Notion", "slug": "notion", "to_level": "operational"}
