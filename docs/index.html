@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>OutageWatch &middot; 11 issues</title>
+  <title>OutageWatch &middot; 12 issues</title>
   <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
@@ -50,19 +50,19 @@
 <!-- ===== Summary bar: the single most important element on the page ===== -->
 <section class="summary alarm">
   <div class="summary-count">
-    <strong>11</strong>
+    <strong>12</strong>
     <span>issues</span>
   </div>
   <div class="summary-body">
     
       
-      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Anthropic, Cloudflare, HubSpot, Amazon Web Services, Asana, Microsoft 365, Notion, OpenAI, SendGrid, Twilio, Zoom</p>
-      <p><span class="dot" style="background:#6b7280"></span><b>Maintenance:</b> Fastly</p>
+      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, HubSpot, Amazon Web Services, Anthropic, Asana, GitHub, Microsoft 365, Notion, OpenAI, SendGrid, Twilio, Zoom</p>
+      <p><span class="dot" style="background:#6b7280"></span><b>Maintenance:</b> DigitalOcean, Fastly</p>
       
     
   </div>
   <div class="summary-meta">
-    <span id="checked" data-ts="2026-11-13T15:30:10+00:00">last checked 2026-11-13T15:30:10+00:00</span>
+    <span id="checked" data-ts="2026-11-13T16:26:58+00:00">last checked 2026-11-13T16:26:58+00:00</span>
     <span>33 monitored</span>
   </div>
 </section>
@@ -115,41 +115,6 @@
   
   <article class="card service"
            data-level="partial_outage"
-           data-tags="AI"
-           data-issue="1">
-    <div class="service-head">
-      <span class="avatar" aria-hidden="true">A</span>
-      <div class="service-id">
-        <h2>Anthropic</h2>
-        <a class="service-url" href="https://status.anthropic.com" target="_blank" rel="noopener">status.anthropic.com</a>
-      </div>
-      <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #ec835a">
-        <span class="badge-icon" aria-hidden="true">◆</span>Partial Outage
-      </span>
-    </div>
-
-    <p class="headline">Elevated errors on claude.ai, the Claude API, and Claude Code (+1 more)</p>
-
-    
-    <ul class="incidents">
-      
-        <li><a href="https://stspg.io/264r547qtkky" target="_blank" rel="noopener">Elevated errors on claude.ai, the Claude API, and Claude Code</a> <em>major</em></li>
-      
-        <li><a href="https://stspg.io/m0rbx38nmy1c" target="_blank" rel="noopener">Elevated errors affecting the Microsoft 365 connector</a> <em>major</em></li>
-      
-      
-    </ul>
-    
-
-    <div class="tags">
-      <span class="tag">AI</span>
-      <span class="tag since">since 14:44Z</span>
-    </div>
-  </article>
-  
-  <article class="card service"
-           data-level="partial_outage"
            data-tags="Network,CDN"
            data-issue="1">
     <div class="service-head">
@@ -164,10 +129,12 @@
       </span>
     </div>
 
-    <p class="headline">Cloudflare is currently having an issue with the r8.im registry used for Replicate model publishing and builds is currently restricted (+1 more)</p>
+    <p class="headline">Cloudflare is seeing an issue with Workers API availability (+2 more)</p>
 
     
     <ul class="incidents">
+      
+        <li><a href="https://www.cloudflarestatus.com/incidents/e7ktq32gphhe" target="_blank" rel="noopener">Cloudflare is seeing an issue with Workers API availability</a> <em>minor</em></li>
       
         <li><a href="https://www.cloudflarestatus.com/incidents/mc91s22odfvf" target="_blank" rel="noopener">Cloudflare is currently having an issue with the r8.im registry used for Replicate model publishing and builds is currently restricted</a> <em>minor</em></li>
       
@@ -253,6 +220,39 @@
   
   <article class="card service"
            data-level="degraded"
+           data-tags="AI"
+           data-issue="1">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">A</span>
+      <div class="service-id">
+        <h2>Anthropic</h2>
+        <a class="service-url" href="https://status.anthropic.com" target="_blank" rel="noopener">status.anthropic.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #fab219">
+        <span class="badge-icon" aria-hidden="true">▲</span>Degraded Performance
+      </span>
+    </div>
+
+    <p class="headline">Elevated errors affecting the Microsoft 365 connector</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://stspg.io/m0rbx38nmy1c" target="_blank" rel="noopener">Elevated errors affecting the Microsoft 365 connector</a> <em>major</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">AI</span>
+      <span class="tag since">since 16:26Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="degraded"
            data-tags="SaaS"
            data-issue="1">
     <div class="service-head">
@@ -286,6 +286,39 @@
   
   <article class="card service"
            data-level="degraded"
+           data-tags="DevTools"
+           data-issue="1">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">G</span>
+      <div class="service-id">
+        <h2>GitHub</h2>
+        <a class="service-url" href="https://www.githubstatus.com" target="_blank" rel="noopener">www.githubstatus.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #fab219">
+        <span class="badge-icon" aria-hidden="true">▲</span>Degraded Performance
+      </span>
+    </div>
+
+    <p class="headline">Incident with Pull Requests</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://stspg.io/qzj7qjdcr8jc" target="_blank" rel="noopener">Incident with Pull Requests</a> <em>major</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">DevTools</span>
+      <span class="tag since">since 16:26Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="degraded"
            data-tags="MSFT,SaaS"
            data-issue="1">
     <div class="service-head">
@@ -300,12 +333,12 @@
       </span>
     </div>
 
-    <p class="headline">More info: Features of the Microsoft 365 services below that interact with Exchange Online and email services are impacted. Elements of those services that do n</p>
+    <p class="headline">Current status: We remain focused on addressing residual impact and ensuring reliable service restoration. We continue to assess recovery across various connect</p>
 
     
     <ul class="incidents">
       
-        <li><a href="https://status.cloud.microsoft/" target="_blank" rel="noopener">More info: Features of the Microsoft 365 services below that interact with Exchange Online and email services are impacted. Elements of those services that do n</a> <em>ServiceDegradation</em></li>
+        <li><a href="https://status.cloud.microsoft/" target="_blank" rel="noopener">Current status: We remain focused on addressing residual impact and ensuring reliable service restoration. We continue to assess recovery across various connect</a> <em>ServiceDegradation</em></li>
       
       
     </ul>
@@ -366,12 +399,14 @@
       </span>
     </div>
 
-    <p class="headline">Elevated errors affecting the Microsoft 365 connector</p>
+    <p class="headline">Elevated errors affecting the Microsoft 365 connector (+1 more)</p>
 
     
     <ul class="incidents">
       
         <li><a href="https://status.openai.com" target="_blank" rel="noopener">Elevated errors affecting the Microsoft 365 connector</a> <em>minor</em></li>
+      
+        <li><a href="https://status.openai.com" target="_blank" rel="noopener">Delayed Costs Data in the Compliance API</a> <em>minor</em></li>
       
       
     </ul>
@@ -399,18 +434,18 @@
       </span>
     </div>
 
-    <p class="headline">Email Delivery Delays to Microsoft Inboxes (+6 more)</p>
+    <p class="headline">Silent Network Authentication (SNA) Failure Increase and Gateway API (Lookup API) Failure Increase in United Kingdom (+7 more)</p>
 
     
     <ul class="incidents">
       
-        <li><a href="https://stspg.io/6f5v3h5q1mkr" target="_blank" rel="noopener">Email Delivery Delays to Microsoft Inboxes</a> <em>minor</em></li>
-      
         <li><a href="https://stspg.io/q7mwctqn3ghg" target="_blank" rel="noopener">Silent Network Authentication (SNA) Failure Increase and Gateway API (Lookup API) Failure Increase in United Kingdom</a> <em>minor</em></li>
       
-        <li><a href="https://stspg.io/tbsjgc4grpsw" target="_blank" rel="noopener">Voice Call Failures From a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines</a> <em>minor</em></li>
+        <li><a href="https://stspg.io/4pmp24zbrkp0" target="_blank" rel="noopener">SMS Delivery Delays from a Subset of Twilio Short Codes to Multiple Networks in India</a> <em>minor</em></li>
       
-      <li class="more">+4 more</li>
+        <li><a href="https://stspg.io/6f5v3h5q1mkr" target="_blank" rel="noopener">Email Delivery Delays to Microsoft Inboxes</a> <em>minor</em></li>
+      
+      <li class="more">+5 more</li>
     </ul>
     
 
@@ -436,18 +471,18 @@
       </span>
     </div>
 
-    <p class="headline">Email Delivery Delays to Microsoft Inboxes (+6 more)</p>
+    <p class="headline">Silent Network Authentication (SNA) Failure Increase and Gateway API (Lookup API) Failure Increase in United Kingdom (+7 more)</p>
 
     
     <ul class="incidents">
       
-        <li><a href="https://stspg.io/6f5v3h5q1mkr" target="_blank" rel="noopener">Email Delivery Delays to Microsoft Inboxes</a> <em>minor</em></li>
-      
         <li><a href="https://stspg.io/q7mwctqn3ghg" target="_blank" rel="noopener">Silent Network Authentication (SNA) Failure Increase and Gateway API (Lookup API) Failure Increase in United Kingdom</a> <em>minor</em></li>
       
-        <li><a href="https://stspg.io/tbsjgc4grpsw" target="_blank" rel="noopener">Voice Call Failures From a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines</a> <em>minor</em></li>
+        <li><a href="https://stspg.io/4pmp24zbrkp0" target="_blank" rel="noopener">SMS Delivery Delays from a Subset of Twilio Short Codes to Multiple Networks in India</a> <em>minor</em></li>
       
-      <li class="more">+4 more</li>
+        <li><a href="https://stspg.io/6f5v3h5q1mkr" target="_blank" rel="noopener">Email Delivery Delays to Microsoft Inboxes</a> <em>minor</em></li>
+      
+      <li class="more">+5 more</li>
     </ul>
     
 
@@ -491,6 +526,39 @@
     <div class="tags">
       <span class="tag">Comms</span>
       <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="maintenance"
+           data-tags="Cloud"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">D</span>
+      <div class="service-id">
+        <h2>DigitalOcean</h2>
+        <a class="service-url" href="https://status.digitalocean.com" target="_blank" rel="noopener">status.digitalocean.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #6b7280">
+        <span class="badge-icon" aria-hidden="true">■</span>Maintenance
+      </span>
+    </div>
+
+    <p class="headline">Storage Network Maintenance in TOR1</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://status.digitalocean.com" target="_blank" rel="noopener">Storage Network Maintenance in TOR1</a> <em>maintenance</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">Cloud</span>
+      <span class="tag since">since 16:26Z</span>
     </div>
   </article>
   
@@ -680,34 +748,6 @@
   
   <article class="card service"
            data-level="operational"
-           data-tags="Cloud"
-           data-issue="0">
-    <div class="service-head">
-      <span class="avatar" aria-hidden="true">D</span>
-      <div class="service-id">
-        <h2>DigitalOcean</h2>
-        <a class="service-url" href="https://status.digitalocean.com" target="_blank" rel="noopener">status.digitalocean.com</a>
-      </div>
-      <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #0ca30c">
-        <span class="badge-icon" aria-hidden="true">●</span>Operational
-      </span>
-    </div>
-
-    <p class="headline">All Systems Operational</p>
-
-    
-      <p class="noissues">No recent issues</p>
-    
-
-    <div class="tags">
-      <span class="tag">Cloud</span>
-      <span class="tag since">since 21:43Z</span>
-    </div>
-  </article>
-  
-  <article class="card service"
-           data-level="operational"
            data-tags="Comms"
            data-issue="0">
     <div class="service-head">
@@ -786,34 +826,6 @@
 
     <div class="tags">
       <span class="tag">SaaS</span>
-      <span class="tag since">since 21:43Z</span>
-    </div>
-  </article>
-  
-  <article class="card service"
-           data-level="operational"
-           data-tags="DevTools"
-           data-issue="0">
-    <div class="service-head">
-      <span class="avatar" aria-hidden="true">G</span>
-      <div class="service-id">
-        <h2>GitHub</h2>
-        <a class="service-url" href="https://www.githubstatus.com" target="_blank" rel="noopener">www.githubstatus.com</a>
-      </div>
-      <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #0ca30c">
-        <span class="badge-icon" aria-hidden="true">●</span>Operational
-      </span>
-    </div>
-
-    <p class="headline">All Systems Operational</p>
-
-    
-      <p class="noissues">No recent issues</p>
-    
-
-    <div class="tags">
-      <span class="tag">DevTools</span>
       <span class="tag since">since 21:43Z</span>
     </div>
   </article>
