@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>OutageWatch &middot; 10 issues</title>
+  <title>OutageWatch &middot; 11 issues</title>
   <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
@@ -50,19 +50,19 @@
 <!-- ===== Summary bar: the single most important element on the page ===== -->
 <section class="summary alarm">
   <div class="summary-count">
-    <strong>10</strong>
+    <strong>11</strong>
     <span>issues</span>
   </div>
   <div class="summary-body">
     
       
-      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, Amazon Web Services, Anthropic, Asana, Microsoft 365, Notion, OpenAI, SendGrid, Twilio, Zoom</p>
-      <p><span class="dot" style="background:#6b7280"></span><b>Maintenance:</b> Fastly</p>
+      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, Amazon Web Services, Anthropic, Asana, GitHub, Microsoft 365, Notion, OpenAI, SendGrid, Twilio, Zoom</p>
+      <p><span class="dot" style="background:#6b7280"></span><b>Maintenance:</b> DigitalOcean, Fastly</p>
       
     
   </div>
   <div class="summary-meta">
-    <span id="checked" data-ts="2026-11-13T20:07:40+00:00">last checked 2026-11-13T20:07:40+00:00</span>
+    <span id="checked" data-ts="2026-11-13T20:56:26+00:00">last checked 2026-11-13T20:56:26+00:00</span>
     <span>33 monitored</span>
   </div>
 </section>
@@ -248,6 +248,39 @@
     <div class="tags">
       <span class="tag">SaaS</span>
       <span class="tag since">since 10:42Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="degraded"
+           data-tags="DevTools"
+           data-issue="1">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">G</span>
+      <div class="service-id">
+        <h2>GitHub</h2>
+        <a class="service-url" href="https://www.githubstatus.com" target="_blank" rel="noopener">www.githubstatus.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #fab219">
+        <span class="badge-icon" aria-hidden="true">▲</span>Degraded Performance
+      </span>
+    </div>
+
+    <p class="headline">Copilot experiencing degraded model availability for some GPT models</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://stspg.io/cppzsh0j19vy" target="_blank" rel="noopener">Copilot experiencing degraded model availability for some GPT models</a> <em>minor</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">DevTools</span>
+      <span class="tag since">since 20:56Z</span>
     </div>
   </article>
   
@@ -465,6 +498,39 @@
   
   <article class="card service"
            data-level="maintenance"
+           data-tags="Cloud"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">D</span>
+      <div class="service-id">
+        <h2>DigitalOcean</h2>
+        <a class="service-url" href="https://status.digitalocean.com" target="_blank" rel="noopener">status.digitalocean.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #6b7280">
+        <span class="badge-icon" aria-hidden="true">■</span>Maintenance
+      </span>
+    </div>
+
+    <p class="headline">Storage Network Maintenance Ongoing in TOR1</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://status.digitalocean.com" target="_blank" rel="noopener">Storage Network Maintenance Ongoing in TOR1</a> <em>maintenance</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">Cloud</span>
+      <span class="tag since">since 20:56Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="maintenance"
            data-tags="Network,CDN"
            data-issue="0">
     <div class="service-head">
@@ -649,34 +715,6 @@
   
   <article class="card service"
            data-level="operational"
-           data-tags="Cloud"
-           data-issue="0">
-    <div class="service-head">
-      <span class="avatar" aria-hidden="true">D</span>
-      <div class="service-id">
-        <h2>DigitalOcean</h2>
-        <a class="service-url" href="https://status.digitalocean.com" target="_blank" rel="noopener">status.digitalocean.com</a>
-      </div>
-      <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #0ca30c">
-        <span class="badge-icon" aria-hidden="true">●</span>Operational
-      </span>
-    </div>
-
-    <p class="headline">All Systems Operational</p>
-
-    
-      <p class="noissues">No recent issues</p>
-    
-
-    <div class="tags">
-      <span class="tag">Cloud</span>
-      <span class="tag since">since 19:14Z</span>
-    </div>
-  </article>
-  
-  <article class="card service"
-           data-level="operational"
            data-tags="Comms"
            data-issue="0">
     <div class="service-head">
@@ -756,34 +794,6 @@
     <div class="tags">
       <span class="tag">SaaS</span>
       <span class="tag since">since 21:43Z</span>
-    </div>
-  </article>
-  
-  <article class="card service"
-           data-level="operational"
-           data-tags="DevTools"
-           data-issue="0">
-    <div class="service-head">
-      <span class="avatar" aria-hidden="true">G</span>
-      <div class="service-id">
-        <h2>GitHub</h2>
-        <a class="service-url" href="https://www.githubstatus.com" target="_blank" rel="noopener">www.githubstatus.com</a>
-      </div>
-      <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #0ca30c">
-        <span class="badge-icon" aria-hidden="true">●</span>Operational
-      </span>
-    </div>
-
-    <p class="headline">All Systems Operational</p>
-
-    
-      <p class="noissues">No recent issues</p>
-    
-
-    <div class="tags">
-      <span class="tag">DevTools</span>
-      <span class="tag since">since 18:14Z</span>
     </div>
   </article>
   
