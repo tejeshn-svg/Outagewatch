@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>OutageWatch &middot; 10 issues</title>
+  <title>OutageWatch &middot; 11 issues</title>
   <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
@@ -36,8 +36,8 @@
     <span class="corr-tag">Correlated</span>
     <div class="corr-body">
       <h2><strong>Microsoft</strong> may be having problems</h2>
-      <p>5 independent services are reporting it:
-         <span class="corr-vendors">Anthropic, Notion, OpenAI, SendGrid/Twilio, Zoom</span></p>
+      <p>6 independent services are reporting it:
+         <span class="corr-vendors">Anthropic, Asana, Notion, OpenAI, SendGrid/Twilio, Zoom</span></p>
       <p class="corr-note">Inferred from other vendors' incident reports &mdash;
          Microsoft's own status page may not say so yet.</p>
     </div>
@@ -50,19 +50,19 @@
 <!-- ===== Summary bar: the single most important element on the page ===== -->
 <section class="summary alarm">
   <div class="summary-count">
-    <strong>10</strong>
+    <strong>11</strong>
     <span>issues</span>
   </div>
   <div class="summary-body">
     
-      
-      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, HubSpot, Amazon Web Services, Anthropic, Microsoft 365, Notion, OpenAI, SendGrid, Twilio, Zoom</p>
+      <p><span class="dot" style="background:#d03b3b"></span><b>Outage:</b> Anthropic</p>
+      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, HubSpot, Amazon Web Services, Asana, Microsoft 365, Notion, OpenAI, SendGrid, Twilio, Zoom</p>
       <p><span class="dot" style="background:#6b7280"></span><b>Maintenance:</b> Fastly</p>
       
     
   </div>
   <div class="summary-meta">
-    <span id="checked" data-ts="2026-11-13T09:43:20+00:00">last checked 2026-11-13T09:43:20+00:00</span>
+    <span id="checked" data-ts="2026-11-13T10:42:16+00:00">last checked 2026-11-13T10:42:16+00:00</span>
     <span>33 monitored</span>
   </div>
 </section>
@@ -112,6 +112,41 @@
 
 <!-- ===== Service list ===== -->
 <section class="grid" id="grid">
+  
+  <article class="card service"
+           data-level="major_outage"
+           data-tags="AI"
+           data-issue="1">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">A</span>
+      <div class="service-id">
+        <h2>Anthropic</h2>
+        <a class="service-url" href="https://status.anthropic.com" target="_blank" rel="noopener">status.anthropic.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #d03b3b">
+        <span class="badge-icon" aria-hidden="true">✖</span>Service Outage
+      </span>
+    </div>
+
+    <p class="headline">Elevated errors on claude.ai, Claude Code, and platform.claude.com (+1 more)</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://stspg.io/6kqyd0c5b1gr" target="_blank" rel="noopener">Elevated errors on claude.ai, Claude Code, and platform.claude.com</a> <em>major</em></li>
+      
+        <li><a href="https://stspg.io/m0rbx38nmy1c" target="_blank" rel="noopener">Elevated errors affecting the Microsoft 365 connector</a> <em>major</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">AI</span>
+      <span class="tag since">since 10:42Z</span>
+    </div>
+  </article>
   
   <article class="card service"
            data-level="partial_outage"
@@ -216,13 +251,13 @@
   
   <article class="card service"
            data-level="degraded"
-           data-tags="AI"
+           data-tags="SaaS"
            data-issue="1">
     <div class="service-head">
       <span class="avatar" aria-hidden="true">A</span>
       <div class="service-id">
-        <h2>Anthropic</h2>
-        <a class="service-url" href="https://status.anthropic.com" target="_blank" rel="noopener">status.anthropic.com</a>
+        <h2>Asana</h2>
+        <a class="service-url" href="https://status.asana.com" target="_blank" rel="noopener">status.asana.com</a>
       </div>
       <!-- icon + text, never colour alone -->
       <span class="badge" style="--c: #fab219">
@@ -230,20 +265,20 @@
       </span>
     </div>
 
-    <p class="headline">Elevated errors affecting the Microsoft 365 connector</p>
+    <p class="headline">Integrations with Outlook are unavailable or degraded</p>
 
     
     <ul class="incidents">
       
-        <li><a href="https://stspg.io/m0rbx38nmy1c" target="_blank" rel="noopener">Elevated errors affecting the Microsoft 365 connector</a> <em>major</em></li>
+        <li><a href="https://stspg.io/6qwxt3g9j110" target="_blank" rel="noopener">Integrations with Outlook are unavailable or degraded</a> <em>minor</em></li>
       
       
     </ul>
     
 
     <div class="tags">
-      <span class="tag">AI</span>
-      <span class="tag since">since 22:28Z</span>
+      <span class="tag">SaaS</span>
+      <span class="tag since">since 10:42Z</span>
     </div>
   </article>
   
@@ -362,14 +397,14 @@
       </span>
     </div>
 
-    <p class="headline">Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers (+7 more)</p>
+    <p class="headline">Email Delivery Delays to Microsoft Inboxes (+7 more)</p>
 
     
     <ul class="incidents">
       
-        <li><a href="https://stspg.io/ppx46z753zjr" target="_blank" rel="noopener">Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers</a> <em>minor</em></li>
-      
         <li><a href="https://stspg.io/6f5v3h5q1mkr" target="_blank" rel="noopener">Email Delivery Delays to Microsoft Inboxes</a> <em>minor</em></li>
+      
+        <li><a href="https://stspg.io/ppx46z753zjr" target="_blank" rel="noopener">Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers</a> <em>minor</em></li>
       
         <li><a href="https://stspg.io/kwdmd91r9qjd" target="_blank" rel="noopener">SMS Delivery Receipt Failures from Twilio to Claro Costa Rica</a> <em>minor</em></li>
       
@@ -399,14 +434,14 @@
       </span>
     </div>
 
-    <p class="headline">Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers (+7 more)</p>
+    <p class="headline">Email Delivery Delays to Microsoft Inboxes (+7 more)</p>
 
     
     <ul class="incidents">
       
-        <li><a href="https://stspg.io/ppx46z753zjr" target="_blank" rel="noopener">Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers</a> <em>minor</em></li>
-      
         <li><a href="https://stspg.io/6f5v3h5q1mkr" target="_blank" rel="noopener">Email Delivery Delays to Microsoft Inboxes</a> <em>minor</em></li>
+      
+        <li><a href="https://stspg.io/ppx46z753zjr" target="_blank" rel="noopener">Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers</a> <em>minor</em></li>
       
         <li><a href="https://stspg.io/kwdmd91r9qjd" target="_blank" rel="noopener">SMS Delivery Receipt Failures from Twilio to Claro Costa Rica</a> <em>minor</em></li>
       
@@ -436,14 +471,14 @@
       </span>
     </div>
 
-    <p class="headline">Service Degradation Affecting Microsoft Integrations due to an underlying vendor issue. (+4 more)</p>
+    <p class="headline">Service Degradation Affecting Zoom Phone Calls in China Region (+4 more)</p>
 
     
     <ul class="incidents">
       
-        <li><a href="https://stspg.io/jth16cll1kcf" target="_blank" rel="noopener">Service Degradation Affecting Microsoft Integrations due to an underlying vendor issue.</a> <em>minor</em></li>
+        <li><a href="https://stspg.io/7s0ygj0dbwms" target="_blank" rel="noopener">Service Degradation Affecting Zoom Phone Calls in China Region</a> <em>minor</em></li>
       
-        <li><a href="https://status.zoom.us" target="_blank" rel="noopener">Zoom Virtual Agent Update: November 13, 2026 (No Operational Impact)</a> <em>maintenance</em></li>
+        <li><a href="https://stspg.io/jth16cll1kcf" target="_blank" rel="noopener">Service Degradation Affecting Microsoft Integrations due to an underlying vendor issue.</a> <em>minor</em></li>
       
         <li><a href="https://status.zoom.us" target="_blank" rel="noopener">Zoom Team Chat Update</a> <em>maintenance</em></li>
       
@@ -553,34 +588,6 @@
 
     <div class="tags">
       <span class="tag">Cloud</span>
-      <span class="tag since">since 21:43Z</span>
-    </div>
-  </article>
-  
-  <article class="card service"
-           data-level="operational"
-           data-tags="SaaS"
-           data-issue="0">
-    <div class="service-head">
-      <span class="avatar" aria-hidden="true">A</span>
-      <div class="service-id">
-        <h2>Asana</h2>
-        <a class="service-url" href="https://status.asana.com" target="_blank" rel="noopener">status.asana.com</a>
-      </div>
-      <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #0ca30c">
-        <span class="badge-icon" aria-hidden="true">●</span>Operational
-      </span>
-    </div>
-
-    <p class="headline">All Systems Operational</p>
-
-    
-      <p class="noissues">No recent issues</p>
-    
-
-    <div class="tags">
-      <span class="tag">SaaS</span>
       <span class="tag since">since 21:43Z</span>
     </div>
   </article>
