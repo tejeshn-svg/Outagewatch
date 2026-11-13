@@ -49,3 +49,5 @@
 {"at": "2026-11-13T20:56:27+00:00", "from_level": "operational", "headline": "Copilot experiencing degraded model availability for some GPT models", "name": "GitHub", "slug": "github", "to_level": "degraded"}
 {"at": "2026-11-13T21:40:44+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "GitHub", "slug": "github", "to_level": "operational"}
 {"at": "2026-11-13T21:40:44+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "Notion", "slug": "notion", "to_level": "operational"}
+{"at": "2026-11-13T22:27:53+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "Anthropic", "slug": "anthropic", "to_level": "operational"}
+{"at": "2026-11-13T22:27:53+00:00", "from_level": "degraded", "headline": "Integrations with Outlook are unavailable or degraded", "name": "Asana", "slug": "asana", "to_level": "operational"}
