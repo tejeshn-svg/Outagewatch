@@ -1,13 +1,1 @@
-[
- {
-  "entity": "Microsoft",
-  "first_seen": "2026-11-12T21:43:43+00:00",
-  "groups": 3,
-  "last_seen": "2026-11-13T23:52:44+00:00",
-  "vendors": [
-   "OpenAI",
-   "SendGrid/Twilio",
-   "Zoom"
-  ]
- }
-]
+[]
