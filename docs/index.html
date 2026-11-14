@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>OutageWatch &middot; 7 issues</title>
+  <title>OutageWatch &middot; 8 issues</title>
   <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
@@ -34,19 +34,19 @@
 <!-- ===== Summary bar: the single most important element on the page ===== -->
 <section class="summary alarm">
   <div class="summary-count">
-    <strong>7</strong>
+    <strong>8</strong>
     <span>issues</span>
   </div>
   <div class="summary-body">
     
       
-      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, Amazon Web Services, Microsoft 365, OpenAI, SendGrid, Twilio, Zoom</p>
+      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, Amazon Web Services, Anthropic, Microsoft 365, OpenAI, SendGrid, Twilio, Zoom</p>
       <p><span class="dot" style="background:#6b7280"></span><b>Maintenance:</b> Fastly</p>
       
     
   </div>
   <div class="summary-meta">
-    <span id="checked" data-ts="2026-11-14T02:31:18+00:00">last checked 2026-11-14T02:31:18+00:00</span>
+    <span id="checked" data-ts="2026-11-14T03:26:17+00:00">last checked 2026-11-14T03:26:17+00:00</span>
     <span>33 monitored</span>
   </div>
 </section>
@@ -169,6 +169,39 @@
   
   <article class="card service"
            data-level="degraded"
+           data-tags="AI"
+           data-issue="1">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">A</span>
+      <div class="service-id">
+        <h2>Anthropic</h2>
+        <a class="service-url" href="https://status.anthropic.com" target="_blank" rel="noopener">status.anthropic.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #fab219">
+        <span class="badge-icon" aria-hidden="true">▲</span>Degraded Performance
+      </span>
+    </div>
+
+    <p class="headline">Elevated purchasing errors on claude.ai</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://stspg.io/qqf00d9r7pm4" target="_blank" rel="noopener">Elevated purchasing errors on claude.ai</a> <em>major</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">AI</span>
+      <span class="tag since">since 03:26Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="degraded"
            data-tags="MSFT,SaaS"
            data-issue="1">
     <div class="service-head">
@@ -249,16 +282,16 @@
       </span>
     </div>
 
-    <p class="headline">SMS Delivery Delays from Twilio to Brisanet Servicos De Telecomunicacoes SA Brazil (+8 more)</p>
+    <p class="headline">SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to Multiple Networks in Chile (+8 more)</p>
 
     
     <ul class="incidents">
       
+        <li><a href="https://stspg.io/92y684hgthhn" target="_blank" rel="noopener">SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to Multiple Networks in Chile</a> <em>minor</em></li>
+      
         <li><a href="https://stspg.io/pk3sl22ss1pz" target="_blank" rel="noopener">SMS Delivery Delays from Twilio to Brisanet Servicos De Telecomunicacoes SA Brazil</a> <em>minor</em></li>
       
         <li><a href="https://stspg.io/6f5v3h5q1mkr" target="_blank" rel="noopener">Email Delivery Delays to Microsoft Inboxes</a> <em>minor</em></li>
-      
-        <li><a href="https://stspg.io/d1z06pb4y654" target="_blank" rel="noopener">Voice Call Failures from Twilio Phone Numbers to Multiple Networks in Colombia, Mexico, Chile, and Costa Rica</a> <em>minor</em></li>
       
       <li class="more">+6 more</li>
     </ul>
@@ -286,16 +319,16 @@
       </span>
     </div>
 
-    <p class="headline">SMS Delivery Delays from Twilio to Brisanet Servicos De Telecomunicacoes SA Brazil (+8 more)</p>
+    <p class="headline">SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to Multiple Networks in Chile (+8 more)</p>
 
     
     <ul class="incidents">
       
+        <li><a href="https://stspg.io/92y684hgthhn" target="_blank" rel="noopener">SMS Delivery Receipt Delays from a Subset of Twilio Long Codes to Multiple Networks in Chile</a> <em>minor</em></li>
+      
         <li><a href="https://stspg.io/pk3sl22ss1pz" target="_blank" rel="noopener">SMS Delivery Delays from Twilio to Brisanet Servicos De Telecomunicacoes SA Brazil</a> <em>minor</em></li>
       
         <li><a href="https://stspg.io/6f5v3h5q1mkr" target="_blank" rel="noopener">Email Delivery Delays to Microsoft Inboxes</a> <em>minor</em></li>
-      
-        <li><a href="https://stspg.io/d1z06pb4y654" target="_blank" rel="noopener">Voice Call Failures from Twilio Phone Numbers to Multiple Networks in Colombia, Mexico, Chile, and Costa Rica</a> <em>minor</em></li>
       
       <li class="more">+6 more</li>
     </ul>
@@ -441,34 +474,6 @@
     <div class="tags">
       <span class="tag">Cloud</span>
       <span class="tag since">since 21:43Z</span>
-    </div>
-  </article>
-  
-  <article class="card service"
-           data-level="operational"
-           data-tags="AI"
-           data-issue="0">
-    <div class="service-head">
-      <span class="avatar" aria-hidden="true">A</span>
-      <div class="service-id">
-        <h2>Anthropic</h2>
-        <a class="service-url" href="https://status.anthropic.com" target="_blank" rel="noopener">status.anthropic.com</a>
-      </div>
-      <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #0ca30c">
-        <span class="badge-icon" aria-hidden="true">●</span>Operational
-      </span>
-    </div>
-
-    <p class="headline">All Systems Operational</p>
-
-    
-      <p class="noissues">No recent issues</p>
-    
-
-    <div class="tags">
-      <span class="tag">AI</span>
-      <span class="tag since">since 22:27Z</span>
     </div>
   </article>
   
