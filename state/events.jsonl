@@ -56,3 +56,4 @@
 {"at": "2026-11-14T05:18:14+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "Anthropic", "slug": "anthropic", "to_level": "operational"}
 {"at": "2026-11-14T06:07:21+00:00", "from_level": "degraded", "headline": "No active events", "name": "Microsoft 365", "slug": "microsoft-365", "to_level": "operational"}
 {"at": "2026-11-14T08:03:38+00:00", "from_level": "operational", "headline": "Some users unable to sign up with Apple on the Claude iOS app", "name": "Anthropic", "slug": "anthropic", "to_level": "degraded"}
+{"at": "2026-11-14T09:35:56+00:00", "from_level": "degraded", "headline": "Zoom Conference Room Connector DNS Changes: November 14, 2026 (No Operational Impact) (+5 more)", "name": "Zoom", "slug": "zoom", "to_level": "maintenance"}
