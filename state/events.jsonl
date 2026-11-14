@@ -54,3 +54,4 @@
 {"at": "2026-11-14T01:44:40+00:00", "from_level": "maintenance", "headline": "All Systems Operational", "name": "DigitalOcean", "slug": "digitalocean", "to_level": "operational"}
 {"at": "2026-11-14T03:26:17+00:00", "from_level": "operational", "headline": "Elevated purchasing errors on claude.ai", "name": "Anthropic", "slug": "anthropic", "to_level": "degraded"}
 {"at": "2026-11-14T05:18:14+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "Anthropic", "slug": "anthropic", "to_level": "operational"}
+{"at": "2026-11-14T06:07:21+00:00", "from_level": "degraded", "headline": "No active events", "name": "Microsoft 365", "slug": "microsoft-365", "to_level": "operational"}
