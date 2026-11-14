@@ -51,3 +51,4 @@
 {"at": "2026-11-13T21:40:44+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "Notion", "slug": "notion", "to_level": "operational"}
 {"at": "2026-11-13T22:27:53+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "Anthropic", "slug": "anthropic", "to_level": "operational"}
 {"at": "2026-11-13T22:27:53+00:00", "from_level": "degraded", "headline": "Integrations with Outlook are unavailable or degraded", "name": "Asana", "slug": "asana", "to_level": "operational"}
+{"at": "2026-11-14T01:44:40+00:00", "from_level": "maintenance", "headline": "All Systems Operational", "name": "DigitalOcean", "slug": "digitalocean", "to_level": "operational"}
