@@ -59,3 +59,4 @@
 {"at": "2026-11-14T09:35:56+00:00", "from_level": "degraded", "headline": "Zoom Conference Room Connector DNS Changes: November 14, 2026 (No Operational Impact) (+5 more)", "name": "Zoom", "slug": "zoom", "to_level": "maintenance"}
 {"at": "2026-11-15T04:26:14+00:00", "from_level": "maintenance", "headline": "Service Degradation Affecting Zoom Workflow Service (+2 more)", "name": "Zoom", "slug": "zoom", "to_level": "degraded"}
 {"at": "2026-11-15T06:17:56+00:00", "from_level": "degraded", "headline": "Service Degradation Affecting Zoom Workflow Service (+2 more)", "name": "Zoom", "slug": "zoom", "to_level": "maintenance"}
+{"at": "2026-11-16T01:46:45+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "OpenAI", "slug": "openai", "to_level": "operational"}
