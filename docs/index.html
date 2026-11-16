@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>OutageWatch &middot; 6 issues</title>
+  <title>OutageWatch &middot; 7 issues</title>
   <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
@@ -34,19 +34,19 @@
 <!-- ===== Summary bar: the single most important element on the page ===== -->
 <section class="summary alarm">
   <div class="summary-count">
-    <strong>6</strong>
+    <strong>7</strong>
     <span>issues</span>
   </div>
   <div class="summary-body">
     
       
-      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Anthropic, Cloudflare, Amazon Web Services, Reddit, SendGrid, Twilio</p>
-      <p><span class="dot" style="background:#6b7280"></span><b>Maintenance:</b> Fastly, Zoom</p>
+      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Anthropic, Cloudflare, Amazon Web Services, Bitbucket, Reddit, SendGrid, Twilio</p>
+      <p><span class="dot" style="background:#6b7280"></span><b>Maintenance:</b> Akamai Linode, Fastly, Zoom</p>
       
     
   </div>
   <div class="summary-meta">
-    <span id="checked" data-ts="2026-11-16T10:54:17+00:00">last checked 2026-11-16T10:54:17+00:00</span>
+    <span id="checked" data-ts="2026-11-16T11:56:56+00:00">last checked 2026-11-16T11:56:56+00:00</span>
     <span>33 monitored</span>
   </div>
 </section>
@@ -200,6 +200,39 @@
   
   <article class="card service"
            data-level="degraded"
+           data-tags="DevTools"
+           data-issue="1">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">B</span>
+      <div class="service-id">
+        <h2>Bitbucket</h2>
+        <a class="service-url" href="https://bitbucket.status.atlassian.com" target="_blank" rel="noopener">bitbucket.status.atlassian.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #fab219">
+        <span class="badge-icon" aria-hidden="true">▲</span>Degraded Performance
+      </span>
+    </div>
+
+    <p class="headline">Bitbucket Cloud website and API slowness and intermittent errors</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://stspg.io/hv1z0tk9dyxw" target="_blank" rel="noopener">Bitbucket Cloud website and API slowness and intermittent errors</a> <em>minor</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">DevTools</span>
+      <span class="tag since">since 11:56Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="degraded"
            data-tags="Consumer"
            data-issue="1">
     <div class="service-head">
@@ -247,18 +280,18 @@
       </span>
     </div>
 
-    <p class="headline">Silent Network Authentication (SNA) Missing Redirects in Philippines (+8 more)</p>
+    <p class="headline">SMS Delivery Delays from Twilio to MTN/Libertis Congo (+9 more)</p>
 
     
     <ul class="incidents">
+      
+        <li><a href="https://stspg.io/gwr6sqmydqhj" target="_blank" rel="noopener">SMS Delivery Delays from Twilio to MTN/Libertis Congo</a> <em>minor</em></li>
       
         <li><a href="https://stspg.io/3mvdqmzcv5bn" target="_blank" rel="noopener">Silent Network Authentication (SNA) Missing Redirects in Philippines</a> <em>minor</em></li>
       
         <li><a href="https://stspg.io/r61gx8rmcv9j" target="_blank" rel="noopener">SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Multiple Networks in New Zealand</a> <em>minor</em></li>
       
-        <li><a href="https://stspg.io/ppx46z753zjr" target="_blank" rel="noopener">Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Mobile Numbers</a> <em>minor</em></li>
-      
-      <li class="more">+6 more</li>
+      <li class="more">+7 more</li>
     </ul>
     
 
@@ -284,24 +317,61 @@
       </span>
     </div>
 
-    <p class="headline">Silent Network Authentication (SNA) Missing Redirects in Philippines (+8 more)</p>
+    <p class="headline">SMS Delivery Delays from Twilio to MTN/Libertis Congo (+9 more)</p>
 
     
     <ul class="incidents">
+      
+        <li><a href="https://stspg.io/gwr6sqmydqhj" target="_blank" rel="noopener">SMS Delivery Delays from Twilio to MTN/Libertis Congo</a> <em>minor</em></li>
       
         <li><a href="https://stspg.io/3mvdqmzcv5bn" target="_blank" rel="noopener">Silent Network Authentication (SNA) Missing Redirects in Philippines</a> <em>minor</em></li>
       
         <li><a href="https://stspg.io/r61gx8rmcv9j" target="_blank" rel="noopener">SMS Delivery Receipt Delays from a Subset of Twilio Short Codes to Multiple Networks in New Zealand</a> <em>minor</em></li>
       
-        <li><a href="https://stspg.io/ppx46z753zjr" target="_blank" rel="noopener">Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Mobile Numbers</a> <em>minor</em></li>
-      
-      <li class="more">+6 more</li>
+      <li class="more">+7 more</li>
     </ul>
     
 
     <div class="tags">
       <span class="tag">Comms</span>
       <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="maintenance"
+           data-tags="Cloud"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">A</span>
+      <div class="service-id">
+        <h2>Akamai Linode</h2>
+        <a class="service-url" href="https://status.linode.com" target="_blank" rel="noopener">status.linode.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #6b7280">
+        <span class="badge-icon" aria-hidden="true">■</span>Maintenance
+      </span>
+    </div>
+
+    <p class="headline">Connectivity Issue between ID-CGK (Jakarta) and SG-SIN-2 (Singapore 2) (+2 more)</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://stspg.io/d4fdnv39hb27" target="_blank" rel="noopener">Connectivity Issue between ID-CGK (Jakarta) and SG-SIN-2 (Singapore 2)</a> <em>minor</em></li>
+      
+        <li><a href="https://stspg.io/kwfn0ylk0rpt" target="_blank" rel="noopener">Service Issue - Block Storage (BR-GRU)</a> <em>none</em></li>
+      
+        <li><a href="https://status.linode.com" target="_blank" rel="noopener">Scheduled maintenance for Block storage switches - AP-West (Mumbai)</a> <em>maintenance</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">Cloud</span>
+      <span class="tag since">since 11:56Z</span>
     </div>
   </article>
   
@@ -405,41 +475,6 @@
   
   <article class="card service"
            data-level="operational"
-           data-tags="Cloud"
-           data-issue="0">
-    <div class="service-head">
-      <span class="avatar" aria-hidden="true">A</span>
-      <div class="service-id">
-        <h2>Akamai Linode</h2>
-        <a class="service-url" href="https://status.linode.com" target="_blank" rel="noopener">status.linode.com</a>
-      </div>
-      <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #0ca30c">
-        <span class="badge-icon" aria-hidden="true">●</span>Operational
-      </span>
-    </div>
-
-    <p class="headline">Connectivity Issue between ID-CGK (Jakarta) and SG-SIN-2 (Singapore 2) (+1 more)</p>
-
-    
-    <ul class="incidents">
-      
-        <li><a href="https://stspg.io/d4fdnv39hb27" target="_blank" rel="noopener">Connectivity Issue between ID-CGK (Jakarta) and SG-SIN-2 (Singapore 2)</a> <em>minor</em></li>
-      
-        <li><a href="https://stspg.io/kwfn0ylk0rpt" target="_blank" rel="noopener">Service Issue - Block Storage (BR-GRU)</a> <em>none</em></li>
-      
-      
-    </ul>
-    
-
-    <div class="tags">
-      <span class="tag">Cloud</span>
-      <span class="tag since">since 21:43Z</span>
-    </div>
-  </article>
-  
-  <article class="card service"
-           data-level="operational"
            data-tags="SaaS"
            data-issue="0">
     <div class="service-head">
@@ -490,34 +525,6 @@
 
     <div class="tags">
       <span class="tag">SaaS</span>
-      <span class="tag since">since 21:43Z</span>
-    </div>
-  </article>
-  
-  <article class="card service"
-           data-level="operational"
-           data-tags="DevTools"
-           data-issue="0">
-    <div class="service-head">
-      <span class="avatar" aria-hidden="true">B</span>
-      <div class="service-id">
-        <h2>Bitbucket</h2>
-        <a class="service-url" href="https://bitbucket.status.atlassian.com" target="_blank" rel="noopener">bitbucket.status.atlassian.com</a>
-      </div>
-      <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #0ca30c">
-        <span class="badge-icon" aria-hidden="true">●</span>Operational
-      </span>
-    </div>
-
-    <p class="headline">All Systems Operational</p>
-
-    
-      <p class="noissues">No recent issues</p>
-    
-
-    <div class="tags">
-      <span class="tag">DevTools</span>
       <span class="tag since">since 21:43Z</span>
     </div>
   </article>

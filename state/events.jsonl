@@ -62,3 +62,5 @@
 {"at": "2026-11-16T01:46:45+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "OpenAI", "slug": "openai", "to_level": "operational"}
 {"at": "2026-11-16T09:27:29+00:00", "from_level": "degraded", "headline": "Some users unable to sign up with Apple on the Claude iOS app", "name": "Anthropic", "slug": "anthropic", "to_level": "partial_outage"}
 {"at": "2026-11-16T10:54:18+00:00", "from_level": "operational", "headline": "Apple iOS App - Apple Account login issues", "name": "Reddit", "slug": "reddit", "to_level": "degraded"}
+{"at": "2026-11-16T11:56:56+00:00", "from_level": "operational", "headline": "Connectivity Issue between ID-CGK (Jakarta) and SG-SIN-2 (Singapore 2) (+2 more)", "name": "Akamai Linode", "slug": "linode", "to_level": "maintenance"}
+{"at": "2026-11-16T11:56:56+00:00", "from_level": "operational", "headline": "Bitbucket Cloud website and API slowness and intermittent errors", "name": "Bitbucket", "slug": "bitbucket", "to_level": "degraded"}
