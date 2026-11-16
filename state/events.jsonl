@@ -67,3 +67,4 @@
 {"at": "2026-11-16T14:51:30+00:00", "from_level": "maintenance", "headline": "Connectivity Issue between ID-CGK (Jakarta) and SG-SIN-2 (Singapore 2) (+1 more)", "name": "Akamai Linode", "slug": "linode", "to_level": "operational"}
 {"at": "2026-11-16T14:51:30+00:00", "from_level": "operational", "headline": "Incident with Pull Requests", "name": "GitHub", "slug": "github", "to_level": "degraded"}
 {"at": "2026-11-16T14:51:30+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "Bitbucket", "slug": "bitbucket", "to_level": "operational"}
+{"at": "2026-11-16T16:32:22+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "GitHub", "slug": "github", "to_level": "operational"}
