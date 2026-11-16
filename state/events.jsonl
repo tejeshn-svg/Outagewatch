@@ -68,3 +68,5 @@
 {"at": "2026-11-16T14:51:30+00:00", "from_level": "operational", "headline": "Incident with Pull Requests", "name": "GitHub", "slug": "github", "to_level": "degraded"}
 {"at": "2026-11-16T14:51:30+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "Bitbucket", "slug": "bitbucket", "to_level": "operational"}
 {"at": "2026-11-16T16:32:22+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "GitHub", "slug": "github", "to_level": "operational"}
+{"at": "2026-11-16T17:43:07+00:00", "from_level": "partial_outage", "headline": "Claude unable to join meetings (+1 more)", "name": "Anthropic", "slug": "anthropic", "to_level": "degraded"}
+{"at": "2026-11-16T17:43:07+00:00", "from_level": "operational", "headline": "Degraded Device Trust Authentication Experience", "name": "1Password", "slug": "1password", "to_level": "degraded"}
