@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>OutageWatch &middot; 5 issues</title>
+  <title>OutageWatch &middot; 6 issues</title>
   <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
@@ -34,19 +34,19 @@
 <!-- ===== Summary bar: the single most important element on the page ===== -->
 <section class="summary alarm">
   <div class="summary-count">
-    <strong>5</strong>
+    <strong>6</strong>
     <span>issues</span>
   </div>
   <div class="summary-body">
     
       
-      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, Amazon Web Services, Anthropic, SendGrid, Twilio</p>
-      <p><span class="dot" style="background:#6b7280"></span><b>Maintenance:</b> Fastly, Zoom</p>
+      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, Amazon Web Services, Anthropic, SendGrid, Twilio, Zoom</p>
+      <p><span class="dot" style="background:#6b7280"></span><b>Maintenance:</b> Fastly</p>
       
     
   </div>
   <div class="summary-meta">
-    <span id="checked" data-ts="2026-11-17T00:19:47+00:00">last checked 2026-11-17T00:19:47+00:00</span>
+    <span id="checked" data-ts="2026-11-17T01:39:42+00:00">last checked 2026-11-17T01:39:42+00:00</span>
     <span>33 monitored</span>
   </div>
 </section>
@@ -113,10 +113,12 @@
       </span>
     </div>
 
-    <p class="headline">Changes to Cloudflare Workers are not producing Event Subscription events</p>
+    <p class="headline">Network Performance Issues in Ashburn, US (+1 more)</p>
 
     
     <ul class="incidents">
+      
+        <li><a href="https://www.cloudflarestatus.com/incidents/3l6q71x7a37k" target="_blank" rel="noopener">Network Performance Issues in Ashburn, US</a> <em>minor</em></li>
       
         <li><a href="https://www.cloudflarestatus.com/incidents/0ocqieaifg7h" target="_blank" rel="noopener">Changes to Cloudflare Workers are not producing Event Subscription events</a> <em>minor</em></li>
       
@@ -214,18 +216,18 @@
       </span>
     </div>
 
-    <p class="headline">SMS Delivery Delays from Twilio to Brisanet Brazil (+8 more)</p>
+    <p class="headline">SMS Delivery Delays from a Subset of Twilio Short Codes to Liberty Mobile Puerto Rico (+9 more)</p>
 
     
     <ul class="incidents">
+      
+        <li><a href="https://stspg.io/gdzn0chlbhb2" target="_blank" rel="noopener">SMS Delivery Delays from a Subset of Twilio Short Codes to Liberty Mobile Puerto Rico</a> <em>minor</em></li>
       
         <li><a href="https://stspg.io/pk3sl22ss1pz" target="_blank" rel="noopener">SMS Delivery Delays from Twilio to Brisanet Brazil</a> <em>minor</em></li>
       
         <li><a href="https://stspg.io/tbsjgc4grpsw" target="_blank" rel="noopener">Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines</a> <em>minor</em></li>
       
-        <li><a href="https://stspg.io/kwdmd91r9qjd" target="_blank" rel="noopener">SMS Delivery Receipt Failures from Twilio to Claro Costa Rica</a> <em>minor</em></li>
-      
-      <li class="more">+6 more</li>
+      <li class="more">+7 more</li>
     </ul>
     
 
@@ -251,24 +253,61 @@
       </span>
     </div>
 
-    <p class="headline">SMS Delivery Delays from Twilio to Brisanet Brazil (+8 more)</p>
+    <p class="headline">SMS Delivery Delays from a Subset of Twilio Short Codes to Liberty Mobile Puerto Rico (+9 more)</p>
 
     
     <ul class="incidents">
+      
+        <li><a href="https://stspg.io/gdzn0chlbhb2" target="_blank" rel="noopener">SMS Delivery Delays from a Subset of Twilio Short Codes to Liberty Mobile Puerto Rico</a> <em>minor</em></li>
       
         <li><a href="https://stspg.io/pk3sl22ss1pz" target="_blank" rel="noopener">SMS Delivery Delays from Twilio to Brisanet Brazil</a> <em>minor</em></li>
       
         <li><a href="https://stspg.io/tbsjgc4grpsw" target="_blank" rel="noopener">Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines</a> <em>minor</em></li>
       
-        <li><a href="https://stspg.io/kwdmd91r9qjd" target="_blank" rel="noopener">SMS Delivery Receipt Failures from Twilio to Claro Costa Rica</a> <em>minor</em></li>
-      
-      <li class="more">+6 more</li>
+      <li class="more">+7 more</li>
     </ul>
     
 
     <div class="tags">
       <span class="tag">Comms</span>
       <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="degraded"
+           data-tags="Comms"
+           data-issue="1">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">Z</span>
+      <div class="service-id">
+        <h2>Zoom</h2>
+        <a class="service-url" href="https://status.zoom.us" target="_blank" rel="noopener">status.zoom.us</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #fab219">
+        <span class="badge-icon" aria-hidden="true">▲</span>Degraded Performance
+      </span>
+    </div>
+
+    <p class="headline">Service Degradation Affecting Outbound SMS due to an underlying carrier issue in the Australia region. (+2 more)</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://stspg.io/l8xtt0jdrgf0" target="_blank" rel="noopener">Service Degradation Affecting Outbound SMS due to an underlying carrier issue in the Australia region.</a> <em>minor</em></li>
+      
+        <li><a href="https://status.zoom.us" target="_blank" rel="noopener">Zoom Phone Maintenance - SA01 - KSA1 Data Center: November 16, 2026</a> <em>maintenance</em></li>
+      
+        <li><a href="https://status.zoom.us" target="_blank" rel="noopener">Zoom Team Chat Update</a> <em>maintenance</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">Comms</span>
+      <span class="tag since">since 01:39Z</span>
     </div>
   </article>
   
@@ -306,41 +345,6 @@
     <div class="tags">
       <span class="tag">Network</span><span class="tag">CDN</span>
       <span class="tag since">since 21:43Z</span>
-    </div>
-  </article>
-  
-  <article class="card service"
-           data-level="maintenance"
-           data-tags="Comms"
-           data-issue="0">
-    <div class="service-head">
-      <span class="avatar" aria-hidden="true">Z</span>
-      <div class="service-id">
-        <h2>Zoom</h2>
-        <a class="service-url" href="https://status.zoom.us" target="_blank" rel="noopener">status.zoom.us</a>
-      </div>
-      <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #6b7280">
-        <span class="badge-icon" aria-hidden="true">■</span>Maintenance
-      </span>
-    </div>
-
-    <p class="headline">Zoom Phone Maintenance - SA01 - KSA1 Data Center: November 16, 2026 (+1 more)</p>
-
-    
-    <ul class="incidents">
-      
-        <li><a href="https://status.zoom.us" target="_blank" rel="noopener">Zoom Phone Maintenance - SA01 - KSA1 Data Center: November 16, 2026</a> <em>maintenance</em></li>
-      
-        <li><a href="https://status.zoom.us" target="_blank" rel="noopener">Zoom Team Chat Update</a> <em>maintenance</em></li>
-      
-      
-    </ul>
-    
-
-    <div class="tags">
-      <span class="tag">Comms</span>
-      <span class="tag since">since 06:17Z</span>
     </div>
   </article>
   
