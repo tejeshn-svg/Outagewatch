@@ -73,3 +73,4 @@
 {"at": "2026-11-16T18:35:41+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "1Password", "slug": "1password", "to_level": "operational"}
 {"at": "2026-11-16T21:17:04+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "Reddit", "slug": "reddit", "to_level": "operational"}
 {"at": "2026-11-17T01:39:43+00:00", "from_level": "maintenance", "headline": "Service Degradation Affecting Outbound SMS due to an underlying carrier issue in the Australia region. (+2 more)", "name": "Zoom", "slug": "zoom", "to_level": "degraded"}
+{"at": "2026-11-17T02:35:05+00:00", "from_level": "degraded", "headline": "Service Degradation Affecting Outbound SMS due to an underlying carrier issue in the Australia region. (+2 more)", "name": "Zoom", "slug": "zoom", "to_level": "maintenance"}
