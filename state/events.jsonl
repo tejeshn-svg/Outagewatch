@@ -74,3 +74,4 @@
 {"at": "2026-11-16T21:17:04+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "Reddit", "slug": "reddit", "to_level": "operational"}
 {"at": "2026-11-17T01:39:43+00:00", "from_level": "maintenance", "headline": "Service Degradation Affecting Outbound SMS due to an underlying carrier issue in the Australia region. (+2 more)", "name": "Zoom", "slug": "zoom", "to_level": "degraded"}
 {"at": "2026-11-17T02:35:05+00:00", "from_level": "degraded", "headline": "Service Degradation Affecting Outbound SMS due to an underlying carrier issue in the Australia region. (+2 more)", "name": "Zoom", "slug": "zoom", "to_level": "maintenance"}
+{"at": "2026-11-17T07:50:30+00:00", "from_level": "maintenance", "headline": "Service Degradation Affecting Zoom Phone Inbound Calls for Subset of Jio subscribers in India (+3 more)", "name": "Zoom", "slug": "zoom", "to_level": "degraded"}
