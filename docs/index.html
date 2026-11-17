@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>OutageWatch &middot; 6 issues</title>
+  <title>OutageWatch &middot; 8 issues</title>
   <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
@@ -34,19 +34,19 @@
 <!-- ===== Summary bar: the single most important element on the page ===== -->
 <section class="summary alarm">
   <div class="summary-count">
-    <strong>6</strong>
+    <strong>8</strong>
     <span>issues</span>
   </div>
   <div class="summary-body">
     
       
-      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, Amazon Web Services, Anthropic, OpenAI, SendGrid, Twilio</p>
+      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, Dropbox, Amazon Web Services, Anthropic, Notion, OpenAI, SendGrid, Twilio</p>
       <p><span class="dot" style="background:#6b7280"></span><b>Maintenance:</b> Fastly, Zoom</p>
       
     
   </div>
   <div class="summary-meta">
-    <span id="checked" data-ts="2026-11-17T18:37:00+00:00">last checked 2026-11-17T18:37:00+00:00</span>
+    <span id="checked" data-ts="2026-11-17T19:42:14+00:00">last checked 2026-11-17T19:42:14+00:00</span>
     <span>33 monitored</span>
   </div>
 </section>
@@ -133,6 +133,39 @@
   </article>
   
   <article class="card service"
+           data-level="partial_outage"
+           data-tags="Storage"
+           data-issue="1">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">D</span>
+      <div class="service-id">
+        <h2>Dropbox</h2>
+        <a class="service-url" href="https://status.dropbox.com" target="_blank" rel="noopener">status.dropbox.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #ec835a">
+        <span class="badge-icon" aria-hidden="true">◆</span>Partial Outage
+      </span>
+    </div>
+
+    <p class="headline">Sign in with Apple is not working as expected for some users</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://stspg.io/m6867jzjgb18" target="_blank" rel="noopener">Sign in with Apple is not working as expected for some users</a> <em>major</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">Storage</span>
+      <span class="tag since">since 19:42Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
            data-level="degraded"
            data-tags="Cloud,AMZN"
            data-issue="1">
@@ -183,10 +216,12 @@
       </span>
     </div>
 
-    <p class="headline">Claude unable to join meetings</p>
+    <p class="headline">Some users unable to sign in with Apple on claude.ai and the Claude iOS app (+1 more)</p>
 
     
     <ul class="incidents">
+      
+        <li><a href="https://stspg.io/3tl6h35nnzwm" target="_blank" rel="noopener">Some users unable to sign in with Apple on claude.ai and the Claude iOS app</a> <em>major</em></li>
       
         <li><a href="https://stspg.io/01qq3kzyyqzl" target="_blank" rel="noopener">Claude unable to join meetings</a> <em>major</em></li>
       
@@ -197,6 +232,39 @@
     <div class="tags">
       <span class="tag">AI</span>
       <span class="tag since">since 17:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="degraded"
+           data-tags="SaaS"
+           data-issue="1">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">N</span>
+      <div class="service-id">
+        <h2>Notion</h2>
+        <a class="service-url" href="https://www.notion-status.com" target="_blank" rel="noopener">www.notion-status.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #fab219">
+        <span class="badge-icon" aria-hidden="true">▲</span>Degraded Performance
+      </span>
+    </div>
+
+    <p class="headline">Login with Apple unavailable</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://www.notion-status.com" target="_blank" rel="noopener">Login with Apple unavailable</a> <em>minor</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">SaaS</span>
+      <span class="tag since">since 19:42Z</span>
     </div>
   </article>
   
@@ -256,9 +324,9 @@
       
         <li><a href="https://stspg.io/ppx2xfxq36dh" target="_blank" rel="noopener">Voice Call Post Dial Delay, Audio Quality Degradation, and Silent and One-Way Audio Between Twilio Phone Numbers and Brazil</a> <em>minor</em></li>
       
-        <li><a href="https://stspg.io/21g9xj3zy77c" target="_blank" rel="noopener">SMS Delivery Failures between a Subset of Twilio Short Codes and Claro in Brazil</a> <em>minor</em></li>
+        <li><a href="https://stspg.io/21g9xj3zy77c" target="_blank" rel="noopener">SMS Delivery Failures Between a Subset of Twilio Short Codes and Claro in Brazil</a> <em>minor</em></li>
       
-        <li><a href="https://stspg.io/gdzn0chlbhb2" target="_blank" rel="noopener">SMS Delivery Delays from a Subset of Twilio Short Codes to Liberty Mobile Puerto Rico</a> <em>minor</em></li>
+        <li><a href="https://stspg.io/pk3sl22ss1pz" target="_blank" rel="noopener">SMS Delivery Delays from Twilio to Brisanet Servicos De Telecomunicacoes SA Brazil</a> <em>minor</em></li>
       
       <li class="more">+7 more</li>
     </ul>
@@ -293,9 +361,9 @@
       
         <li><a href="https://stspg.io/ppx2xfxq36dh" target="_blank" rel="noopener">Voice Call Post Dial Delay, Audio Quality Degradation, and Silent and One-Way Audio Between Twilio Phone Numbers and Brazil</a> <em>minor</em></li>
       
-        <li><a href="https://stspg.io/21g9xj3zy77c" target="_blank" rel="noopener">SMS Delivery Failures between a Subset of Twilio Short Codes and Claro in Brazil</a> <em>minor</em></li>
+        <li><a href="https://stspg.io/21g9xj3zy77c" target="_blank" rel="noopener">SMS Delivery Failures Between a Subset of Twilio Short Codes and Claro in Brazil</a> <em>minor</em></li>
       
-        <li><a href="https://stspg.io/gdzn0chlbhb2" target="_blank" rel="noopener">SMS Delivery Delays from a Subset of Twilio Short Codes to Liberty Mobile Puerto Rico</a> <em>minor</em></li>
+        <li><a href="https://stspg.io/pk3sl22ss1pz" target="_blank" rel="noopener">SMS Delivery Delays from Twilio to Brisanet Servicos De Telecomunicacoes SA Brazil</a> <em>minor</em></li>
       
       <li class="more">+7 more</li>
     </ul>
@@ -610,34 +678,6 @@
   
   <article class="card service"
            data-level="operational"
-           data-tags="Storage"
-           data-issue="0">
-    <div class="service-head">
-      <span class="avatar" aria-hidden="true">D</span>
-      <div class="service-id">
-        <h2>Dropbox</h2>
-        <a class="service-url" href="https://status.dropbox.com" target="_blank" rel="noopener">status.dropbox.com</a>
-      </div>
-      <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #0ca30c">
-        <span class="badge-icon" aria-hidden="true">●</span>Operational
-      </span>
-    </div>
-
-    <p class="headline">All Systems Operational</p>
-
-    
-      <p class="noissues">No recent issues</p>
-    
-
-    <div class="tags">
-      <span class="tag">Storage</span>
-      <span class="tag since">since 23:13Z</span>
-    </div>
-  </article>
-  
-  <article class="card service"
-           data-level="operational"
            data-tags="SaaS"
            data-issue="0">
     <div class="service-head">
@@ -946,34 +986,6 @@
     <div class="tags">
       <span class="tag">Monitoring</span>
       <span class="tag since">since 21:43Z</span>
-    </div>
-  </article>
-  
-  <article class="card service"
-           data-level="operational"
-           data-tags="SaaS"
-           data-issue="0">
-    <div class="service-head">
-      <span class="avatar" aria-hidden="true">N</span>
-      <div class="service-id">
-        <h2>Notion</h2>
-        <a class="service-url" href="https://www.notion-status.com" target="_blank" rel="noopener">www.notion-status.com</a>
-      </div>
-      <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #0ca30c">
-        <span class="badge-icon" aria-hidden="true">●</span>Operational
-      </span>
-    </div>
-
-    <p class="headline">All Systems Operational</p>
-
-    
-      <p class="noissues">No recent issues</p>
-    
-
-    <div class="tags">
-      <span class="tag">SaaS</span>
-      <span class="tag since">since 21:40Z</span>
     </div>
   </article>
   

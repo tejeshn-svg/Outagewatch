@@ -77,3 +77,5 @@
 {"at": "2026-11-17T07:50:30+00:00", "from_level": "maintenance", "headline": "Service Degradation Affecting Zoom Phone Inbound Calls for Subset of Jio subscribers in India (+3 more)", "name": "Zoom", "slug": "zoom", "to_level": "degraded"}
 {"at": "2026-11-17T13:46:45+00:00", "from_level": "degraded", "headline": "Zoom Phone Maintenance - SA01 - KSA1 Data Center: November 16, 2026 (+1 more)", "name": "Zoom", "slug": "zoom", "to_level": "maintenance"}
 {"at": "2026-11-17T18:37:01+00:00", "from_level": "operational", "headline": "Costs API data is delayed", "name": "OpenAI", "slug": "openai", "to_level": "degraded"}
+{"at": "2026-11-17T19:42:15+00:00", "from_level": "operational", "headline": "Sign in with Apple is not working as expected for some users", "name": "Dropbox", "slug": "dropbox", "to_level": "partial_outage"}
+{"at": "2026-11-17T19:42:15+00:00", "from_level": "operational", "headline": "Login with Apple unavailable", "name": "Notion", "slug": "notion", "to_level": "degraded"}
