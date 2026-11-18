@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>OutageWatch &middot; 6 issues</title>
+  <title>OutageWatch &middot; 5 issues</title>
   <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
@@ -34,19 +34,19 @@
 <!-- ===== Summary bar: the single most important element on the page ===== -->
 <section class="summary alarm">
   <div class="summary-count">
-    <strong>6</strong>
+    <strong>5</strong>
     <span>issues</span>
   </div>
   <div class="summary-body">
     
       
-      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, Amazon Web Services, Anthropic, OpenAI, SendGrid, Twilio</p>
+      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, Amazon Web Services, Anthropic, SendGrid, Twilio</p>
       <p><span class="dot" style="background:#6b7280"></span><b>Maintenance:</b> Fastly, Zoom</p>
       
     
   </div>
   <div class="summary-meta">
-    <span id="checked" data-ts="2026-11-18T16:46:38+00:00">last checked 2026-11-18T16:46:38+00:00</span>
+    <span id="checked" data-ts="2026-11-18T17:41:36+00:00">last checked 2026-11-18T17:41:36+00:00</span>
     <span>33 monitored</span>
   </div>
 </section>
@@ -200,39 +200,6 @@
   
   <article class="card service"
            data-level="degraded"
-           data-tags="AI"
-           data-issue="1">
-    <div class="service-head">
-      <span class="avatar" aria-hidden="true">O</span>
-      <div class="service-id">
-        <h2>OpenAI</h2>
-        <a class="service-url" href="https://status.openai.com" target="_blank" rel="noopener">status.openai.com</a>
-      </div>
-      <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #fab219">
-        <span class="badge-icon" aria-hidden="true">▲</span>Degraded Performance
-      </span>
-    </div>
-
-    <p class="headline">Costs API data is delayed</p>
-
-    
-    <ul class="incidents">
-      
-        <li><a href="https://status.openai.com" target="_blank" rel="noopener">Costs API data is delayed</a> <em>minor</em></li>
-      
-      
-    </ul>
-    
-
-    <div class="tags">
-      <span class="tag">AI</span>
-      <span class="tag since">since 18:37Z</span>
-    </div>
-  </article>
-  
-  <article class="card service"
-           data-level="degraded"
            data-tags="Email"
            data-issue="1">
     <div class="service-head">
@@ -254,7 +221,7 @@
       
         <li><a href="https://stspg.io/d1r9gpwlrh7f" target="_blank" rel="noopener">Text to Speech Timeouts</a> <em>minor</em></li>
       
-        <li><a href="https://stspg.io/kckjlns5dw48" target="_blank" rel="noopener">Voice Call Silent and One-Way Audio From Colombia to a Subset of Twilio Phone Numbers</a> <em>minor</em></li>
+        <li><a href="https://stspg.io/kckjlns5dw48" target="_blank" rel="noopener">Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers</a> <em>minor</em></li>
       
         <li><a href="https://stspg.io/ds65pdrjsl9s" target="_blank" rel="noopener">SMS Delivery Failures from a Subset of Twilio Phone Numbers to Zong Pakistan</a> <em>minor</em></li>
       
@@ -291,7 +258,7 @@
       
         <li><a href="https://stspg.io/d1r9gpwlrh7f" target="_blank" rel="noopener">Text to Speech Timeouts</a> <em>minor</em></li>
       
-        <li><a href="https://stspg.io/kckjlns5dw48" target="_blank" rel="noopener">Voice Call Silent and One-Way Audio From Colombia to a Subset of Twilio Phone Numbers</a> <em>minor</em></li>
+        <li><a href="https://stspg.io/kckjlns5dw48" target="_blank" rel="noopener">Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers</a> <em>minor</em></li>
       
         <li><a href="https://stspg.io/ds65pdrjsl9s" target="_blank" rel="noopener">SMS Delivery Failures from a Subset of Twilio Phone Numbers to Zong Pakistan</a> <em>minor</em></li>
       
@@ -963,10 +930,15 @@
       </span>
     </div>
 
-    <p class="headline">All Systems Operational</p>
+    <p class="headline">Java4Shell vulnerability assessment and mitigation</p>
 
     
-      <p class="noissues">No recent issues</p>
+    <ul class="incidents">
+      
+        <li><a href="https://www.notion-status.com" target="_blank" rel="noopener">Java4Shell vulnerability assessment and mitigation</a> <em>none</em></li>
+      
+      
+    </ul>
     
 
     <div class="tags">
@@ -1000,6 +972,34 @@
     <div class="tags">
       <span class="tag">DevTools</span>
       <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="AI"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">O</span>
+      <div class="service-id">
+        <h2>OpenAI</h2>
+        <a class="service-url" href="https://status.openai.com" target="_blank" rel="noopener">status.openai.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">All Systems Operational</p>
+
+    
+      <p class="noissues">No recent issues</p>
+    
+
+    <div class="tags">
+      <span class="tag">AI</span>
+      <span class="tag since">since 17:41Z</span>
     </div>
   </article>
   
