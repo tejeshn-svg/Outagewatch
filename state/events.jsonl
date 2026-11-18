@@ -82,3 +82,4 @@
 {"at": "2026-11-17T22:24:33+00:00", "from_level": "partial_outage", "headline": "All Systems Operational", "name": "Dropbox", "slug": "dropbox", "to_level": "operational"}
 {"at": "2026-11-18T01:18:44+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "Notion", "slug": "notion", "to_level": "operational"}
 {"at": "2026-11-18T03:18:58+00:00", "from_level": "maintenance", "headline": "North America with Possible Impact (+3 more)", "name": "Fastly", "slug": "fastly", "to_level": "degraded"}
+{"at": "2026-11-18T04:19:14+00:00", "from_level": "degraded", "headline": "Third-Party Vulnerability Disclosure \u2013 php2shell (CVE-2026-109618 & CVE-2026-109619) (+2 more)", "name": "Fastly", "slug": "fastly", "to_level": "maintenance"}
