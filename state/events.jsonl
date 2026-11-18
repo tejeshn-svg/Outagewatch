@@ -80,3 +80,4 @@
 {"at": "2026-11-17T19:42:15+00:00", "from_level": "operational", "headline": "Sign in with Apple is not working as expected for some users", "name": "Dropbox", "slug": "dropbox", "to_level": "partial_outage"}
 {"at": "2026-11-17T19:42:15+00:00", "from_level": "operational", "headline": "Login with Apple unavailable", "name": "Notion", "slug": "notion", "to_level": "degraded"}
 {"at": "2026-11-17T22:24:33+00:00", "from_level": "partial_outage", "headline": "All Systems Operational", "name": "Dropbox", "slug": "dropbox", "to_level": "operational"}
+{"at": "2026-11-18T01:18:44+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "Notion", "slug": "notion", "to_level": "operational"}
