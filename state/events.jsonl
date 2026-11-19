@@ -85,3 +85,4 @@
 {"at": "2026-11-18T04:19:14+00:00", "from_level": "degraded", "headline": "Third-Party Vulnerability Disclosure \u2013 php2shell (CVE-2026-109618 & CVE-2026-109619) (+2 more)", "name": "Fastly", "slug": "fastly", "to_level": "maintenance"}
 {"at": "2026-11-18T17:41:36+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "OpenAI", "slug": "openai", "to_level": "operational"}
 {"at": "2026-11-19T02:23:24+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "Anthropic", "slug": "anthropic", "to_level": "operational"}
+{"at": "2026-11-19T05:29:33+00:00", "from_level": "operational", "headline": "Increased Error Rates in SFO3", "name": "DigitalOcean", "slug": "digitalocean", "to_level": "degraded"}
