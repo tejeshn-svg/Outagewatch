@@ -87,3 +87,4 @@
 {"at": "2026-11-19T02:23:24+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "Anthropic", "slug": "anthropic", "to_level": "operational"}
 {"at": "2026-11-19T05:29:33+00:00", "from_level": "operational", "headline": "Increased Error Rates in SFO3", "name": "DigitalOcean", "slug": "digitalocean", "to_level": "degraded"}
 {"at": "2026-11-19T06:29:06+00:00", "from_level": "degraded", "headline": "Increased Error Rates in SFO3", "name": "DigitalOcean", "slug": "digitalocean", "to_level": "operational"}
+{"at": "2026-11-19T14:04:23+00:00", "from_level": "operational", "headline": "Acuity Scheduling: Possible Emergency Maintenance", "name": "Squarespace", "slug": "squarespace", "to_level": "maintenance"}
