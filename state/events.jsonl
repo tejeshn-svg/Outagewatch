@@ -91,3 +91,4 @@
 {"at": "2026-11-19T15:54:29+00:00", "from_level": "maintenance", "headline": "All Systems Operational", "name": "Squarespace", "slug": "squarespace", "to_level": "operational"}
 {"at": "2026-11-19T16:54:51+00:00", "from_level": "operational", "headline": "Elevated error rates for gpt-6 Luna API requests", "name": "OpenAI", "slug": "openai", "to_level": "degraded"}
 {"at": "2026-11-19T17:48:16+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "OpenAI", "slug": "openai", "to_level": "operational"}
+{"at": "2026-11-20T08:58:53+00:00", "from_level": "operational", "headline": "Service Issue - Linode Kubernetes Engine (+1 more)", "name": "Akamai Linode", "slug": "linode", "to_level": "degraded"}

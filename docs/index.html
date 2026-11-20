@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>OutageWatch &middot; 4 issues</title>
+  <title>OutageWatch &middot; 5 issues</title>
   <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
@@ -34,19 +34,19 @@
 <!-- ===== Summary bar: the single most important element on the page ===== -->
 <section class="summary alarm">
   <div class="summary-count">
-    <strong>4</strong>
+    <strong>5</strong>
     <span>issues</span>
   </div>
   <div class="summary-body">
     
       
-      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, Amazon Web Services, SendGrid, Twilio</p>
+      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, Akamai Linode, Amazon Web Services, SendGrid, Twilio</p>
       <p><span class="dot" style="background:#6b7280"></span><b>Maintenance:</b> Fastly, Zoom</p>
       
     
   </div>
   <div class="summary-meta">
-    <span id="checked" data-ts="2026-11-20T07:59:59+00:00">last checked 2026-11-20T07:59:59+00:00</span>
+    <span id="checked" data-ts="2026-11-20T08:58:52+00:00">last checked 2026-11-20T08:58:52+00:00</span>
     <span>33 monitored</span>
   </div>
 </section>
@@ -129,6 +129,41 @@
     <div class="tags">
       <span class="tag">Network</span><span class="tag">CDN</span>
       <span class="tag since">since 21:43Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="degraded"
+           data-tags="Cloud"
+           data-issue="1">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">A</span>
+      <div class="service-id">
+        <h2>Akamai Linode</h2>
+        <a class="service-url" href="https://status.linode.com" target="_blank" rel="noopener">status.linode.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #fab219">
+        <span class="badge-icon" aria-hidden="true">▲</span>Degraded Performance
+      </span>
+    </div>
+
+    <p class="headline">Service Issue - Linode Kubernetes Engine (+1 more)</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://stspg.io/z5hhd4vz7jfv" target="_blank" rel="noopener">Service Issue - Linode Kubernetes Engine</a> <em>minor</em></li>
+      
+        <li><a href="https://stspg.io/kwfn0ylk0rpt" target="_blank" rel="noopener">Service Issue - Block Storage (BR-GRU)</a> <em>none</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">Cloud</span>
+      <span class="tag since">since 08:58Z</span>
     </div>
   </article>
   
@@ -336,39 +371,6 @@
     <div class="tags">
       <span class="tag">Security</span>
       <span class="tag since">since 18:35Z</span>
-    </div>
-  </article>
-  
-  <article class="card service"
-           data-level="operational"
-           data-tags="Cloud"
-           data-issue="0">
-    <div class="service-head">
-      <span class="avatar" aria-hidden="true">A</span>
-      <div class="service-id">
-        <h2>Akamai Linode</h2>
-        <a class="service-url" href="https://status.linode.com" target="_blank" rel="noopener">status.linode.com</a>
-      </div>
-      <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #0ca30c">
-        <span class="badge-icon" aria-hidden="true">●</span>Operational
-      </span>
-    </div>
-
-    <p class="headline">Service Issue - Block Storage (BR-GRU)</p>
-
-    
-    <ul class="incidents">
-      
-        <li><a href="https://stspg.io/kwfn0ylk0rpt" target="_blank" rel="noopener">Service Issue - Block Storage (BR-GRU)</a> <em>none</em></li>
-      
-      
-    </ul>
-    
-
-    <div class="tags">
-      <span class="tag">Cloud</span>
-      <span class="tag since">since 14:51Z</span>
     </div>
   </article>
   
