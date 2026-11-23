@@ -103,3 +103,5 @@
 {"at": "2026-11-23T14:29:17+00:00", "from_level": "operational", "headline": "Delayed APM Spans data", "name": "Datadog", "slug": "datadog", "to_level": "degraded"}
 {"at": "2026-11-23T15:38:08+00:00", "from_level": "operational", "headline": "Authentication service degraded.", "name": "Bitbucket", "slug": "bitbucket", "to_level": "partial_outage"}
 {"at": "2026-11-23T17:32:42+00:00", "from_level": "degraded", "headline": "Delayed APM Spans data", "name": "Datadog", "slug": "datadog", "to_level": "partial_outage"}
+{"at": "2026-11-23T18:29:16+00:00", "from_level": "partial_outage", "headline": "Delayed APM Spans data", "name": "Datadog", "slug": "datadog", "to_level": "operational"}
+{"at": "2026-11-23T18:29:16+00:00", "from_level": "operational", "headline": "Errors at Checkout and Point Of Sale", "name": "Shopify", "slug": "shopify", "to_level": "partial_outage"}
