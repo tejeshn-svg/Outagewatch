@@ -97,3 +97,5 @@
 {"at": "2026-11-20T20:30:37+00:00", "from_level": "major_outage", "headline": "All Systems Operational", "name": "Dropbox", "slug": "dropbox", "to_level": "operational"}
 {"at": "2026-11-21T18:09:53+00:00", "from_level": "maintenance", "headline": "All Systems Operational", "name": "Zoom", "slug": "zoom", "to_level": "operational"}
 {"at": "2026-11-23T01:34:29+00:00", "from_level": "operational", "headline": "Service Degradation Affecting Zoom Phone tab on desktop clients", "name": "Zoom", "slug": "zoom", "to_level": "degraded"}
+{"at": "2026-11-23T09:59:09+00:00", "from_level": "operational", "headline": "Elevated errors for multiple models", "name": "Anthropic", "slug": "anthropic", "to_level": "partial_outage"}
+{"at": "2026-11-23T09:59:09+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "Zoom", "slug": "zoom", "to_level": "operational"}
