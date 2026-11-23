@@ -102,3 +102,4 @@
 {"at": "2026-11-23T11:02:41+00:00", "from_level": "partial_outage", "headline": "Elevated errors for multiple models", "name": "Anthropic", "slug": "anthropic", "to_level": "operational"}
 {"at": "2026-11-23T14:29:17+00:00", "from_level": "operational", "headline": "Delayed APM Spans data", "name": "Datadog", "slug": "datadog", "to_level": "degraded"}
 {"at": "2026-11-23T15:38:08+00:00", "from_level": "operational", "headline": "Authentication service degraded.", "name": "Bitbucket", "slug": "bitbucket", "to_level": "partial_outage"}
+{"at": "2026-11-23T17:32:42+00:00", "from_level": "degraded", "headline": "Delayed APM Spans data", "name": "Datadog", "slug": "datadog", "to_level": "partial_outage"}
