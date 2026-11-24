@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>OutageWatch &middot; 5 issues</title>
+  <title>OutageWatch &middot; 6 issues</title>
   <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
@@ -34,19 +34,19 @@
 <!-- ===== Summary bar: the single most important element on the page ===== -->
 <section class="summary alarm">
   <div class="summary-count">
-    <strong>5</strong>
+    <strong>6</strong>
     <span>issues</span>
   </div>
   <div class="summary-body">
     
       
-      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, Amazon Web Services, Anthropic, SendGrid, Twilio</p>
+      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, Amazon Web Services, Anthropic, Datadog, SendGrid, Twilio</p>
       <p><span class="dot" style="background:#6b7280"></span><b>Maintenance:</b> Fastly</p>
       
     
   </div>
   <div class="summary-meta">
-    <span id="checked" data-ts="2026-11-24T20:20:14+00:00">last checked 2026-11-24T20:20:14+00:00</span>
+    <span id="checked" data-ts="2026-11-24T21:17:23+00:00">last checked 2026-11-24T21:17:23+00:00</span>
     <span>33 monitored</span>
   </div>
 </section>
@@ -204,6 +204,39 @@
   
   <article class="card service"
            data-level="degraded"
+           data-tags="Monitoring"
+           data-issue="1">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">D</span>
+      <div class="service-id">
+        <h2>Datadog</h2>
+        <a class="service-url" href="https://datadog.statuspage.io" target="_blank" rel="noopener">datadog.statuspage.io</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #fab219">
+        <span class="badge-icon" aria-hidden="true">▲</span>Degraded Performance
+      </span>
+    </div>
+
+    <p class="headline">Delayed Metrics</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://stspg.io/snd3020c1whq" target="_blank" rel="noopener">Delayed Metrics</a> <em>minor</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">Monitoring</span>
+      <span class="tag since">since 21:17Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="degraded"
            data-tags="Email"
            data-issue="1">
     <div class="service-head">
@@ -218,18 +251,18 @@
       </span>
     </div>
 
-    <p class="headline">Voice Call Failures from Twilio Phone Numbers to Ireland (+8 more)</p>
+    <p class="headline">Some calls not branded or receive Spam likely labels (+10 more)</p>
 
     
     <ul class="incidents">
+      
+        <li><a href="https://stspg.io/fpn8qm3pmhry" target="_blank" rel="noopener">Some calls not branded or receive Spam likely labels</a> <em>minor</em></li>
       
         <li><a href="https://stspg.io/pcr7x9y24trq" target="_blank" rel="noopener">Voice Call Failures from Twilio Phone Numbers to Ireland</a> <em>minor</em></li>
       
         <li><a href="https://stspg.io/tbsjgc4grpsw" target="_blank" rel="noopener">Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines</a> <em>minor</em></li>
       
-        <li><a href="https://stspg.io/tsp4vmj649hp" target="_blank" rel="noopener">Gateway API (Lookup API) Failure Increase on Bell Mobility in Canada</a> <em>minor</em></li>
-      
-      <li class="more">+6 more</li>
+      <li class="more">+8 more</li>
     </ul>
     
 
@@ -255,18 +288,18 @@
       </span>
     </div>
 
-    <p class="headline">Voice Call Failures from Twilio Phone Numbers to Ireland (+8 more)</p>
+    <p class="headline">Some calls not branded or receive Spam likely labels (+10 more)</p>
 
     
     <ul class="incidents">
+      
+        <li><a href="https://stspg.io/fpn8qm3pmhry" target="_blank" rel="noopener">Some calls not branded or receive Spam likely labels</a> <em>minor</em></li>
       
         <li><a href="https://stspg.io/pcr7x9y24trq" target="_blank" rel="noopener">Voice Call Failures from Twilio Phone Numbers to Ireland</a> <em>minor</em></li>
       
         <li><a href="https://stspg.io/tbsjgc4grpsw" target="_blank" rel="noopener">Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines</a> <em>minor</em></li>
       
-        <li><a href="https://stspg.io/tsp4vmj649hp" target="_blank" rel="noopener">Gateway API (Lookup API) Failure Increase on Bell Mobility in Canada</a> <em>minor</em></li>
-      
-      <li class="more">+6 more</li>
+      <li class="more">+8 more</li>
     </ul>
     
 
@@ -455,34 +488,6 @@
     <div class="tags">
       <span class="tag">DevTools</span>
       <span class="tag since">since 21:17Z</span>
-    </div>
-  </article>
-  
-  <article class="card service"
-           data-level="operational"
-           data-tags="Monitoring"
-           data-issue="0">
-    <div class="service-head">
-      <span class="avatar" aria-hidden="true">D</span>
-      <div class="service-id">
-        <h2>Datadog</h2>
-        <a class="service-url" href="https://datadog.statuspage.io" target="_blank" rel="noopener">datadog.statuspage.io</a>
-      </div>
-      <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #0ca30c">
-        <span class="badge-icon" aria-hidden="true">●</span>Operational
-      </span>
-    </div>
-
-    <p class="headline">All Systems Operational</p>
-
-    
-      <p class="noissues">No recent issues</p>
-    
-
-    <div class="tags">
-      <span class="tag">Monitoring</span>
-      <span class="tag since">since 17:28Z</span>
     </div>
   </article>
   
