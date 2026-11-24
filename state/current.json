@@ -1,7 +1,7 @@
 [
  {
   "changed_at": "2026-11-16T18:35:41+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -13,7 +13,7 @@
  },
  {
   "changed_at": "2026-11-24T01:10:56+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "Claude for Microsoft 365 add-in missing for some users",
   "incidents": "[{\"title\": \"Claude for Microsoft 365 add-in missing for some users\", \"impact\": \"minor\", \"started\": \"2026-11-24T00:10:40.018Z\", \"url\": \"https://stspg.io/ffdq2qfv8frk\"}]",
   "kind": "statuspage",
@@ -25,7 +25,7 @@
  },
  {
   "changed_at": "2026-11-13T22:27:53+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -37,7 +37,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -49,7 +49,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "Multiple services: Region Availability (+1 more)",
   "incidents": "[{\"title\": \"Multiple services: Region Availability\", \"impact\": \"\", \"started\": \"\", \"url\": \"https://health.aws.amazon.com/public/currentevents\"}, {\"title\": \"Multiple services: Region Availability\", \"impact\": \"\", \"started\": \"\", \"url\": \"https://health.aws.amazon.com/public/currentevents\"}]",
   "kind": "aws",
@@ -61,7 +61,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "No active events",
   "incidents": "[]",
   "kind": "azure_rss",
@@ -73,7 +73,7 @@
  },
  {
   "changed_at": "2026-11-23T21:17:16+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -85,9 +85,9 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
-  "headline": "Increased Errors for Durable Objects in Seattle (+2 more)",
-  "incidents": "[{\"title\": \"Increased Errors for Durable Objects in Seattle\", \"impact\": \"minor\", \"started\": \"2026-11-24T07:25:34.236Z\", \"url\": \"https://www.cloudflarestatus.com/incidents/idlaxmxz4unz\"}, {\"title\": \"Cloudflare Workers API \\u2013 Delayed or Inconsistent Responses\", \"impact\": \"minor\", \"started\": \"2026-11-23T13:52:11.144Z\", \"url\": \"https://www.cloudflarestatus.com/incidents/00dp7cliyqqt\"}, {\"title\": \"Changes to Cloudflare Workers are not producing Event Subscription events\", \"impact\": \"minor\", \"started\": \"2026-11-10T01:53:58.905Z\", \"url\": \"https://www.cloudflarestatus.com/incidents/0ocqieaifg7h\"}]",
+  "checked_at": "2026-11-24T08:59:04+00:00",
+  "headline": "Cloudflare Workers API \u2013 Delayed or Inconsistent Responses (+1 more)",
+  "incidents": "[{\"title\": \"Cloudflare Workers API \\u2013 Delayed or Inconsistent Responses\", \"impact\": \"minor\", \"started\": \"2026-11-23T13:52:11.144Z\", \"url\": \"https://www.cloudflarestatus.com/incidents/00dp7cliyqqt\"}, {\"title\": \"Changes to Cloudflare Workers are not producing Event Subscription events\", \"impact\": \"minor\", \"started\": \"2026-11-10T01:53:58.905Z\", \"url\": \"https://www.cloudflarestatus.com/incidents/0ocqieaifg7h\"}]",
   "kind": "statuspage",
   "level": "partial_outage",
   "name": "Cloudflare",
@@ -97,7 +97,7 @@
  },
  {
   "changed_at": "2026-11-23T18:29:16+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -109,7 +109,7 @@
  },
  {
   "changed_at": "2026-11-19T06:29:06+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -121,7 +121,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -133,7 +133,7 @@
  },
  {
   "changed_at": "2026-11-20T20:30:37+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -145,7 +145,7 @@
  },
  {
   "changed_at": "2026-11-18T04:19:14+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "Third-Party Vulnerability Disclosure \u2013 php2shell (CVE-2026-109618 & CVE-2026-109619) (+3 more)",
   "incidents": "[{\"title\": \"Third-Party Vulnerability Disclosure \\u2013 php2shell (CVE-2026-109618 & CVE-2026-109619)\", \"impact\": \"Informational\", \"started\": \"2026-10-21T19:26:00\", \"url\": \"https://sta.ac/u/7mfOmz7D\"}, {\"title\": \"[Action Required] Compute services: Shielding migration from Milan (MXP) to Milan (BGY)\", \"impact\": \"Informational\", \"started\": \"2026-10-20T01:18:00\", \"url\": \"https://sta.ac/u/cdSFIDlB\"}, {\"title\": \"Changes to Fastly IP Address Space\", \"impact\": \"ScheduledMaintenance\", \"started\": \"2026-09-14T17:56:00\", \"url\": \"https://sta.ac/u/d45H5J0G\"}, {\"title\": \"Upcoming: Data Center Capacity Expansion for Kuala Lumpur (KUL) \", \"impact\": \"scheduled\", \"started\": \"2026-11-24T18:00:00\", \"url\": \"https://sta.ac/u/T3yAbyYB\"}]",
   "kind": "fastly",
@@ -157,7 +157,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -169,7 +169,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "gcp",
@@ -181,7 +181,7 @@
  },
  {
   "changed_at": "2026-11-16T16:32:22+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -193,7 +193,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "Operational",
   "incidents": "[]",
   "kind": "status_io",
@@ -205,7 +205,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "Responding normally",
   "incidents": "[]",
   "kind": "probe",
@@ -217,7 +217,7 @@
  },
  {
   "changed_at": "2026-11-13T19:14:15+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -229,7 +229,7 @@
  },
  {
   "changed_at": "2026-11-20T10:53:47+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "Service Issue - Block Storage (BR-GRU)",
   "incidents": "[{\"title\": \"Service Issue - Block Storage (BR-GRU)\", \"impact\": \"none\", \"started\": \"2026-10-28T20:17:01.527Z\", \"url\": \"https://stspg.io/kwfn0ylk0rpt\"}]",
   "kind": "statuspage",
@@ -241,7 +241,7 @@
  },
  {
   "changed_at": "2026-11-14T06:07:21+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "No active events",
   "incidents": "[]",
   "kind": "ms_rss",
@@ -253,7 +253,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "Impaired Cluster operations in AWS me-central-1 and AWS me-south-1",
   "incidents": "[{\"title\": \"Impaired Cluster operations in AWS me-central-1 and AWS me-south-1\", \"impact\": \"major\", \"started\": \"2026-09-03T16:44:43.835Z\", \"url\": \"https://stspg.io/jwd31x8yx3q5\"}]",
   "kind": "statuspage",
@@ -265,7 +265,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -277,7 +277,7 @@
  },
  {
   "changed_at": "2026-11-18T01:18:44+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -289,7 +289,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -301,7 +301,7 @@
  },
  {
   "changed_at": "2026-11-19T17:48:16+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -313,7 +313,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "No active events",
   "incidents": "[]",
   "kind": "ms_rss",
@@ -325,7 +325,7 @@
  },
  {
   "changed_at": "2026-11-16T21:17:04+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -337,7 +337,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "Gateway API (Lookup API) Failure Increase on Bell Mobility in Canada (+5 more)",
   "incidents": "[{\"title\": \"Gateway API (Lookup API) Failure Increase on Bell Mobility in Canada\", \"impact\": \"minor\", \"started\": \"2026-11-21T19:50:54.606-08:00\", \"url\": \"https://stspg.io/tsp4vmj649hp\"}, {\"title\": \"Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers\", \"impact\": \"minor\", \"started\": \"2026-11-18T07:56:21.187-08:00\", \"url\": \"https://stspg.io/kckjlns5dw48\"}, {\"title\": \"SMS Delivery Delays from a Subset of Twilio Long Codes to Vodacom South Africa\", \"impact\": \"minor\", \"started\": \"2026-11-23T09:37:31.830-08:00\", \"url\": \"https://stspg.io/91mvmds8qz4y\"}, {\"title\": \"SIP Domain Emergency Caller ID Configuration Issues\", \"impact\": \"minor\", \"started\": \"2026-11-23T08:28:12.726-08:00\", \"url\": \"https://stspg.io/cvjkwmkmx7d3\"}, {\"title\": \"Voice Call Failures From a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines\", \"impact\": \"minor\", \"started\": \"2026-11-01T21:41:31.845-08:00\", \"url\": \"https://stspg.io/tbsjgc4grpsw\"}, {\"title\": \"Russia SMS Carrier Maintenance - Tele2\", \"impact\": \"maintenance\", \"started\": \"2026-11-02T12:00:00.000-08:00\", \"url\": \"https://status.sendgrid.com\"}]",
   "kind": "statuspage",
@@ -349,7 +349,7 @@
  },
  {
   "changed_at": "2026-11-23T19:33:59+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -361,7 +361,7 @@
  },
  {
   "changed_at": "2026-11-19T15:54:29+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
@@ -373,7 +373,7 @@
  },
  {
   "changed_at": "2026-11-12T21:43:43+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "Gateway API (Lookup API) Failure Increase on Bell Mobility in Canada (+5 more)",
   "incidents": "[{\"title\": \"Gateway API (Lookup API) Failure Increase on Bell Mobility in Canada\", \"impact\": \"minor\", \"started\": \"2026-11-21T19:50:54.606-08:00\", \"url\": \"https://stspg.io/tsp4vmj649hp\"}, {\"title\": \"Voice Call Silent and One-Way Audio from Colombia to a Subset of Twilio Phone Numbers\", \"impact\": \"minor\", \"started\": \"2026-11-18T07:56:21.187-08:00\", \"url\": \"https://stspg.io/kckjlns5dw48\"}, {\"title\": \"SMS Delivery Delays from a Subset of Twilio Long Codes to Vodacom South Africa\", \"impact\": \"minor\", \"started\": \"2026-11-23T09:37:31.830-08:00\", \"url\": \"https://stspg.io/91mvmds8qz4y\"}, {\"title\": \"SIP Domain Emergency Caller ID Configuration Issues\", \"impact\": \"minor\", \"started\": \"2026-11-23T08:28:12.726-08:00\", \"url\": \"https://stspg.io/cvjkwmkmx7d3\"}, {\"title\": \"Voice Call Failures From a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines\", \"impact\": \"minor\", \"started\": \"2026-11-01T21:41:31.845-08:00\", \"url\": \"https://stspg.io/tbsjgc4grpsw\"}, {\"title\": \"Russia SMS Carrier Maintenance - Tele2\", \"impact\": \"maintenance\", \"started\": \"2026-11-02T12:00:00.000-08:00\", \"url\": \"https://status.twilio.com\"}]",
   "kind": "statuspage",
@@ -385,7 +385,7 @@
  },
  {
   "changed_at": "2026-11-23T09:59:09+00:00",
-  "checked_at": "2026-11-24T07:58:53+00:00",
+  "checked_at": "2026-11-24T08:59:04+00:00",
   "headline": "All Systems Operational",
   "incidents": "[]",
   "kind": "statuspage",
