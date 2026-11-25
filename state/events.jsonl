@@ -117,3 +117,4 @@
 {"at": "2026-11-25T08:17:01+00:00", "from_level": "operational", "headline": "Service Degradation Affecting Zoom Phone Inbound Calls for Subset of Jio subscribers in India", "name": "Zoom", "slug": "zoom", "to_level": "degraded"}
 {"at": "2026-11-25T09:37:27+00:00", "from_level": "major_outage", "headline": "Changes to Cloudflare Workers are not producing Event Subscription events", "name": "Cloudflare", "slug": "cloudflare", "to_level": "partial_outage"}
 {"at": "2026-11-25T09:37:27+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "Zoom", "slug": "zoom", "to_level": "operational"}
+{"at": "2026-11-25T12:42:19+00:00", "from_level": "operational", "headline": "ChatGPT and Codex Cloud are experiencing elevated conversation errors", "name": "OpenAI", "slug": "openai", "to_level": "degraded"}
