@@ -39,14 +39,14 @@
   </div>
   <div class="summary-body">
     
-      
-      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, Akamai Linode, Amazon Web Services, Anthropic, OpenAI, SendGrid, Twilio</p>
-      <p><span class="dot" style="background:#6b7280"></span><b>Maintenance:</b> Fastly</p>
+      <p><span class="dot" style="background:#d03b3b"></span><b>Outage:</b> GitHub</p>
+      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, Akamai Linode, Amazon Web Services, Anthropic, SendGrid, Twilio</p>
+      <p><span class="dot" style="background:#6b7280"></span><b>Maintenance:</b> Fastly, Zoom</p>
       
     
   </div>
   <div class="summary-meta">
-    <span id="checked" data-ts="2026-11-25T15:10:40+00:00">last checked 2026-11-25T15:10:40+00:00</span>
+    <span id="checked" data-ts="2026-11-25T16:27:04+00:00">last checked 2026-11-25T16:27:04+00:00</span>
     <span>33 monitored</span>
   </div>
 </section>
@@ -96,6 +96,39 @@
 
 <!-- ===== Service list ===== -->
 <section class="grid" id="grid">
+  
+  <article class="card service"
+           data-level="major_outage"
+           data-tags="DevTools"
+           data-issue="1">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">G</span>
+      <div class="service-id">
+        <h2>GitHub</h2>
+        <a class="service-url" href="https://www.githubstatus.com" target="_blank" rel="noopener">www.githubstatus.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #d03b3b">
+        <span class="badge-icon" aria-hidden="true">✖</span>Service Outage
+      </span>
+    </div>
+
+    <p class="headline">Investigating degraded experiences across GitHub products</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://stspg.io/5qj9j0p5g4cr" target="_blank" rel="noopener">Investigating degraded experiences across GitHub products</a> <em>critical</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">DevTools</span>
+      <span class="tag since">since 16:27Z</span>
+    </div>
+  </article>
   
   <article class="card service"
            data-level="partial_outage"
@@ -235,39 +268,6 @@
   
   <article class="card service"
            data-level="degraded"
-           data-tags="AI"
-           data-issue="1">
-    <div class="service-head">
-      <span class="avatar" aria-hidden="true">O</span>
-      <div class="service-id">
-        <h2>OpenAI</h2>
-        <a class="service-url" href="https://status.openai.com" target="_blank" rel="noopener">status.openai.com</a>
-      </div>
-      <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #fab219">
-        <span class="badge-icon" aria-hidden="true">▲</span>Degraded Performance
-      </span>
-    </div>
-
-    <p class="headline">ChatGPT, ChatGPT Work, and Codex Cloud are experiencing elevated conversation errors</p>
-
-    
-    <ul class="incidents">
-      
-        <li><a href="https://status.openai.com" target="_blank" rel="noopener">ChatGPT, ChatGPT Work, and Codex Cloud are experiencing elevated conversation errors</a> <em>minor</em></li>
-      
-      
-    </ul>
-    
-
-    <div class="tags">
-      <span class="tag">AI</span>
-      <span class="tag since">since 12:42Z</span>
-    </div>
-  </article>
-  
-  <article class="card service"
-           data-level="degraded"
            data-tags="Email"
            data-issue="1">
     <div class="service-head">
@@ -289,9 +289,9 @@
       
         <li><a href="https://stspg.io/rp96f6745g5j" target="_blank" rel="noopener">SMS Delivery Delays from Twilio to Multiple Networks in Italy</a> <em>minor</em></li>
       
-        <li><a href="https://stspg.io/tbsjgc4grpsw" target="_blank" rel="noopener">Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines</a> <em>minor</em></li>
+        <li><a href="https://stspg.io/6wckhw8p3c7q" target="_blank" rel="noopener">SMS Delivery Delays from Twilio to Bouygues Telecom France</a> <em>minor</em></li>
       
-        <li><a href="https://stspg.io/72lmzlvqj3bm" target="_blank" rel="noopener">SMS Delivery Failures from Twilio to Econet Telecom Lesotho</a> <em>minor</em></li>
+        <li><a href="https://stspg.io/tbsjgc4grpsw" target="_blank" rel="noopener">Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines</a> <em>minor</em></li>
       
       <li class="more">+5 more</li>
     </ul>
@@ -326,9 +326,9 @@
       
         <li><a href="https://stspg.io/rp96f6745g5j" target="_blank" rel="noopener">SMS Delivery Delays from Twilio to Multiple Networks in Italy</a> <em>minor</em></li>
       
-        <li><a href="https://stspg.io/tbsjgc4grpsw" target="_blank" rel="noopener">Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines</a> <em>minor</em></li>
+        <li><a href="https://stspg.io/6wckhw8p3c7q" target="_blank" rel="noopener">SMS Delivery Delays from Twilio to Bouygues Telecom France</a> <em>minor</em></li>
       
-        <li><a href="https://stspg.io/72lmzlvqj3bm" target="_blank" rel="noopener">SMS Delivery Failures from Twilio to Econet Telecom Lesotho</a> <em>minor</em></li>
+        <li><a href="https://stspg.io/tbsjgc4grpsw" target="_blank" rel="noopener">Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines</a> <em>minor</em></li>
       
       <li class="more">+5 more</li>
     </ul>
@@ -374,6 +374,39 @@
     <div class="tags">
       <span class="tag">Network</span><span class="tag">CDN</span>
       <span class="tag since">since 04:19Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="maintenance"
+           data-tags="Comms"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">Z</span>
+      <div class="service-id">
+        <h2>Zoom</h2>
+        <a class="service-url" href="https://status.zoom.us" target="_blank" rel="noopener">status.zoom.us</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #6b7280">
+        <span class="badge-icon" aria-hidden="true">■</span>Maintenance
+      </span>
+    </div>
+
+    <p class="headline">Zoom Chat Backend Update : November 25, 2026 (No Operational Impact)</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://status.zoom.us" target="_blank" rel="noopener">Zoom Chat Backend Update : November 25, 2026 (No Operational Impact)</a> <em>maintenance</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">Comms</span>
+      <span class="tag since">since 16:27Z</span>
     </div>
   </article>
   
@@ -626,34 +659,6 @@
     <div class="tags">
       <span class="tag">SaaS</span>
       <span class="tag since">since 21:43Z</span>
-    </div>
-  </article>
-  
-  <article class="card service"
-           data-level="operational"
-           data-tags="DevTools"
-           data-issue="0">
-    <div class="service-head">
-      <span class="avatar" aria-hidden="true">G</span>
-      <div class="service-id">
-        <h2>GitHub</h2>
-        <a class="service-url" href="https://www.githubstatus.com" target="_blank" rel="noopener">www.githubstatus.com</a>
-      </div>
-      <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #0ca30c">
-        <span class="badge-icon" aria-hidden="true">●</span>Operational
-      </span>
-    </div>
-
-    <p class="headline">All Systems Operational</p>
-
-    
-      <p class="noissues">No recent issues</p>
-    
-
-    <div class="tags">
-      <span class="tag">DevTools</span>
-      <span class="tag since">since 16:32Z</span>
     </div>
   </article>
   
@@ -972,6 +977,34 @@
   
   <article class="card service"
            data-level="operational"
+           data-tags="AI"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">O</span>
+      <div class="service-id">
+        <h2>OpenAI</h2>
+        <a class="service-url" href="https://status.openai.com" target="_blank" rel="noopener">status.openai.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">All Systems Operational</p>
+
+    
+      <p class="noissues">No recent issues</p>
+    
+
+    <div class="tags">
+      <span class="tag">AI</span>
+      <span class="tag since">since 16:27Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
            data-tags="Consumer"
            data-issue="0">
     <div class="service-head">
@@ -1051,34 +1084,6 @@
     <div class="tags">
       <span class="tag">Hosting</span>
       <span class="tag since">since 15:54Z</span>
-    </div>
-  </article>
-  
-  <article class="card service"
-           data-level="operational"
-           data-tags="Comms"
-           data-issue="0">
-    <div class="service-head">
-      <span class="avatar" aria-hidden="true">Z</span>
-      <div class="service-id">
-        <h2>Zoom</h2>
-        <a class="service-url" href="https://status.zoom.us" target="_blank" rel="noopener">status.zoom.us</a>
-      </div>
-      <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #0ca30c">
-        <span class="badge-icon" aria-hidden="true">●</span>Operational
-      </span>
-    </div>
-
-    <p class="headline">All Systems Operational</p>
-
-    
-      <p class="noissues">No recent issues</p>
-    
-
-    <div class="tags">
-      <span class="tag">Comms</span>
-      <span class="tag since">since 09:37Z</span>
     </div>
   </article>
   
