@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>OutageWatch &middot; 7 issues</title>
+  <title>OutageWatch &middot; 6 issues</title>
   <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
@@ -34,19 +34,19 @@
 <!-- ===== Summary bar: the single most important element on the page ===== -->
 <section class="summary alarm">
   <div class="summary-count">
-    <strong>7</strong>
+    <strong>6</strong>
     <span>issues</span>
   </div>
   <div class="summary-body">
     
-      <p><span class="dot" style="background:#d03b3b"></span><b>Outage:</b> Cloudflare</p>
-      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Akamai Linode, Amazon Web Services, Anthropic, SendGrid, Twilio, Zoom</p>
+      
+      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, Akamai Linode, Amazon Web Services, Anthropic, SendGrid, Twilio</p>
       <p><span class="dot" style="background:#6b7280"></span><b>Maintenance:</b> Fastly</p>
       
     
   </div>
   <div class="summary-meta">
-    <span id="checked" data-ts="2026-11-25T08:17:01+00:00">last checked 2026-11-25T08:17:01+00:00</span>
+    <span id="checked" data-ts="2026-11-25T09:37:26+00:00">last checked 2026-11-25T09:37:26+00:00</span>
     <span>33 monitored</span>
   </div>
 </section>
@@ -98,7 +98,7 @@
 <section class="grid" id="grid">
   
   <article class="card service"
-           data-level="major_outage"
+           data-level="partial_outage"
            data-tags="Network,CDN"
            data-issue="1">
     <div class="service-head">
@@ -108,17 +108,15 @@
         <a class="service-url" href="https://www.cloudflarestatus.com" target="_blank" rel="noopener">www.cloudflarestatus.com</a>
       </div>
       <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #d03b3b">
-        <span class="badge-icon" aria-hidden="true">✖</span>Service Outage
+      <span class="badge" style="--c: #ec835a">
+        <span class="badge-icon" aria-hidden="true">◆</span>Partial Outage
       </span>
     </div>
 
-    <p class="headline">Firewall Configuration Delay (+1 more)</p>
+    <p class="headline">Changes to Cloudflare Workers are not producing Event Subscription events</p>
 
     
     <ul class="incidents">
-      
-        <li><a href="https://www.cloudflarestatus.com/incidents/xufkpdtfdglk" target="_blank" rel="noopener">Firewall Configuration Delay</a> <em>minor</em></li>
       
         <li><a href="https://www.cloudflarestatus.com/incidents/0ocqieaifg7h" target="_blank" rel="noopener">Changes to Cloudflare Workers are not producing Event Subscription events</a> <em>minor</em></li>
       
@@ -128,7 +126,7 @@
 
     <div class="tags">
       <span class="tag">Network</span><span class="tag">CDN</span>
-      <span class="tag since">since 08:17Z</span>
+      <span class="tag since">since 09:37Z</span>
     </div>
   </article>
   
@@ -306,39 +304,6 @@
     <div class="tags">
       <span class="tag">Comms</span>
       <span class="tag since">since 21:43Z</span>
-    </div>
-  </article>
-  
-  <article class="card service"
-           data-level="degraded"
-           data-tags="Comms"
-           data-issue="1">
-    <div class="service-head">
-      <span class="avatar" aria-hidden="true">Z</span>
-      <div class="service-id">
-        <h2>Zoom</h2>
-        <a class="service-url" href="https://status.zoom.us" target="_blank" rel="noopener">status.zoom.us</a>
-      </div>
-      <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #fab219">
-        <span class="badge-icon" aria-hidden="true">▲</span>Degraded Performance
-      </span>
-    </div>
-
-    <p class="headline">Service Degradation Affecting Zoom Phone Inbound Calls for Subset of Jio subscribers in India</p>
-
-    
-    <ul class="incidents">
-      
-        <li><a href="https://stspg.io/0ksyj3jq48yb" target="_blank" rel="noopener">Service Degradation Affecting Zoom Phone Inbound Calls for Subset of Jio subscribers in India</a> <em>minor</em></li>
-      
-      
-    </ul>
-    
-
-    <div class="tags">
-      <span class="tag">Comms</span>
-      <span class="tag since">since 08:17Z</span>
     </div>
   </article>
   
@@ -1081,6 +1046,34 @@
     <div class="tags">
       <span class="tag">Hosting</span>
       <span class="tag since">since 15:54Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="Comms"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">Z</span>
+      <div class="service-id">
+        <h2>Zoom</h2>
+        <a class="service-url" href="https://status.zoom.us" target="_blank" rel="noopener">status.zoom.us</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">All Systems Operational</p>
+
+    
+      <p class="noissues">No recent issues</p>
+    
+
+    <div class="tags">
+      <span class="tag">Comms</span>
+      <span class="tag since">since 09:37Z</span>
     </div>
   </article>
   
