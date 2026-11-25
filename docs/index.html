@@ -39,14 +39,14 @@
   </div>
   <div class="summary-body">
     
-      <p><span class="dot" style="background:#d03b3b"></span><b>Outage:</b> GitHub</p>
-      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, Akamai Linode, Amazon Web Services, Anthropic, SendGrid, Twilio</p>
+      
+      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, Akamai Linode, Amazon Web Services, Anthropic, OpenAI, SendGrid, Twilio</p>
       <p><span class="dot" style="background:#6b7280"></span><b>Maintenance:</b> Fastly, Zoom</p>
       
     
   </div>
   <div class="summary-meta">
-    <span id="checked" data-ts="2026-11-25T16:27:04+00:00">last checked 2026-11-25T16:27:04+00:00</span>
+    <span id="checked" data-ts="2026-11-25T17:23:54+00:00">last checked 2026-11-25T17:23:54+00:00</span>
     <span>33 monitored</span>
   </div>
 </section>
@@ -98,39 +98,6 @@
 <section class="grid" id="grid">
   
   <article class="card service"
-           data-level="major_outage"
-           data-tags="DevTools"
-           data-issue="1">
-    <div class="service-head">
-      <span class="avatar" aria-hidden="true">G</span>
-      <div class="service-id">
-        <h2>GitHub</h2>
-        <a class="service-url" href="https://www.githubstatus.com" target="_blank" rel="noopener">www.githubstatus.com</a>
-      </div>
-      <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #d03b3b">
-        <span class="badge-icon" aria-hidden="true">✖</span>Service Outage
-      </span>
-    </div>
-
-    <p class="headline">Investigating degraded experiences across GitHub products</p>
-
-    
-    <ul class="incidents">
-      
-        <li><a href="https://stspg.io/5qj9j0p5g4cr" target="_blank" rel="noopener">Investigating degraded experiences across GitHub products</a> <em>critical</em></li>
-      
-      
-    </ul>
-    
-
-    <div class="tags">
-      <span class="tag">DevTools</span>
-      <span class="tag since">since 16:27Z</span>
-    </div>
-  </article>
-  
-  <article class="card service"
            data-level="partial_outage"
            data-tags="Network,CDN"
            data-issue="1">
@@ -146,10 +113,14 @@
       </span>
     </div>
 
-    <p class="headline">Changes to Cloudflare Workers are not producing Event Subscription events</p>
+    <p class="headline">Elevated R2 errors for buckets in APAC region (+2 more)</p>
 
     
     <ul class="incidents">
+      
+        <li><a href="https://www.cloudflarestatus.com/incidents/2quqh864hxdi" target="_blank" rel="noopener">Elevated R2 errors for buckets in APAC region</a> <em>minor</em></li>
+      
+        <li><a href="https://www.cloudflarestatus.com/incidents/vk87u9j2g6if" target="_blank" rel="noopener">Some customers cannot create monitors</a> <em>minor</em></li>
       
         <li><a href="https://www.cloudflarestatus.com/incidents/0ocqieaifg7h" target="_blank" rel="noopener">Changes to Cloudflare Workers are not producing Event Subscription events</a> <em>minor</em></li>
       
@@ -268,6 +239,39 @@
   
   <article class="card service"
            data-level="degraded"
+           data-tags="AI"
+           data-issue="1">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">O</span>
+      <div class="service-id">
+        <h2>OpenAI</h2>
+        <a class="service-url" href="https://status.openai.com" target="_blank" rel="noopener">status.openai.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #fab219">
+        <span class="badge-icon" aria-hidden="true">▲</span>Degraded Performance
+      </span>
+    </div>
+
+    <p class="headline">Elevated errors with Codex GitHub reviews and pull request merges</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://status.openai.com" target="_blank" rel="noopener">Elevated errors with Codex GitHub reviews and pull request merges</a> <em>minor</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">AI</span>
+      <span class="tag since">since 17:23Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="degraded"
            data-tags="Email"
            data-issue="1">
     <div class="service-head">
@@ -282,7 +286,7 @@
       </span>
     </div>
 
-    <p class="headline">SMS Delivery Delays from Twilio to Multiple Networks in Italy (+7 more)</p>
+    <p class="headline">SMS Delivery Delays from Twilio to Multiple Networks in Italy (+9 more)</p>
 
     
     <ul class="incidents">
@@ -293,7 +297,7 @@
       
         <li><a href="https://stspg.io/tbsjgc4grpsw" target="_blank" rel="noopener">Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines</a> <em>minor</em></li>
       
-      <li class="more">+5 more</li>
+      <li class="more">+7 more</li>
     </ul>
     
 
@@ -319,7 +323,7 @@
       </span>
     </div>
 
-    <p class="headline">SMS Delivery Delays from Twilio to Multiple Networks in Italy (+7 more)</p>
+    <p class="headline">SMS Delivery Delays from Twilio to Multiple Networks in Italy (+9 more)</p>
 
     
     <ul class="incidents">
@@ -330,7 +334,7 @@
       
         <li><a href="https://stspg.io/tbsjgc4grpsw" target="_blank" rel="noopener">Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines</a> <em>minor</em></li>
       
-      <li class="more">+5 more</li>
+      <li class="more">+7 more</li>
     </ul>
     
 
@@ -669,6 +673,34 @@
     <div class="service-head">
       <span class="avatar" aria-hidden="true">G</span>
       <div class="service-id">
+        <h2>GitHub</h2>
+        <a class="service-url" href="https://www.githubstatus.com" target="_blank" rel="noopener">www.githubstatus.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #0ca30c">
+        <span class="badge-icon" aria-hidden="true">●</span>Operational
+      </span>
+    </div>
+
+    <p class="headline">All Systems Operational</p>
+
+    
+      <p class="noissues">No recent issues</p>
+    
+
+    <div class="tags">
+      <span class="tag">DevTools</span>
+      <span class="tag since">since 17:23Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="operational"
+           data-tags="DevTools"
+           data-issue="0">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">G</span>
+      <div class="service-id">
         <h2>GitLab</h2>
         <a class="service-url" href="https://api.status.io/1.0/status/5b36dc6502d06804c08349f7" target="_blank" rel="noopener">api.status.io/1.0/status/5b36dc6502d06804c08349f7</a>
       </div>
@@ -972,34 +1004,6 @@
     <div class="tags">
       <span class="tag">DevTools</span>
       <span class="tag since">since 21:43Z</span>
-    </div>
-  </article>
-  
-  <article class="card service"
-           data-level="operational"
-           data-tags="AI"
-           data-issue="0">
-    <div class="service-head">
-      <span class="avatar" aria-hidden="true">O</span>
-      <div class="service-id">
-        <h2>OpenAI</h2>
-        <a class="service-url" href="https://status.openai.com" target="_blank" rel="noopener">status.openai.com</a>
-      </div>
-      <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #0ca30c">
-        <span class="badge-icon" aria-hidden="true">●</span>Operational
-      </span>
-    </div>
-
-    <p class="headline">All Systems Operational</p>
-
-    
-      <p class="noissues">No recent issues</p>
-    
-
-    <div class="tags">
-      <span class="tag">AI</span>
-      <span class="tag since">since 16:27Z</span>
     </div>
   </article>
   
