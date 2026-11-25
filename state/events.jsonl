@@ -123,3 +123,4 @@
 {"at": "2026-11-25T16:27:04+00:00", "from_level": "operational", "headline": "Zoom Chat Backend Update : November 25, 2026 (No Operational Impact)", "name": "Zoom", "slug": "zoom", "to_level": "maintenance"}
 {"at": "2026-11-25T17:23:54+00:00", "from_level": "major_outage", "headline": "All Systems Operational", "name": "GitHub", "slug": "github", "to_level": "operational"}
 {"at": "2026-11-25T17:23:54+00:00", "from_level": "operational", "headline": "Elevated errors with Codex GitHub reviews and pull request merges", "name": "OpenAI", "slug": "openai", "to_level": "degraded"}
+{"at": "2026-11-25T18:57:58+00:00", "from_level": "degraded", "headline": "Service Issue - Block Storage (BR-GRU)", "name": "Akamai Linode", "slug": "linode", "to_level": "operational"}
