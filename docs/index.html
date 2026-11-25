@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>OutageWatch &middot; 5 issues</title>
+  <title>OutageWatch &middot; 6 issues</title>
   <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
@@ -34,19 +34,19 @@
 <!-- ===== Summary bar: the single most important element on the page ===== -->
 <section class="summary alarm">
   <div class="summary-count">
-    <strong>5</strong>
+    <strong>6</strong>
     <span>issues</span>
   </div>
   <div class="summary-body">
     
       
-      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, Amazon Web Services, Anthropic, SendGrid, Twilio</p>
+      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, Akamai Linode, Amazon Web Services, Anthropic, SendGrid, Twilio</p>
       <p><span class="dot" style="background:#6b7280"></span><b>Maintenance:</b> Fastly</p>
       
     
   </div>
   <div class="summary-meta">
-    <span id="checked" data-ts="2026-11-25T03:33:13+00:00">last checked 2026-11-25T03:33:13+00:00</span>
+    <span id="checked" data-ts="2026-11-25T04:42:49+00:00">last checked 2026-11-25T04:42:49+00:00</span>
     <span>33 monitored</span>
   </div>
 </section>
@@ -134,6 +134,41 @@
   
   <article class="card service"
            data-level="degraded"
+           data-tags="Cloud"
+           data-issue="1">
+    <div class="service-head">
+      <span class="avatar" aria-hidden="true">A</span>
+      <div class="service-id">
+        <h2>Akamai Linode</h2>
+        <a class="service-url" href="https://status.linode.com" target="_blank" rel="noopener">status.linode.com</a>
+      </div>
+      <!-- icon + text, never colour alone -->
+      <span class="badge" style="--c: #fab219">
+        <span class="badge-icon" aria-hidden="true">▲</span>Degraded Performance
+      </span>
+    </div>
+
+    <p class="headline">Connectivity Issue - US-East (Newark) (+1 more)</p>
+
+    
+    <ul class="incidents">
+      
+        <li><a href="https://stspg.io/spwyr1807mtt" target="_blank" rel="noopener">Connectivity Issue - US-East (Newark)</a> <em>minor</em></li>
+      
+        <li><a href="https://stspg.io/kwfn0ylk0rpt" target="_blank" rel="noopener">Service Issue - Block Storage (BR-GRU)</a> <em>none</em></li>
+      
+      
+    </ul>
+    
+
+    <div class="tags">
+      <span class="tag">Cloud</span>
+      <span class="tag since">since 04:42Z</span>
+    </div>
+  </article>
+  
+  <article class="card service"
+           data-level="degraded"
            data-tags="Cloud,AMZN"
            data-issue="1">
     <div class="service-head">
@@ -216,18 +251,18 @@
       </span>
     </div>
 
-    <p class="headline">Voice Call Failures from Twilio Mobile Numbers to Ireland (+7 more)</p>
+    <p class="headline">Voice Call Silent and One-Way Audio From Colombia to a Subset of Twilio Phone Numbers (+6 more)</p>
 
     
     <ul class="incidents">
-      
-        <li><a href="https://stspg.io/pcr7x9y24trq" target="_blank" rel="noopener">Voice Call Failures from Twilio Mobile Numbers to Ireland</a> <em>minor</em></li>
       
         <li><a href="https://stspg.io/kckjlns5dw48" target="_blank" rel="noopener">Voice Call Silent and One-Way Audio From Colombia to a Subset of Twilio Phone Numbers</a> <em>minor</em></li>
       
         <li><a href="https://stspg.io/tbsjgc4grpsw" target="_blank" rel="noopener">Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines</a> <em>minor</em></li>
       
-      <li class="more">+5 more</li>
+        <li><a href="https://stspg.io/tsp4vmj649hp" target="_blank" rel="noopener">Gateway API (Lookup API) Failure Increase on Bell Mobility in Canada</a> <em>minor</em></li>
+      
+      <li class="more">+4 more</li>
     </ul>
     
 
@@ -253,18 +288,18 @@
       </span>
     </div>
 
-    <p class="headline">Voice Call Failures from Twilio Mobile Numbers to Ireland (+7 more)</p>
+    <p class="headline">Voice Call Silent and One-Way Audio From Colombia to a Subset of Twilio Phone Numbers (+6 more)</p>
 
     
     <ul class="incidents">
-      
-        <li><a href="https://stspg.io/pcr7x9y24trq" target="_blank" rel="noopener">Voice Call Failures from Twilio Mobile Numbers to Ireland</a> <em>minor</em></li>
       
         <li><a href="https://stspg.io/kckjlns5dw48" target="_blank" rel="noopener">Voice Call Silent and One-Way Audio From Colombia to a Subset of Twilio Phone Numbers</a> <em>minor</em></li>
       
         <li><a href="https://stspg.io/tbsjgc4grpsw" target="_blank" rel="noopener">Voice Call Failures from a Subset of Twilio Philippines Phone Numbers to Multiple Networks in Philippines</a> <em>minor</em></li>
       
-      <li class="more">+5 more</li>
+        <li><a href="https://stspg.io/tsp4vmj649hp" target="_blank" rel="noopener">Gateway API (Lookup API) Failure Increase on Bell Mobility in Canada</a> <em>minor</em></li>
+      
+      <li class="more">+4 more</li>
     </ul>
     
 
@@ -336,39 +371,6 @@
     <div class="tags">
       <span class="tag">Security</span>
       <span class="tag since">since 18:35Z</span>
-    </div>
-  </article>
-  
-  <article class="card service"
-           data-level="operational"
-           data-tags="Cloud"
-           data-issue="0">
-    <div class="service-head">
-      <span class="avatar" aria-hidden="true">A</span>
-      <div class="service-id">
-        <h2>Akamai Linode</h2>
-        <a class="service-url" href="https://status.linode.com" target="_blank" rel="noopener">status.linode.com</a>
-      </div>
-      <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #0ca30c">
-        <span class="badge-icon" aria-hidden="true">●</span>Operational
-      </span>
-    </div>
-
-    <p class="headline">Service Issue - Block Storage (BR-GRU)</p>
-
-    
-    <ul class="incidents">
-      
-        <li><a href="https://stspg.io/kwfn0ylk0rpt" target="_blank" rel="noopener">Service Issue - Block Storage (BR-GRU)</a> <em>none</em></li>
-      
-      
-    </ul>
-    
-
-    <div class="tags">
-      <span class="tag">Cloud</span>
-      <span class="tag since">since 10:53Z</span>
     </div>
   </article>
   
