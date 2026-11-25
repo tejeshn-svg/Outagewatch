@@ -113,3 +113,5 @@
 {"at": "2026-11-24T21:17:24+00:00", "from_level": "operational", "headline": "Delayed Metrics", "name": "Datadog", "slug": "datadog", "to_level": "degraded"}
 {"at": "2026-11-24T22:17:23+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "Datadog", "slug": "datadog", "to_level": "operational"}
 {"at": "2026-11-25T04:42:49+00:00", "from_level": "operational", "headline": "Connectivity Issue - US-East (Newark) (+1 more)", "name": "Akamai Linode", "slug": "linode", "to_level": "degraded"}
+{"at": "2026-11-25T08:17:01+00:00", "from_level": "partial_outage", "headline": "Firewall Configuration Delay (+1 more)", "name": "Cloudflare", "slug": "cloudflare", "to_level": "major_outage"}
+{"at": "2026-11-25T08:17:01+00:00", "from_level": "operational", "headline": "Service Degradation Affecting Zoom Phone Inbound Calls for Subset of Jio subscribers in India", "name": "Zoom", "slug": "zoom", "to_level": "degraded"}
