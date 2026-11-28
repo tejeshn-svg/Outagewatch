@@ -126,3 +126,4 @@
 {"at": "2026-11-25T18:57:58+00:00", "from_level": "degraded", "headline": "Service Issue - Block Storage (BR-GRU)", "name": "Akamai Linode", "slug": "linode", "to_level": "operational"}
 {"at": "2026-11-26T15:05:46+00:00", "from_level": "degraded", "headline": "All Systems Operational", "name": "OpenAI", "slug": "openai", "to_level": "operational"}
 {"at": "2026-11-28T07:52:47+00:00", "from_level": "partial_outage", "headline": "Email Delivery Delays (+1 more)", "name": "Cloudflare", "slug": "cloudflare", "to_level": "major_outage"}
+{"at": "2026-11-28T08:43:49+00:00", "from_level": "maintenance", "headline": "Status feed returned HTTP 403", "name": "Fastly", "slug": "fastly", "to_level": "unknown"}
