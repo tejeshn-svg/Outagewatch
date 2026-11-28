@@ -39,14 +39,14 @@
   </div>
   <div class="summary-body">
     
-      <p><span class="dot" style="background:#d03b3b"></span><b>Outage:</b> Cloudflare</p>
-      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Amazon Web Services, Anthropic, SendGrid, Twilio</p>
-      <p><span class="dot" style="background:#6b7280"></span><b>Maintenance:</b> Zoom</p>
-      <p><span class="dot" style="background:#898781"></span><b>Unreachable feed:</b> Fastly</p>
+      
+      <p><span class="dot" style="background:#fab219"></span><b>Degraded:</b> Cloudflare, Amazon Web Services, Anthropic, SendGrid, Twilio</p>
+      <p><span class="dot" style="background:#6b7280"></span><b>Maintenance:</b> Fastly, Zoom</p>
+      
     
   </div>
   <div class="summary-meta">
-    <span id="checked" data-ts="2026-11-28T08:43:49+00:00">last checked 2026-11-28T08:43:49+00:00</span>
+    <span id="checked" data-ts="2026-11-28T09:37:31+00:00">last checked 2026-11-28T09:37:31+00:00</span>
     <span>33 monitored</span>
   </div>
 </section>
@@ -98,7 +98,7 @@
 <section class="grid" id="grid">
   
   <article class="card service"
-           data-level="major_outage"
+           data-level="partial_outage"
            data-tags="Network,CDN"
            data-issue="1">
     <div class="service-head">
@@ -108,17 +108,15 @@
         <a class="service-url" href="https://www.cloudflarestatus.com" target="_blank" rel="noopener">www.cloudflarestatus.com</a>
       </div>
       <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #d03b3b">
-        <span class="badge-icon" aria-hidden="true">✖</span>Service Outage
+      <span class="badge" style="--c: #ec835a">
+        <span class="badge-icon" aria-hidden="true">◆</span>Partial Outage
       </span>
     </div>
 
-    <p class="headline">Email Delivery Delays (+1 more)</p>
+    <p class="headline">Changes to Cloudflare Workers are not producing Event Subscription events</p>
 
     
     <ul class="incidents">
-      
-        <li><a href="https://www.cloudflarestatus.com/incidents/27xnfvjy0n6j" target="_blank" rel="noopener">Email Delivery Delays</a> <em>critical</em></li>
       
         <li><a href="https://www.cloudflarestatus.com/incidents/0ocqieaifg7h" target="_blank" rel="noopener">Changes to Cloudflare Workers are not producing Event Subscription events</a> <em>minor</em></li>
       
@@ -128,7 +126,7 @@
 
     <div class="tags">
       <span class="tag">Network</span><span class="tag">CDN</span>
-      <span class="tag since">since 07:52Z</span>
+      <span class="tag since">since 09:37Z</span>
     </div>
   </article>
   
@@ -275,9 +273,9 @@
   </article>
   
   <article class="card service"
-           data-level="unknown"
+           data-level="maintenance"
            data-tags="Network,CDN"
-           data-issue="1">
+           data-issue="0">
     <div class="service-head">
       <span class="avatar" aria-hidden="true">F</span>
       <div class="service-id">
@@ -285,20 +283,29 @@
         <a class="service-url" href="https://www.fastlystatus.com" target="_blank" rel="noopener">www.fastlystatus.com</a>
       </div>
       <!-- icon + text, never colour alone -->
-      <span class="badge" style="--c: #898781">
-        <span class="badge-icon" aria-hidden="true">?</span>Unknown
+      <span class="badge" style="--c: #6b7280">
+        <span class="badge-icon" aria-hidden="true">■</span>Maintenance
       </span>
     </div>
 
-    <p class="headline">Status feed returned HTTP 403</p>
+    <p class="headline">Third-Party Vulnerability Disclosure – php2shell (CVE-2026-109618 &amp; CVE-2026-109619) (+3 more)</p>
 
     
-      <p class="noissues">No recent issues</p>
+    <ul class="incidents">
+      
+        <li><a href="https://sta.ac/u/7mfOmz7D" target="_blank" rel="noopener">Third-Party Vulnerability Disclosure – php2shell (CVE-2026-109618 &amp; CVE-2026-109619)</a> <em>Informational</em></li>
+      
+        <li><a href="https://sta.ac/u/cdSFIDlB" target="_blank" rel="noopener">[Action Required] Compute services: Shielding migration from Milan (MXP) to Milan (BGY)</a> <em>Informational</em></li>
+      
+        <li><a href="https://sta.ac/u/d45H5J0G" target="_blank" rel="noopener">Changes to Fastly IP Address Space</a> <em>ScheduledMaintenance</em></li>
+      
+      <li class="more">+1 more</li>
+    </ul>
     
 
     <div class="tags">
       <span class="tag">Network</span><span class="tag">CDN</span>
-      <span class="tag since">since 08:43Z</span>
+      <span class="tag since">since 09:37Z</span>
     </div>
   </article>
   
